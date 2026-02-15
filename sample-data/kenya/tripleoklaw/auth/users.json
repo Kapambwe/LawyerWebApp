@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Otieno",
+    "role": "Managing Partner",
+    "lastName": "Kondele",
+    "email": "o.kondele@tripleoklaw.com",
+    "displayName": "Otieno Kondele"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Amina",
+    "role": "Partner - Employment",
+    "lastName": "Mohamed",
+    "email": "a.mohamed@tripleoklaw.com",
+    "displayName": "Amina Mohamed"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Peter",
+    "role": "Partner - Commercial",
+    "lastName": "Kamau",
+    "email": "p.kamau@tripleoklaw.com",
+    "displayName": "Peter Kamau"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "James",
+    "role": "Managing Partner",
+    "lastName": "Atherstone",
+    "email": "j.atherstone@atherstonecook.com",
+    "displayName": "James Atherstone"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Chipo",
+    "role": "Partner - Commercial",
+    "lastName": "Mutasa",
+    "email": "c.mutasa@atherstonecook.com",
+    "displayName": "Chipo Mutasa"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Tapiwa",
+    "role": "Partner - Property",
+    "lastName": "Chigwedere",
+    "email": "t.chigwedere@atherstonecook.com",
+    "displayName": "Tapiwa Chigwedere"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

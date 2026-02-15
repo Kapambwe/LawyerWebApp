@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Bongani",
+    "role": "Senior Partner",
+    "lastName": "Nkosi",
+    "email": "b.nkosi@cdhlegal.com",
+    "displayName": "Bongani Nkosi"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Anél",
+    "role": "Partner - Competition",
+    "lastName": "Ferreira",
+    "email": "a.ferreira@cdhlegal.com",
+    "displayName": "Anél Ferreira"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Thabo",
+    "role": "Partner - Litigation",
+    "lastName": "Molefe",
+    "email": "t.molefe@cdhlegal.com",
+    "displayName": "Thabo Molefe"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

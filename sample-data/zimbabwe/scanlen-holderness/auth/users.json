@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Michael",
+    "role": "Senior Partner",
+    "lastName": "Holderness",
+    "email": "m.holderness@scanlen.co.zw",
+    "displayName": "Michael Holderness"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Tendai",
+    "role": "Partner - Corporate",
+    "lastName": "Moyo",
+    "email": "t.moyo@scanlen.co.zw",
+    "displayName": "Tendai Moyo"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Rumbi",
+    "role": "Partner - Mining",
+    "lastName": "Ncube",
+    "email": "r.ncube@scanlen.co.zw",
+    "displayName": "Rumbi Ncube"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

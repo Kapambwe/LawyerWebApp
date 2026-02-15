@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Christine",
+    "role": "Senior Partner",
+    "lastName": "Belo-Osagie",
+    "email": "c.belo-osagie@uubo.org",
+    "displayName": "Christine Belo-Osagie"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Folake",
+    "role": "Partner - Banking",
+    "lastName": "Elias-Adebowale",
+    "email": "f.elias@uubo.org",
+    "displayName": "Folake Elias-Adebowale"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Adekunle",
+    "role": "Partner - Capital Markets",
+    "lastName": "Obebe",
+    "email": "a.obebe@uubo.org",
+    "displayName": "Adekunle Obebe"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

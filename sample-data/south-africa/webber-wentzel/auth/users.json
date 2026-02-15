@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Thabo",
+    "role": "Senior Partner",
+    "lastName": "SC",
+    "email": "t.leeuw@webberwentzel.com",
+    "displayName": "Thabo Leeuw SC"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Nomsa",
+    "role": "Partner - Corporate",
+    "lastName": "Khumalo",
+    "email": "n.khumalo@webberwentzel.com",
+    "displayName": "Nomsa Khumalo"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Pieter",
+    "role": "Partner - M&A",
+    "lastName": "Merwe",
+    "email": "p.vandermerwe@webberwentzel.com",
+    "displayName": "Pieter van der Merwe"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

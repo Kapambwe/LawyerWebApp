@@ -1,0 +1,20 @@
+[
+  {
+    "caseNumber": "2020/HP/123",
+    "caseName": "Attorney General v. Zambia National Broadcasting Corporation",
+    "court": "High Court of Zambia",
+    "year": "2020",
+    "summary": "This case dealt with constitutional interpretation regarding freedom of expression and media regulation.",
+    "url": "https://zambialii.org/zm/judgment/high-court/2020/123",
+    "relevance": "Directly addresses constitutional rights and media freedom"
+  },
+  {
+    "caseNumber": "SCZ/8/2019",
+    "caseName": "The People v. John Phiri",
+    "court": "Supreme Court of Zambia",
+    "year": "2019",
+    "summary": "Leading case on criminal procedure and right to fair trial.",
+    "url": "https://zambialii.org/zm/judgment/supreme-court/2019/8",
+    "relevance": "Establishes principles for due process"
+  }
+]

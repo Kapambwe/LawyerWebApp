@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        // Redirect all 404 routes to index.html and preserve path/query
+        // Detect if we're on localhost or GitHub Pages
+        var isLocal = window.location.hostname === 'localhost' || 
+                     window.location.hostname === '127.0.0.1' ||
+                     window.location.hostname === '';
+        
+        var basePath = isLocal ? '/' : '/LawyerWebApp/';
+        var currentPath = location.pathname;
+        
+        // Remove base path if present to get clean path
+        if (!isLocal && currentPath.startsWith('/LawyerWebApp')) {
+            currentPath = currentPath.replace('/LawyerWebApp', '');
+        }
+        
+        var redirectTo = basePath + 'index.html' + location.search + location.hash;
+        
+        if (currentPath && currentPath !== '/' && currentPath !== '/index.html') {
+            redirectTo += (location.search ? '&' : '?') + 'path=' + encodeURIComponent(currentPath);
+        }
+        
+        window.location.replace(redirectTo);
+    </script>
+</head>
+<body>
+</body>
+</html>

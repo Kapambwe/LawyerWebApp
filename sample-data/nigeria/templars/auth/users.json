@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Olumide",
+    "role": "Managing Partner",
+    "lastName": "Akpata",
+    "email": "o.akpata@templars-law.com",
+    "displayName": "Olumide Akpata"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Ijeoma",
+    "role": "Partner - Technology",
+    "lastName": "Uju",
+    "email": "i.uju@templars-law.com",
+    "displayName": "Ijeoma Uju"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Babatunde",
+    "role": "Partner - Litigation",
+    "lastName": "SAN",
+    "email": "b.fagbohunlu@templars-law.com",
+    "displayName": "Babatunde Fagbohunlu SAN"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

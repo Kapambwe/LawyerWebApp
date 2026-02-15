@@ -1,0 +1,16 @@
+[
+  {
+    "id": "payment-1",
+    "invoiceId": "invoice-1",
+    "clientId": "client-1",
+    "amount": 1500,
+    "paymentMethod": "creditCard",
+    "paymentStatus": "completed",
+    "paymentDate": "2023-10-15T00:00:00Z",
+    "transactionId": "TXN-CP-000001",
+    "referenceNumber": "REF-CP-000001",
+    "lastFourDigits": "1234",
+    "cardBrand": "Visa",
+    "createdAt": "2023-10-15T00:00:00Z"
+  }
+]

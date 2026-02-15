@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Sam",
+    "role": "Senior Partner",
+    "lastName": "Okudzeto",
+    "email": "s.okudzeto@okudzeto.com",
+    "displayName": "Sam Okudzeto"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Akosua",
+    "role": "Partner - Litigation",
+    "lastName": "Frimpong",
+    "email": "a.frimpong@okudzeto.com",
+    "displayName": "Akosua Frimpong"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Kwame",
+    "role": "Partner - Real Estate",
+    "lastName": "Owusu",
+    "email": "k.owusu@okudzeto.com",
+    "displayName": "Kwame Owusu"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

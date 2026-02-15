@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "billNumber": "BILL-2024-001",
+    "vendorName": "Office Supplies Co",
+    "vendorEmail": "billing@officesupplies.com",
+    "vendorPhone": "+1-555-0101",
+    "description": "Office Supplies - Monthly Order",
+    "billDate": "2023-12-05T00:00:00Z",
+    "dueDate": "2023-12-20T00:00:00Z",
+    "amount": 3500,
+    "paidAmount": 0,
+    "outstandingAmount": 3500,
+    "status": "Open",
+    "daysOverdue": 10,
+    "createdAt": "2023-12-05T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 1,
+        "billId": 1,
+        "description": "Paper Reams (50)",
+        "quantity": 50,
+        "unitPrice": 25,
+        "amount": 1250,
+        "accountId": 10
+      },
+      {
+        "id": 2,
+        "billId": 1,
+        "description": "Printer Ink Cartridges",
+        "quantity": 15,
+        "unitPrice": 75,
+        "amount": 1125,
+        "accountId": 10
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "billNumber": "BILL-2024-002",
+    "vendorName": "Tech Services Inc",
+    "vendorEmail": "accounts@techservices.com",
+    "vendorPhone": "+1-555-0202",
+    "description": "IT Services & Support - Q4",
+    "billDate": "2023-12-15T00:00:00Z",
+    "dueDate": "2024-01-15T00:00:00Z",
+    "amount": 8200,
+    "paidAmount": 0,
+    "outstandingAmount": 8200,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2023-12-15T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 3,
+        "billId": 2,
+        "description": "Monthly IT Support",
+        "quantity": 3,
+        "unitPrice": 2000,
+        "amount": 6000,
+        "accountId": 8
+      }
+    ]
+  }
+]

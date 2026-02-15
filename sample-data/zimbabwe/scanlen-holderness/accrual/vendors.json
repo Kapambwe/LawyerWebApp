@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "vendorNumber": "V-001",
+    "name": "Office Supplies Inc.",
+    "email": "billing@officesupplies.com",
+    "phone": "+1-555-0101",
+    "address": "123 Business Park",
+    "city": "New York",
+    "state": "NY",
+    "zipCode": "10001",
+    "country": "USA",
+    "contactPerson": "John Smith",
+    "isActive": true,
+    "createdAt": "2023-01-01T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "vendorNumber": "V-002",
+    "name": "Tech Solutions LLC",
+    "email": "accounts@techsolutions.com",
+    "phone": "+1-555-0102",
+    "address": "456 Innovation Drive",
+    "city": "San Francisco",
+    "state": "CA",
+    "zipCode": "94102",
+    "country": "USA",
+    "contactPerson": "Sarah Johnson",
+    "isActive": true,
+    "createdAt": "2023-03-01T00:00:00Z"
+  }
+]

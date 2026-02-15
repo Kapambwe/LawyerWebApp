@@ -1,0 +1,38 @@
+[
+  {
+    "id": "message-client-1",
+    "clientId": "client-1",
+    "senderId": "portal-user-1",
+    "senderName": "Client User 1",
+    "senderType": "client",
+    "subject": "Question about my case #1",
+    "body": "I have a question regarding my case. Could you please provide an update?",
+    "sentAt": "2023-12-01T00:00:00Z",
+    "isRead": false,
+    "caseId": "case-1"
+  },
+  {
+    "id": "message-lawyer-1",
+    "clientId": "client-1",
+    "senderId": "lawyer-1",
+    "senderName": "Attorney Smith 1",
+    "senderType": "lawyer",
+    "subject": "Re: Question about my case #1",
+    "body": "Thank you for your inquiry. Regarding your case, I wanted to inform you that...",
+    "sentAt": "2023-12-02T00:00:00Z",
+    "isRead": true,
+    "caseId": "case-1"
+  },
+  {
+    "id": "message-client-2",
+    "clientId": "client-2",
+    "senderId": "portal-user-2",
+    "senderName": "Client User 2",
+    "senderType": "client",
+    "subject": "Question about my case #2",
+    "body": "I have a question regarding my case. Could you please provide an update?",
+    "sentAt": "2023-12-03T00:00:00Z",
+    "isRead": true,
+    "caseId": "case-2"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "James",
+    "role": "Senior Partner",
+    "lastName": "Coulson",
+    "email": "j.coulson@coulsonharney.com",
+    "displayName": "James Coulson"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Grace",
+    "role": "Partner - Real Estate",
+    "lastName": "Mwangi",
+    "email": "g.mwangi@coulsonharney.com",
+    "displayName": "Grace Mwangi"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "David",
+    "role": "Partner - Litigation",
+    "lastName": "Ochieng",
+    "email": "d.ochieng@coulsonharney.com",
+    "displayName": "David Ochieng"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Message received",
+    "description": "New message from client",
+    "icon": "mail",
+    "iconStyle": "Info"
+  },
+  {
+    "title": "Document accessed",
+    "description": "Client viewed case document",
+    "icon": "visibility",
+    "iconStyle": "Success"
+  },
+  {
+    "title": "Login detected",
+    "description": "Client logged into portal",
+    "icon": "login",
+    "iconStyle": "Primary"
+  },
+  {
+    "title": "Invoice viewed",
+    "description": "Client checked invoice details",
+    "icon": "receipt",
+    "iconStyle": "Warning"
+  },
+  {
+    "title": "Case update requested",
+    "description": "Client requested case status update",
+    "icon": "update",
+    "iconStyle": "Info"
+  },
+  {
+    "title": "Document downloaded",
+    "description": "Client downloaded case file",
+    "icon": "download",
+    "iconStyle": "Success"
+  },
+  {
+    "title": "Payment made",
+    "description": "Client submitted online payment",
+    "icon": "payment",
+    "iconStyle": "Success"
+  },
+  {
+    "title": "Password changed",
+    "description": "Client updated security settings",
+    "icon": "lock",
+    "iconStyle": "Warning"
+  },
+  {
+    "title": "Profile updated",
+    "description": "Client modified profile information",
+    "icon": "person",
+    "iconStyle": "Info"
+  },
+  {
+    "title": "Support ticket created",
+    "description": "Client submitted help request",
+    "icon": "help",
+    "iconStyle": "Warning"
+  }
+]

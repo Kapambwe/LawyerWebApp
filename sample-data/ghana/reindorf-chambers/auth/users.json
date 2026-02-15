@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Thaddeus",
+    "role": "Managing Partner",
+    "lastName": "Sory",
+    "email": "t.sory@reindorfchambers.com",
+    "displayName": "Thaddeus Sory"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Ama",
+    "role": "Partner - Commercial",
+    "lastName": "Fenny",
+    "email": "a.fenny@reindorfchambers.com",
+    "displayName": "Ama Pokuaa Fenny"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Kofi",
+    "role": "Partner - Constitutional",
+    "lastName": "Abotsi",
+    "email": "k.abotsi@reindorfchambers.com",
+    "displayName": "Kofi Abotsi"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

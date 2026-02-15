@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Gbenga",
+    "role": "Managing Partner",
+    "lastName": "Oyebode",
+    "email": "g.oyebode@aluko-oyebode.com",
+    "displayName": "Gbenga Oyebode"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Funke",
+    "role": "Partner - Corporate",
+    "lastName": "SAN",
+    "email": "f.adekoya@aluko-oyebode.com",
+    "displayName": "Funke Adekoya SAN"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Chidi",
+    "role": "Partner - Energy",
+    "lastName": "Okonkwo",
+    "email": "c.okonkwo@aluko-oyebode.com",
+    "displayName": "Chidi Okonkwo"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

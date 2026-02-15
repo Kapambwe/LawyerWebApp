@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Karim",
+    "role": "Managing Partner",
+    "lastName": "Anjarwalla",
+    "email": "k.anjarwalla@africalegalnetwork.com",
+    "displayName": "Karim Anjarwalla"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Wanjiru",
+    "role": "Partner - Corporate",
+    "lastName": "Gikonyo",
+    "email": "w.gikonyo@africalegalnetwork.com",
+    "displayName": "Wanjiru Gikonyo"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Omar",
+    "role": "Partner - Banking",
+    "lastName": "Hassan",
+    "email": "o.hassan@africalegalnetwork.com",
+    "displayName": "Omar Hassan"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

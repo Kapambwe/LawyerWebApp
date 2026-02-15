@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "date": "2023-12-05T00:00:00Z",
+    "reference": "JE-2024-001",
+    "description": "Client payment received - Acme Corp",
+    "accountId": 1,
+    "accountNumber": "1000",
+    "accountName": "Cash - Operating",
+    "debit": 15000,
+    "credit": 0,
+    "balance": 115000,
+    "transactionType": "Receipt"
+  },
+  {
+    "id": 2,
+    "date": "2023-12-07T00:00:00Z",
+    "reference": "JE-2024-002",
+    "description": "Office rent payment",
+    "accountId": 1,
+    "accountNumber": "1000",
+    "accountName": "Cash - Operating",
+    "debit": 0,
+    "credit": 5000,
+    "balance": 110000,
+    "transactionType": "Payment"
+  }
+]

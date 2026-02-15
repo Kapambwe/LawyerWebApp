@@ -1,0 +1,134 @@
+[
+  {
+    "Id": 1,
+    "FirmName": "Smith & Associates",
+    "AttorneyName": "John Smith",
+    "Email": "john.smith@smithlaw.com",
+    "Phone": "(555) 123-4567",
+    "PracticeAreas": [
+      "Personal Injury",
+      "Medical Malpractice",
+      "Product Liability"
+    ],
+    "State": "CA",
+    "City": "Los Angeles",
+    "DefaultReferralFee": 0.25,
+    "TotalReferrals": 15,
+    "TotalReferralValue": 750000.00,
+    "IsActive": true,
+    "CreatedDate": "2025-01-15T00:00:00",
+    "Address": "123 Main St, Los Angeles, CA 90210",
+    "Website": "www.smithlaw.com",
+    "Notes": "Top personal injury attorney in Southern California"
+  },
+  {
+    "Id": 2,
+    "FirmName": "Johnson Legal Group",
+    "AttorneyName": "Sarah Johnson",
+    "Email": "sarah@johnsonlegal.com",
+    "Phone": "(555) 987-6543",
+    "PracticeAreas": [
+      "Family Law",
+      "Divorce",
+      "Child Custody"
+    ],
+    "State": "NY",
+    "City": "New York",
+    "DefaultReferralFee": 0.30,
+    "TotalReferrals": 22,
+    "TotalReferralValue": 450000.00,
+    "IsActive": true,
+    "CreatedDate": "2025-02-20T00:00:00",
+    "Address": "456 Broadway, New York, NY 10001",
+    "Website": "www.johnsonlegal.com",
+    "Notes": "Excellent family law specialist with 20+ years experience"
+  },
+  {
+    "Id": 3,
+    "FirmName": "Davis Criminal Defense",
+    "AttorneyName": "Michael Davis",
+    "Email": "mdavis@daviscriminal.com",
+    "Phone": "(555) 456-7890",
+    "PracticeAreas": [
+      "Criminal Defense",
+      "DUI",
+      "White Collar Crime"
+    ],
+    "State": "TX",
+    "City": "Houston",
+    "DefaultReferralFee": 0.20,
+    "TotalReferrals": 8,
+    "TotalReferralValue": 320000.00,
+    "IsActive": true,
+    "CreatedDate": "2025-03-10T00:00:00",
+    "Address": "789 Texas Ave, Houston, TX 77002",
+    "Website": "www.daviscriminal.com",
+    "Notes": "Leading criminal defense attorney in Texas"
+  },
+  {
+    "Id": 4,
+    "FirmName": "Martinez Immigration Law",
+    "AttorneyName": "Carlos Martinez",
+    "Email": "carlos@martinezimmigration.com",
+    "Phone": "(555) 234-5678",
+    "PracticeAreas": [
+      "Immigration",
+      "Citizenship",
+      "Deportation Defense"
+    ],
+    "State": "FL",
+    "City": "Miami",
+    "DefaultReferralFee": 0.25,
+    "TotalReferrals": 18,
+    "TotalReferralValue": 540000.00,
+    "IsActive": true,
+    "CreatedDate": "2025-04-05T00:00:00",
+    "Address": "321 Ocean Drive, Miami, FL 33139",
+    "Website": "www.martinezimmigration.com",
+    "Notes": "Bilingual immigration specialist"
+  },
+  {
+    "Id": 5,
+    "FirmName": "Thompson Estate Planning",
+    "AttorneyName": "Emily Thompson",
+    "Email": "emily@thompsonestates.com",
+    "Phone": "(555) 345-6789",
+    "PracticeAreas": [
+      "Estate Planning",
+      "Trust Administration",
+      "Probate"
+    ],
+    "State": "IL",
+    "City": "Chicago",
+    "DefaultReferralFee": 0.20,
+    "TotalReferrals": 12,
+    "TotalReferralValue": 240000.00,
+    "IsActive": true,
+    "CreatedDate": "2025-05-12T00:00:00",
+    "Address": "555 Michigan Ave, Chicago, IL 60611",
+    "Website": "www.thompsonestates.com",
+    "Notes": "Certified specialist in estate planning and probate law"
+  },
+  {
+    "Id": 6,
+    "FirmName": "Wilson & Partners",
+    "AttorneyName": "Robert Wilson",
+    "Email": "rwilson@wilsonpartners.com",
+    "Phone": "(555) 567-8901",
+    "PracticeAreas": [
+      "Corporate Law",
+      "Mergers & Acquisitions",
+      "Business Formation"
+    ],
+    "State": "CA",
+    "City": "San Francisco",
+    "DefaultReferralFee": 0.15,
+    "TotalReferrals": 5,
+    "TotalReferralValue": 1200000.00,
+    "IsActive": true,
+    "CreatedDate": "2025-06-18T00:00:00",
+    "Address": "100 Market St, San Francisco, CA 94105",
+    "Website": "www.wilsonpartners.com",
+    "Notes": "Handles complex corporate transactions and M&A"
+  }
+]

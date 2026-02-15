@@ -1,0 +1,48 @@
+[
+  {
+    "id": "PEXP001",
+    "projectId": "PRJ001",
+    "projectCode": "PRJ-2024-001",
+    "projectName": "Corporate Merger - Tech Corp",
+    "expenseType": "courtFees",
+    "description": "Court filing fees for merger documentation",
+    "amount": 500,
+    "date": "2023-12-05T00:00:00Z",
+    "category": "Court Fees",
+    "isBillable": true,
+    "submittedBy": "LAW001",
+    "submittedByName": "John Smith",
+    "status": "approved"
+  },
+  {
+    "id": "PEXP002",
+    "projectId": "PRJ001",
+    "projectCode": "PRJ-2024-001",
+    "projectName": "Corporate Merger - Tech Corp",
+    "expenseType": "travelExpense",
+    "description": "Travel to client headquarters",
+    "amount": 850,
+    "date": "2023-12-08T00:00:00Z",
+    "category": "Travel",
+    "isBillable": true,
+    "isReimbursable": true,
+    "submittedBy": "LAW002",
+    "submittedByName": "Sarah Johnson",
+    "status": "approved"
+  },
+  {
+    "id": "PEXP003",
+    "projectId": "PRJ001",
+    "projectCode": "PRJ-2024-001",
+    "projectName": "Corporate Merger - Tech Corp",
+    "expenseType": "expertWitnessFee",
+    "description": "Financial expert consultation fee",
+    "amount": 2500,
+    "date": "2023-12-15T00:00:00Z",
+    "category": "Expert Fees",
+    "isBillable": true,
+    "submittedBy": "LAW001",
+    "submittedByName": "John Smith",
+    "status": "pending"
+  }
+]

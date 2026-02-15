@@ -1,0 +1,23 @@
+[
+  {
+    "id": "backup-1",
+    "backupDate": "2024-01-15T03:00:00Z",
+    "sizeInBytes": 262144000,
+    "status": "Completed",
+    "fileName": "backup_2025_01_15_03_00.sql"
+  },
+  {
+    "id": "backup-2",
+    "backupDate": "2024-01-14T03:00:00Z",
+    "sizeInBytes": 260046848,
+    "status": "Completed",
+    "fileName": "backup_2025_01_14_03_00.sql"
+  },
+  {
+    "id": "backup-3",
+    "backupDate": "2024-01-13T03:00:00Z",
+    "sizeInBytes": 257949696,
+    "status": "Completed",
+    "fileName": "backup_2025_01_13_03_00.sql"
+  }
+]

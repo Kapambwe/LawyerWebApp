@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Ace",
+    "role": "Managing Partner",
+    "lastName": "Ankomah",
+    "email": "a.ankomah@belghana.com",
+    "displayName": "Ace Ankomah"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Nana",
+    "role": "Partner - Corporate",
+    "lastName": "Bediatuo",
+    "email": "n.bediatuo@belghana.com",
+    "displayName": "Nana Asante Bediatuo"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Yaa",
+    "role": "Partner - Banking",
+    "lastName": "Afriyie",
+    "email": "y.afriyie@belghana.com",
+    "displayName": "Yaa Pokua Afriyie"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]

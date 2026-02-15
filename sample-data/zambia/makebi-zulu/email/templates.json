@@ -1,0 +1,29 @@
+[
+  {
+    "id": "template-1",
+    "name": "Case Status Update",
+    "subject": "Update on Case: {CaseNumber}",
+    "body": "Dear {ClientName},\n\nI am writing to provide you with an update on your case {CaseNumber}...",
+    "category": "clientCommunication",
+    "isActive": true,
+    "createdAt": "2023-09-01T00:00:00Z"
+  },
+  {
+    "id": "template-2",
+    "name": "Court Hearing Notice",
+    "subject": "Court Hearing Scheduled - {CaseNumber}",
+    "body": "Dear {ClientName},\n\nThis is to inform you that a court hearing has been scheduled for {HearingDate}...",
+    "category": "courtDocuments",
+    "isActive": true,
+    "createdAt": "2023-10-01T00:00:00Z"
+  },
+  {
+    "id": "template-3",
+    "name": "Invoice Reminder",
+    "subject": "Payment Reminder - Invoice {InvoiceNumber}",
+    "body": "Dear {ClientName},\n\nThis is a friendly reminder that invoice {InvoiceNumber} is due...",
+    "category": "invoicing",
+    "isActive": true,
+    "createdAt": "2023-11-01T00:00:00Z"
+  }
+]

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <title>Lawyer WebApp - Legal Case Management System</title>
+    <meta name="description" content="Professional legal case management system for law firms" />
+    <!-- Smart base path for GitHub Pages and Cloudflare Pages -->
+    <script>
+        // Detect platform and set appropriate base path
+        (function () {
+            var basePath = '/';
+            
+            // GitHub Pages detection (*.github.io)
+            if (window.location.hostname.endsWith('.github.io')) {
+                // Extract repository name from path
+                var pathParts = window.location.pathname.split('/').filter(p => p);
+                if (pathParts.length > 0) {
+                    basePath = '/' + pathParts[0] + '/';
+                }
+            }
+            // Cloudflare Pages, localhost, or custom domains use root
+            
+            document.write('<base href="' + basePath + '" />');
+        })();
+    </script>
+
+    <!-- Google Fonts - Inter for modern professional look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Material Icons for Radzen -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap" rel="stylesheet">
+
+    <!-- Radzen Blazor CSS -->
+    <link rel="stylesheet" href="_content/Radzen.Blazor/css/material-base.css">
+
+    <!-- Bootstrap (if needed) -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Lawyer Theme - Load after Radzen to override -->
+    <link rel="stylesheet" href="css/lawyer-theme.css" />
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="css/app.css" />
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="CompanyApp.Clients.LawyerWebApp.styles.css" rel="stylesheet" />
+    <link href="_content/Radzen.Blazor/css/material-base.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/downloadHelper.js"></script>
+    <script src="js/citation-network.js"></script>
+    <script>
+        // If redirected from 404.html, restore the original path
+        (function () {
+            const params = new URLSearchParams(window.location.search);
+            const path = params.get('path');
+            if (path) {
+                var isLocal = window.location.hostname === 'localhost' || 
+                             window.location.hostname === '127.0.0.1' ||
+                             window.location.hostname === '';
+                var basePath = '/';
+                var cleanPath = decodeURIComponent(path);
+                
+                // Remove leading slash if present
+                if (cleanPath.startsWith('/')) {
+                    cleanPath = cleanPath.substring(1);
+                }
+                
+                window.history.replaceState(null, '', basePath + cleanPath);
+            }
+        })();
+    </script>
+</body>
+
+</html>
+

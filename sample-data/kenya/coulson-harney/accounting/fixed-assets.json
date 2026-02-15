@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "assetNumber": "FA-001",
+    "name": "Conference Table",
+    "description": "Large oak conference table",
+    "category": "Furniture",
+    "purchaseDate": "2021-01-01T00:00:00Z",
+    "cost": 15000,
+    "depreciation": 9000,
+    "netBookValue": 6000,
+    "depreciationPeriodYears": 5,
+    "salvageValue": 0,
+    "status": "Active",
+    "location": "Conference Room A",
+    "serialNumber": "CT-2021-001",
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "assetNumber": "FA-002",
+    "name": "Office Desks (10)",
+    "description": "Executive office desks",
+    "category": "Furniture",
+    "purchaseDate": "2022-01-01T00:00:00Z",
+    "cost": 25000,
+    "depreciation": 12500,
+    "netBookValue": 12500,
+    "depreciationPeriodYears": 4,
+    "salvageValue": 0,
+    "status": "Active",
+    "location": "Main Office Floor",
+    "createdAt": "2022-01-01T00:00:00Z"
+  }
+]

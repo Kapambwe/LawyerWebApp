@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Case Created",
+    "description": "When a new case is created",
+    "stepType": "trigger",
+    "icon": "add_box",
+    "color": "#10b981"
+  },
+  {
+    "name": "Status Changed",
+    "description": "When case status changes",
+    "stepType": "trigger",
+    "icon": "sync_alt",
+    "color": "#3b82f6"
+  },
+  {
+    "name": "Deadline Near",
+    "description": "When deadline is approaching",
+    "stepType": "trigger",
+    "icon": "schedule",
+    "color": "#f59e0b"
+  },
+  {
+    "name": "Payment Received",
+    "description": "When payment is received",
+    "stepType": "trigger",
+    "icon": "payments",
+    "color": "#8b5cf6"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "username": "admin",
+    "permissions": "all",
+    "firstName": "Patrick",
+    "role": "Senior Partner",
+    "lastName": "Coghlan",
+    "email": "p.coghlan@coghlanwelsh.com",
+    "displayName": "Patrick Coghlan"
+  },
+  {
+    "username": "lawyer1",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Nyasha",
+    "role": "Partner - Litigation",
+    "lastName": "Gumbo",
+    "email": "n.gumbo@coghlanwelsh.com",
+    "displayName": "Nyasha Gumbo"
+  },
+  {
+    "username": "lawyer2",
+    "permissions": [
+      "cases",
+      "clients",
+      "documents",
+      "billing"
+    ],
+    "firstName": "Farai",
+    "role": "Partner - Banking",
+    "lastName": "Madzima",
+    "email": "f.madzima@coghlanwelsh.com",
+    "displayName": "Farai Madzima"
+  },
+  {
+    "username": "paralegal",
+    "permissions": [
+      "documents",
+      "calendar",
+      "tasks"
+    ],
+    "firstName": "Legal",
+    "role": "Senior Paralegal",
+    "lastName": "Assistant",
+    "email": "paralegal@firm.com",
+    "displayName": "Legal Assistant"
+  },
+  {
+    "username": "billing",
+    "permissions": [
+      "billing",
+      "invoices",
+      "payments"
+    ],
+    "firstName": "Finance",
+    "role": "Finance Manager",
+    "lastName": "Manager",
+    "email": "finance@firm.com",
+    "displayName": "Finance Manager"
+  }
+]
