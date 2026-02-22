@@ -1,0 +1,6 @@
+{
+  "enableAutoBackup": true,
+  "backupFrequency": "Daily",
+  "retentionDays": 30,
+  "lastBackupDate": "2024-01-15T03:00:00Z"
+}

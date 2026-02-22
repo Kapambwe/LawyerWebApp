@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "SA-22345",
+    "joinedDate": "2004-02-07T09:59:08Z",
+    "email": "e.davids@bowmanslaw.com",
+    "status": "active",
+    "phone": "+27-11-669-9000",
+    "fullName": "Ezra Davids",
+    "isAvailable": true,
+    "hourlyRate": 520,
+    "lastName": "Davids",
+    "specializations": [
+      "Banking",
+      "Finance"
+    ],
+    "yearsOfExperience": 22,
+    "id": "1",
+    "firstName": "Ezra"
+  },
+  {
+    "barNumber": "SA-22346",
+    "joinedDate": "2012-02-07T09:59:08Z",
+    "email": "z.mbatha@bowmanslaw.com",
+    "status": "active",
+    "phone": "+27-11-669-9001",
+    "fullName": "Zanele Mbatha",
+    "isAvailable": true,
+    "hourlyRate": 440,
+    "lastName": "Mbatha",
+    "specializations": [
+      "Banking",
+      "CapitalMarkets"
+    ],
+    "yearsOfExperience": 14,
+    "id": "2",
+    "firstName": "Zanele"
+  },
+  {
+    "barNumber": "SA-22347",
+    "joinedDate": "2006-02-07T09:59:08Z",
+    "email": "j.botha@bowmanslaw.com",
+    "status": "active",
+    "phone": "+27-11-669-9002",
+    "fullName": "Johan Botha",
+    "isAvailable": true,
+    "hourlyRate": 490,
+    "lastName": "Botha",
+    "specializations": [
+      "Mining",
+      "Energy"
+    ],
+    "yearsOfExperience": 20,
+    "id": "3",
+    "firstName": "Johan"
+  }
+]

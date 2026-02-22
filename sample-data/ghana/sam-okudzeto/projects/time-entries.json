@@ -1,0 +1,34 @@
+[
+  {
+    "id": "TE001",
+    "projectId": "PRJ001",
+    "projectCode": "PRJ-2024-001",
+    "projectName": "Corporate Merger - Tech Corp",
+    "lawyerId": "LAW001",
+    "lawyerName": "John Smith",
+    "date": "2023-12-01T00:00:00Z",
+    "hours": 8,
+    "description": "Client meeting and contract review",
+    "activityType": "clientMeeting",
+    "isBillable": true,
+    "hourlyRate": 250,
+    "totalCost": 2000,
+    "status": "approved"
+  },
+  {
+    "id": "TE002",
+    "projectId": "PRJ001",
+    "projectCode": "PRJ-2024-001",
+    "projectName": "Corporate Merger - Tech Corp",
+    "lawyerId": "LAW002",
+    "lawyerName": "Sarah Johnson",
+    "date": "2023-12-02T00:00:00Z",
+    "hours": 6.5,
+    "description": "Legal research and document drafting",
+    "activityType": "research",
+    "isBillable": true,
+    "hourlyRate": 250,
+    "totalCost": 1625,
+    "status": "approved"
+  }
+]

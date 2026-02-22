@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Condition",
+    "description": "Add conditional logic",
+    "stepType": "condition",
+    "icon": "call_split",
+    "color": "#f97316"
+  },
+  {
+    "name": "Delay",
+    "description": "Wait for a period",
+    "stepType": "delay",
+    "icon": "schedule",
+    "color": "#64748b"
+  },
+  {
+    "name": "Approval Required",
+    "description": "Require manual approval",
+    "stepType": "approvalRequired",
+    "icon": "check_circle",
+    "color": "#10b981"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "appVersion": "v2.5.0",
+  "databaseVersion": "PostgreSQL 15.2",
+  "serverUptime": "15 days, 7 hours",
+  "totalUsers": 47,
+  "activeCases": 234,
+  "storageUsedGB": 45.2,
+  "storageTotalGB": 100.0
+}

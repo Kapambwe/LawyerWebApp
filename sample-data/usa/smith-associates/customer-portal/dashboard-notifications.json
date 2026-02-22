@@ -1,0 +1,12 @@
+[
+  {
+    "id": "notif-1",
+    "clientId": "client-1",
+    "title": "New Invoice Available",
+    "message": "Invoice #INV-2024-001 has been generated",
+    "notificationType": "invoiceGenerated",
+    "priority": "normal",
+    "createdDate": "2023-10-02T00:00:00Z",
+    "isRead": false
+  }
+]

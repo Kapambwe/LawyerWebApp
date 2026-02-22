@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "KE-32345",
+    "joinedDate": "2005-02-07T09:59:08Z",
+    "email": "o.kondele@tripleoklaw.com",
+    "status": "active",
+    "phone": "+254-20-271-9000",
+    "fullName": "Otieno Kondele",
+    "isAvailable": true,
+    "hourlyRate": 410,
+    "lastName": "Kondele",
+    "specializations": [
+      "Employment",
+      "LaborLaw"
+    ],
+    "yearsOfExperience": 21,
+    "id": "1",
+    "firstName": "Otieno"
+  },
+  {
+    "barNumber": "KE-32346",
+    "joinedDate": "2012-02-07T09:59:08Z",
+    "email": "a.mohamed@tripleoklaw.com",
+    "status": "active",
+    "phone": "+254-20-271-9001",
+    "fullName": "Amina Mohamed",
+    "isAvailable": true,
+    "hourlyRate": 355,
+    "lastName": "Mohamed",
+    "specializations": [
+      "Employment",
+      "HumanRights"
+    ],
+    "yearsOfExperience": 14,
+    "id": "2",
+    "firstName": "Amina"
+  },
+  {
+    "barNumber": "KE-32347",
+    "joinedDate": "2010-02-07T09:59:08Z",
+    "email": "p.kamau@tripleoklaw.com",
+    "status": "active",
+    "phone": "+254-20-271-9002",
+    "fullName": "Peter Kamau",
+    "isAvailable": true,
+    "hourlyRate": 370,
+    "lastName": "Kamau",
+    "specializations": [
+      "CommercialLaw",
+      "Contracts"
+    ],
+    "yearsOfExperience": 16,
+    "id": "3",
+    "firstName": "Peter"
+  }
+]

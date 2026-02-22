@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "ZW-32345",
+    "joinedDate": "1998-02-07T09:59:08Z",
+    "email": "p.coghlan@coghlanwelsh.com",
+    "status": "active",
+    "phone": "+263-24-2794301",
+    "fullName": "Patrick Coghlan",
+    "isAvailable": true,
+    "hourlyRate": 320,
+    "lastName": "Coghlan",
+    "specializations": [
+      "Litigation",
+      "Arbitration"
+    ],
+    "yearsOfExperience": 28,
+    "id": "1",
+    "firstName": "Patrick"
+  },
+  {
+    "barNumber": "ZW-32346",
+    "joinedDate": "2012-02-07T09:59:08Z",
+    "email": "n.gumbo@coghlanwelsh.com",
+    "status": "active",
+    "phone": "+263-24-2794302",
+    "fullName": "Nyasha Gumbo",
+    "isAvailable": true,
+    "hourlyRate": 255,
+    "lastName": "Gumbo",
+    "specializations": [
+      "Litigation",
+      "CivilLaw"
+    ],
+    "yearsOfExperience": 14,
+    "id": "2",
+    "firstName": "Nyasha"
+  },
+  {
+    "barNumber": "ZW-32347",
+    "joinedDate": "2008-02-07T09:59:08Z",
+    "email": "f.madzima@coghlanwelsh.com",
+    "status": "active",
+    "phone": "+263-24-2794303",
+    "fullName": "Farai Madzima",
+    "isAvailable": true,
+    "hourlyRate": 275,
+    "lastName": "Madzima",
+    "specializations": [
+      "Banking",
+      "Finance"
+    ],
+    "yearsOfExperience": 18,
+    "id": "3",
+    "firstName": "Farai"
+  }
+]

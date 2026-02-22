@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "documentType": "contract",
+    "title": "Employment Agreement",
+    "description": "Employment agreement for John Doe.",
+    "fileName": "Employment_Agreement_John_Doe.pdf",
+    "fileSize": 1024,
+    "fileExtension": ".pdf",
+    "caseId": "1",
+    "clientId": "1",
+    "uploadedBy": "Alice",
+    "uploadedAt": "2023-12-20T00:00:00Z",
+    "version": 1,
+    "isTemplate": false
+  },
+  {
+    "id": "2",
+    "documentType": "pleading",
+    "title": "Complaint",
+    "description": "Complaint filed in the Smith v. Jones case.",
+    "fileName": "Complaint_Smith_v_Jones.pdf",
+    "fileSize": 2048,
+    "fileExtension": ".pdf",
+    "caseId": "1",
+    "clientId": "1",
+    "uploadedBy": "Alice",
+    "uploadedAt": "2023-12-25T00:00:00Z",
+    "version": 1,
+    "isTemplate": false
+  },
+  {
+    "id": "3",
+    "documentType": "evidence",
+    "title": "Exhibit A",
+    "description": "Exhibit A for the Acme Corp case.",
+    "fileName": "Exhibit_A_Acme_Corp.docx",
+    "fileSize": 512,
+    "fileExtension": ".docx",
+    "caseId": "2",
+    "clientId": "2",
+    "uploadedBy": "Bob",
+    "uploadedAt": "2023-12-28T00:00:00Z",
+    "version": 2,
+    "isTemplate": false
+  }
+]

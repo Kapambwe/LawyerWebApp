@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "NG-12345",
+    "joinedDate": "1996-02-07T09:59:08Z",
+    "email": "g.oyebode@aluko-oyebode.com",
+    "status": "active",
+    "phone": "+234-1-462-8360",
+    "fullName": "Gbenga Oyebode",
+    "isAvailable": true,
+    "hourlyRate": 550,
+    "lastName": "Oyebode",
+    "specializations": [
+      "CorporateLaw",
+      "MergersAcquisitions"
+    ],
+    "yearsOfExperience": 30,
+    "id": "1",
+    "firstName": "Gbenga"
+  },
+  {
+    "barNumber": "NG-12346",
+    "joinedDate": "2006-02-07T09:59:08Z",
+    "email": "f.adekoya@aluko-oyebode.com",
+    "status": "active",
+    "phone": "+234-1-462-8361",
+    "fullName": "Funke Adekoya",
+    "isAvailable": true,
+    "hourlyRate": 480,
+    "lastName": "Adekoya",
+    "specializations": [
+      "CorporateLaw",
+      "CapitalMarkets"
+    ],
+    "yearsOfExperience": 20,
+    "id": "2",
+    "firstName": "Funke"
+  },
+  {
+    "barNumber": "NG-12347",
+    "joinedDate": "2004-02-07T09:59:08Z",
+    "email": "c.okonkwo@aluko-oyebode.com",
+    "status": "active",
+    "phone": "+234-1-462-8362",
+    "fullName": "Chidi Okonkwo",
+    "isAvailable": true,
+    "hourlyRate": 500,
+    "lastName": "Okonkwo",
+    "specializations": [
+      "Energy",
+      "OilGas"
+    ],
+    "yearsOfExperience": 22,
+    "id": "3",
+    "firstName": "Chidi"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "NG-32345",
+    "joinedDate": "2001-02-07T09:59:08Z",
+    "email": "o.akpata@templars-law.com",
+    "status": "active",
+    "phone": "+234-1-461-2820",
+    "fullName": "Olumide Akpata",
+    "isAvailable": true,
+    "hourlyRate": 520,
+    "lastName": "Akpata",
+    "specializations": [
+      "Technology",
+      "IntellectualProperty"
+    ],
+    "yearsOfExperience": 25,
+    "id": "1",
+    "firstName": "Olumide"
+  },
+  {
+    "barNumber": "NG-32346",
+    "joinedDate": "2009-02-07T09:59:08Z",
+    "email": "i.uju@templars-law.com",
+    "status": "active",
+    "phone": "+234-1-461-2821",
+    "fullName": "Ijeoma Uju",
+    "isAvailable": true,
+    "hourlyRate": 460,
+    "lastName": "Uju",
+    "specializations": [
+      "Technology",
+      "DataPrivacy"
+    ],
+    "yearsOfExperience": 17,
+    "id": "2",
+    "firstName": "Ijeoma"
+  },
+  {
+    "barNumber": "NG-32347",
+    "joinedDate": "2003-02-07T09:59:08Z",
+    "email": "b.fagbohunlu@templars-law.com",
+    "status": "active",
+    "phone": "+234-1-461-2822",
+    "fullName": "Babatunde Fagbohunlu",
+    "isAvailable": true,
+    "hourlyRate": 510,
+    "lastName": "Fagbohunlu",
+    "specializations": [
+      "Litigation",
+      "Arbitration"
+    ],
+    "yearsOfExperience": 23,
+    "id": "3",
+    "firstName": "Babatunde"
+  }
+]

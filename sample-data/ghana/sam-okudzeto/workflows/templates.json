@@ -1,0 +1,96 @@
+[
+  {
+    "id": "workflow-1",
+    "name": "New Case Onboarding",
+    "description": "Automated workflow when a new case is created",
+    "triggerType": "caseCreated",
+    "isActive": true,
+    "createdAt": "2023-07-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-1-1",
+        "name": "Send Welcome Email",
+        "description": "Send welcome email to client",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-1",
+            "sourceStepId": "step-1-1",
+            "targetStepId": "step-1-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-1-2",
+        "name": "Create Initial Tasks",
+        "description": "Create initial case management tasks",
+        "stepType": "createTask",
+        "icon": "task",
+        "color": "#6366f1",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": [
+          {
+            "id": "conn-2",
+            "sourceStepId": "step-1-2",
+            "targetStepId": "step-1-3",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-1-3",
+        "name": "Assign Lawyer",
+        "description": "Assign primary lawyer to case",
+        "stepType": "assignLawyer",
+        "icon": "person_add",
+        "color": "#06b6d4",
+        "order": 2,
+        "positionX": 100,
+        "positionY": 400,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-2",
+    "name": "Case Status Change Notifications",
+    "description": "Send notifications when case status changes",
+    "triggerType": "caseStatusChanged",
+    "isActive": true,
+    "createdAt": "2023-08-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-2-1",
+        "name": "Check Status Type",
+        "description": "Determine the type of status change",
+        "stepType": "condition",
+        "icon": "call_split",
+        "color": "#f97316",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": []
+      },
+      {
+        "id": "step-2-2",
+        "name": "Notify Client",
+        "description": "Send status update to client",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 350,
+        "positionY": 100,
+        "connections": []
+      }
+    ]
+  }
+]

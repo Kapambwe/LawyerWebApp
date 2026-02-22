@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "title": "Log Time",
+    "description": "Track billable hours",
+    "icon": "schedule",
+    "navigationUrl": "/lawyer-portal/my-time",
+    "color": "#10b981"
+  },
+  {
+    "id": "2",
+    "title": "Add Task",
+    "description": "Create new task",
+    "icon": "task",
+    "navigationUrl": "/lawyer-portal/my-tasks",
+    "color": "#3b82f6"
+  },
+  {
+    "id": "3",
+    "title": "View Cases",
+    "description": "My active cases",
+    "icon": "gavel",
+    "navigationUrl": "/lawyer-portal/my-cases",
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "4",
+    "title": "Check Calendar",
+    "description": "Upcoming events",
+    "icon": "calendar_today",
+    "navigationUrl": "/lawyer-portal/my-calendar",
+    "color": "#f59e0b"
+  }
+]

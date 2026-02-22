@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "KE-12345",
+    "joinedDate": "2003-02-07T09:59:08Z",
+    "email": "k.anjarwalla@africalegalnetwork.com",
+    "status": "active",
+    "phone": "+254-20-364-0000",
+    "fullName": "Karim Anjarwalla",
+    "isAvailable": true,
+    "hourlyRate": 400,
+    "lastName": "Anjarwalla",
+    "specializations": [
+      "CorporateLaw",
+      "MergersAcquisitions"
+    ],
+    "yearsOfExperience": 23,
+    "id": "1",
+    "firstName": "Karim"
+  },
+  {
+    "barNumber": "KE-12346",
+    "joinedDate": "2013-02-07T09:59:08Z",
+    "email": "w.gikonyo@africalegalnetwork.com",
+    "status": "active",
+    "phone": "+254-20-364-0001",
+    "fullName": "Wanjiru Gikonyo",
+    "isAvailable": true,
+    "hourlyRate": 350,
+    "lastName": "Gikonyo",
+    "specializations": [
+      "CorporateLaw",
+      "Banking"
+    ],
+    "yearsOfExperience": 13,
+    "id": "2",
+    "firstName": "Wanjiru"
+  },
+  {
+    "barNumber": "KE-12347",
+    "joinedDate": "2009-02-07T09:59:08Z",
+    "email": "o.hassan@africalegalnetwork.com",
+    "status": "active",
+    "phone": "+254-20-364-0002",
+    "fullName": "Omar Hassan",
+    "isAvailable": true,
+    "hourlyRate": 380,
+    "lastName": "Hassan",
+    "specializations": [
+      "Banking",
+      "Finance"
+    ],
+    "yearsOfExperience": 17,
+    "id": "3",
+    "firstName": "Omar"
+  }
+]
