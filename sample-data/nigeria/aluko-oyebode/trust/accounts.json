@@ -1,0 +1,32 @@
+[
+  {
+    "id": "trust-1",
+    "accountNumber": "IOLTA-001-2024",
+    "accountName": "Client Trust Account - Main",
+    "bankName": "First National Bank",
+    "accountType": "iolta",
+    "balance": 485750.0,
+    "isActive": true,
+    "openedDate": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": "trust-2",
+    "accountNumber": "CLIENT-002-2024",
+    "accountName": "Client Trust Account - Secondary",
+    "bankName": "First National Bank",
+    "accountType": "clientTrust",
+    "balance": 225000.0,
+    "isActive": true,
+    "openedDate": "2022-01-01T00:00:00Z"
+  },
+  {
+    "id": "trust-3",
+    "accountNumber": "OPER-003-2024",
+    "accountName": "Operating Account",
+    "bankName": "Business Bank",
+    "accountType": "operatingAccount",
+    "balance": 125000.0,
+    "isActive": true,
+    "openedDate": "2020-01-01T00:00:00Z"
+  }
+]

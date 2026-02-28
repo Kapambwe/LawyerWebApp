@@ -1,0 +1,14 @@
+[
+  {
+    "documentId": "1",
+    "content": "Mock document content for: Employment Agreement\nFile: Employment_Agreement_John_Doe.pdf\nType: Contract\nThis is a mock file for testing purposes."
+  },
+  {
+    "documentId": "2",
+    "content": "Mock document content for: Complaint\nFile: Complaint_Smith_v_Jones.pdf\nType: Pleading\nThis is a mock file for testing purposes."
+  },
+  {
+    "documentId": "3",
+    "content": "Mock document content for: Exhibit A\nFile: Exhibit_A_Acme_Corp.docx\nType: Evidence\nThis is a mock file for testing purposes."
+  }
+]

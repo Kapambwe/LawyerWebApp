@@ -1,0 +1,62 @@
+[
+  {
+    "id": "g1111111-1111-1111-1111-111111111111",
+    "username": "admin",
+    "password": "Test123!",
+    "email": "b.bentsi@belawyers.com",
+    "firstName": "Benedicta",
+    "lastName": "Bentsi-Enchill",
+    "phoneNumber": "+233-30-221-1532",
+    "isActive": true,
+    "emailConfirmed": true,
+    "roles": ["Admin", "Lawyer"]
+  },
+  {
+    "id": "g1222222-2222-2222-2222-222222222222",
+    "username": "lawyer1",
+    "password": "Test123!",
+    "email": "k.gyamfi@belawyers.com",
+    "firstName": "Kwame",
+    "lastName": "Gyamfi",
+    "phoneNumber": "+233-30-221-1533",
+    "isActive": true,
+    "emailConfirmed": true,
+    "roles": ["Lawyer"]
+  },
+  {
+    "id": "g1333333-3333-3333-3333-333333333333",
+    "username": "lawyer2",
+    "password": "Test123!",
+    "email": "a.mensah@belawyers.com",
+    "firstName": "Akua",
+    "lastName": "Mensah",
+    "phoneNumber": "+233-30-221-1534",
+    "isActive": true,
+    "emailConfirmed": true,
+    "roles": ["Lawyer"]
+  },
+  {
+    "id": "g1444444-4444-4444-4444-444444444444",
+    "username": "paralegal",
+    "password": "Test123!",
+    "email": "paralegal@belawyers.com",
+    "firstName": "Legal",
+    "lastName": "Assistant",
+    "phoneNumber": "+233-30-221-1535",
+    "isActive": true,
+    "emailConfirmed": true,
+    "roles": ["Paralegal"]
+  },
+  {
+    "id": "g1555555-5555-5555-5555-555555555555",
+    "username": "billing",
+    "password": "Test123!",
+    "email": "finance@belawyers.com",
+    "firstName": "Finance",
+    "lastName": "Manager",
+    "phoneNumber": "+233-30-221-1536",
+    "isActive": true,
+    "emailConfirmed": true,
+    "roles": ["Accountant"]
+  }
+]

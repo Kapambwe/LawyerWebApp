@@ -1,0 +1,44 @@
+[
+  {
+    "id": "payment-1",
+    "invoiceId": "invoice-1",
+    "clientId": "client-1",
+    "amount": 850.0,
+    "paymentMethod": "creditCard",
+    "paymentStatus": "completed",
+    "paymentDate": "2023-10-15T00:00:00Z",
+    "transactionId": "TXN-2023-000001",
+    "referenceNumber": "REF-000001",
+    "lastFourDigits": "1234",
+    "cardBrand": "Visa",
+    "createdAt": "2023-10-15T00:00:00Z"
+  },
+  {
+    "id": "payment-2",
+    "invoiceId": "invoice-2",
+    "clientId": "client-2",
+    "amount": 1450.0,
+    "paymentMethod": "bankTransfer",
+    "paymentStatus": "completed",
+    "paymentDate": "2023-10-18T00:00:00Z",
+    "transactionId": "TXN-2023-000002",
+    "referenceNumber": "REF-000002",
+    "lastFourDigits": "",
+    "cardBrand": "",
+    "createdAt": "2023-10-18T00:00:00Z"
+  },
+  {
+    "id": "payment-3",
+    "invoiceId": "invoice-3",
+    "clientId": "client-3",
+    "amount": 2500.0,
+    "paymentMethod": "ach",
+    "paymentStatus": "pending",
+    "paymentDate": "2023-10-21T00:00:00Z",
+    "transactionId": "TXN-2023-000003",
+    "referenceNumber": "REF-000003",
+    "lastFourDigits": "",
+    "cardBrand": "",
+    "createdAt": "2023-10-21T00:00:00Z"
+  }
+]

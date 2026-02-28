@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "SA-32345",
+    "joinedDate": "2002-02-07T09:59:08Z",
+    "email": "b.nkosi@cdhlegal.com",
+    "status": "active",
+    "phone": "+27-11-562-1000",
+    "fullName": "Bongani Nkosi",
+    "isAvailable": true,
+    "hourlyRate": 510,
+    "lastName": "Nkosi",
+    "specializations": [
+      "Litigation",
+      "Arbitration"
+    ],
+    "yearsOfExperience": 24,
+    "id": "1",
+    "firstName": "Bongani"
+  },
+  {
+    "barNumber": "SA-32346",
+    "joinedDate": "2010-02-07T09:59:08Z",
+    "email": "a.ferreira@cdhlegal.com",
+    "status": "active",
+    "phone": "+27-11-562-1001",
+    "fullName": "Anél Ferreira",
+    "isAvailable": true,
+    "hourlyRate": 460,
+    "lastName": "Ferreira",
+    "specializations": [
+      "Competition",
+      "Antitrust"
+    ],
+    "yearsOfExperience": 16,
+    "id": "2",
+    "firstName": "Anél"
+  },
+  {
+    "barNumber": "SA-32347",
+    "joinedDate": "2007-02-07T09:59:08Z",
+    "email": "t.molefe@cdhlegal.com",
+    "status": "active",
+    "phone": "+27-11-562-1002",
+    "fullName": "Thabo Molefe",
+    "isAvailable": true,
+    "hourlyRate": 475,
+    "lastName": "Molefe",
+    "specializations": [
+      "Litigation",
+      "CommercialLaw"
+    ],
+    "yearsOfExperience": 19,
+    "id": "3",
+    "firstName": "Thabo"
+  }
+]

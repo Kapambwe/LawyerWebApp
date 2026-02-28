@@ -1,0 +1,62 @@
+[
+  {
+    "id": "z2111111-1111-1111-1111-111111111111",
+    "username": "admin",
+    "password": "Test123!",
+    "email": "m.coghlan@cwg.co.zw",
+    "firstName": "Martin",
+    "lastName": "Coghlan",
+    "phoneNumber": "+263-4-759-000",
+    "isActive": true,
+    "emailConfirmed": true,
+    "roles": ["Admin", "Lawyer"]
+  },
+  {
+    "id": "z2222222-2222-2222-2222-222222222222",
+    "username": "lawyer1",
+    "password": "Test123!",
+    "email": "r.mugwara@cwg.co.zw",
+    "firstName": "Rutendo",
+    "lastName": "Mugwara",
+    "phoneNumber": "+263-4-759-001",
+    "isActive": true,
+    "emailConfirmed": true,
+    "roles": ["Lawyer"]
+  },
+  {
+    "id": "z2333333-3333-3333-3333-333333333333",
+    "username": "lawyer2",
+    "password": "Test123!",
+    "email": "k.madzima@cwg.co.zw",
+    "firstName": "Kudzai",
+    "lastName": "Madzima",
+    "phoneNumber": "+263-4-759-002",
+    "isActive": true,
+    "emailConfirmed": true,
+    "roles": ["Lawyer"]
+  },
+  {
+    "id": "z2444444-4444-4444-4444-444444444444",
+    "username": "paralegal",
+    "password": "Test123!",
+    "email": "paralegal@cwg.co.zw",
+    "firstName": "Legal",
+    "lastName": "Assistant",
+    "phoneNumber": "+263-4-759-003",
+    "isActive": true,
+    "emailConfirmed": true,
+    "roles": ["Paralegal"]
+  },
+  {
+    "id": "z2555555-5555-5555-5555-555555555555",
+    "username": "billing",
+    "password": "Test123!",
+    "email": "finance@cwg.co.zw",
+    "firstName": "Finance",
+    "lastName": "Manager",
+    "phoneNumber": "+263-4-759-004",
+    "isActive": true,
+    "emailConfirmed": true,
+    "roles": ["Accountant"]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "entryNumber": "JE-2024-001",
+    "date": "2023-12-10T00:00:00Z",
+    "description": "Depreciation Expense - Equipment",
+    "debit": 2500,
+    "credit": 2500,
+    "status": "Posted",
+    "createdBy": "John Doe",
+    "createdAt": "2023-12-10T00:00:00Z",
+    "postedAt": "2023-12-10T00:00:00Z",
+    "lines": [
+      {
+        "id": 1,
+        "journalEntryId": 1,
+        "accountId": 19,
+        "accountNumber": "5700",
+        "accountName": "Depreciation Expense",
+        "description": "Monthly depreciation",
+        "debit": 2500,
+        "credit": 0
+      },
+      {
+        "id": 2,
+        "journalEntryId": 1,
+        "accountId": 5,
+        "accountNumber": "1600",
+        "accountName": "Accumulated Depreciation",
+        "description": "Monthly depreciation",
+        "debit": 0,
+        "credit": 2500
+      }
+    ]
+  }
+]

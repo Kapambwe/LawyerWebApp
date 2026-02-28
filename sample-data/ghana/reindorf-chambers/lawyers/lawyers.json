@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "GH-32345",
+    "joinedDate": "1999-02-07T09:59:08Z",
+    "email": "t.sory@reindorfchambers.com",
+    "status": "active",
+    "phone": "+233-30-222-1234",
+    "fullName": "Thaddeus Sory",
+    "isAvailable": true,
+    "hourlyRate": 390,
+    "lastName": "Sory",
+    "specializations": [
+      "ConstitutionalLaw",
+      "HumanRights"
+    ],
+    "yearsOfExperience": 27,
+    "id": "1",
+    "firstName": "Thaddeus"
+  },
+  {
+    "barNumber": "GH-32346",
+    "joinedDate": "2011-02-07T09:59:08Z",
+    "email": "a.fenny@reindorfchambers.com",
+    "status": "active",
+    "phone": "+233-30-222-1235",
+    "fullName": "Ama Pokuaa Fenny",
+    "isAvailable": true,
+    "hourlyRate": 325,
+    "lastName": "Fenny",
+    "specializations": [
+      "CommercialLaw",
+      "Contracts"
+    ],
+    "yearsOfExperience": 15,
+    "id": "2",
+    "firstName": "Ama Pokuaa"
+  },
+  {
+    "barNumber": "GH-32347",
+    "joinedDate": "2005-02-07T09:59:08Z",
+    "email": "k.abotsi@reindorfchambers.com",
+    "status": "active",
+    "phone": "+233-30-222-1236",
+    "fullName": "Kofi Abotsi",
+    "isAvailable": true,
+    "hourlyRate": 370,
+    "lastName": "Abotsi",
+    "specializations": [
+      "ConstitutionalLaw",
+      "PublicLaw"
+    ],
+    "yearsOfExperience": 21,
+    "id": "3",
+    "firstName": "Kofi"
+  }
+]

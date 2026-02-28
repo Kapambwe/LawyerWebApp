@@ -1,0 +1,27 @@
+{
+  "timeZones": [
+    "UTC",
+    "EST",
+    "PST",
+    "CST",
+    "MST"
+  ],
+  "dateFormats": [
+    "MM/DD/YYYY",
+    "DD/MM/YYYY",
+    "YYYY-MM-DD"
+  ],
+  "currencies": [
+    "USD",
+    "EUR",
+    "GBP",
+    "CAD",
+    "AUD"
+  ],
+  "backupFrequencies": [
+    "Hourly",
+    "Daily",
+    "Weekly",
+    "Monthly"
+  ]
+}

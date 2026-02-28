@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "accountNumber": "1000",
+    "name": "Cash - Operating",
+    "description": "Main operating account",
+    "type": "Assets",
+    "subType": "Current Assets",
+    "balance": 125000,
+    "isActive": true,
+    "createdAt": "2022-01-01T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "accountNumber": "1100",
+    "name": "Accounts Receivable",
+    "description": "Client receivables",
+    "type": "Assets",
+    "subType": "Current Assets",
+    "balance": 125000,
+    "isActive": true,
+    "createdAt": "2022-01-01T00:00:00Z"
+  }
+]

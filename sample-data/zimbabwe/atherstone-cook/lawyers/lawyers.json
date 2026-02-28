@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "ZW-22345",
+    "joinedDate": "2002-02-07T09:59:08Z",
+    "email": "j.atherstone@atherstonecook.com",
+    "status": "active",
+    "phone": "+263-24-2702891",
+    "fullName": "James Atherstone",
+    "isAvailable": true,
+    "hourlyRate": 310,
+    "lastName": "Atherstone",
+    "specializations": [
+      "CommercialLaw",
+      "Litigation"
+    ],
+    "yearsOfExperience": 24,
+    "id": "1",
+    "firstName": "James"
+  },
+  {
+    "barNumber": "ZW-22346",
+    "joinedDate": "2011-02-07T09:59:08Z",
+    "email": "c.mutasa@atherstonecook.com",
+    "status": "active",
+    "phone": "+263-24-2702892",
+    "fullName": "Chipo Mutasa",
+    "isAvailable": true,
+    "hourlyRate": 260,
+    "lastName": "Mutasa",
+    "specializations": [
+      "CommercialLaw",
+      "Contracts"
+    ],
+    "yearsOfExperience": 15,
+    "id": "2",
+    "firstName": "Chipo"
+  },
+  {
+    "barNumber": "ZW-22347",
+    "joinedDate": "2009-02-07T09:59:08Z",
+    "email": "t.chigwedere@atherstonecook.com",
+    "status": "active",
+    "phone": "+263-24-2702893",
+    "fullName": "Tapiwa Chigwedere",
+    "isAvailable": true,
+    "hourlyRate": 270,
+    "lastName": "Chigwedere",
+    "specializations": [
+      "Property",
+      "RealEstate"
+    ],
+    "yearsOfExperience": 17,
+    "id": "3",
+    "firstName": "Tapiwa"
+  }
+]

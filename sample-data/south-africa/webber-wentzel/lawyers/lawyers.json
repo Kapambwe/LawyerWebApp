@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "SA-12345",
+    "joinedDate": "2001-02-07T09:59:08Z",
+    "email": "t.leeuw@webberwentzel.com",
+    "status": "active",
+    "phone": "+27-11-530-5000",
+    "fullName": "Thabo Leeuw",
+    "isAvailable": true,
+    "hourlyRate": 500,
+    "lastName": "Leeuw",
+    "specializations": [
+      "CorporateLaw",
+      "MergersAcquisitions"
+    ],
+    "yearsOfExperience": 25,
+    "id": "1",
+    "firstName": "Thabo"
+  },
+  {
+    "barNumber": "SA-12346",
+    "joinedDate": "2011-02-07T09:59:08Z",
+    "email": "n.khumalo@webberwentzel.com",
+    "status": "active",
+    "phone": "+27-11-530-5001",
+    "fullName": "Nomsa Khumalo",
+    "isAvailable": true,
+    "hourlyRate": 450,
+    "lastName": "Khumalo",
+    "specializations": [
+      "CorporateLaw",
+      "Banking"
+    ],
+    "yearsOfExperience": 15,
+    "id": "2",
+    "firstName": "Nomsa"
+  },
+  {
+    "barNumber": "SA-12347",
+    "joinedDate": "2008-02-07T09:59:08Z",
+    "email": "p.vandermerwe@webberwentzel.com",
+    "status": "active",
+    "phone": "+27-11-530-5002",
+    "fullName": "Pieter van der Merwe",
+    "isAvailable": true,
+    "hourlyRate": 480,
+    "lastName": "van der Merwe",
+    "specializations": [
+      "MergersAcquisitions",
+      "PrivateEquity"
+    ],
+    "yearsOfExperience": 18,
+    "id": "3",
+    "firstName": "Pieter"
+  }
+]

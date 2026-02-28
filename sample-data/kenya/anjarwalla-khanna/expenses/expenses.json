@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1",
+    "expenseType": "filingFees",
+    "caseId": "1",
+    "clientId": "1",
+    "description": "Court filing fees for Smith v. Jones",
+    "amount": 250.0,
+    "date": "2023-12-20T00:00:00Z",
+    "status": "approved",
+    "isBillable": true,
+    "createdAt": "2023-12-20T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "expenseType": "travelExpense",
+    "caseId": "2",
+    "clientId": "2",
+    "description": "Travel to deposition for Acme Corp case",
+    "amount": 150.0,
+    "date": "2023-12-25T00:00:00Z",
+    "status": "pending",
+    "isBillable": true,
+    "createdAt": "2023-12-25T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "expenseType": "expertWitness",
+    "caseId": "1",
+    "clientId": "1",
+    "description": "Expert witness consultation",
+    "amount": 1000.0,
+    "date": "2023-12-30T00:00:00Z",
+    "status": "reimbursed",
+    "isBillable": true,
+    "isInvoiced": true,
+    "invoiceId": "1",
+    "createdAt": "2023-12-30T00:00:00Z"
+  }
+]

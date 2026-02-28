@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ticket-1",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "subject": "Support Request #1",
+    "description": "I need assistance with Billing",
+    "status": "open",
+    "priority": "medium",
+    "category": "billing",
+    "createdDate": "2023-10-05T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Johnson 1",
+    "replies": [
+      {
+        "id": "reply-1",
+        "ticketId": "ticket-1",
+        "senderId": "client-1",
+        "senderName": "John Doe",
+        "senderType": "client",
+        "message": "Initial inquiry message",
+        "createdDate": "2023-10-05T00:00:00Z"
+      }
+    ]
+  }
+]

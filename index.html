@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <title>Lawyer WebApp - Legal Case Management System</title>
+    <meta name="description" content="Professional legal case management system for law firms" />
+    
+    <!-- Dynamic base path - works for local, GitHub Pages, and Cloudflare Pages -->
+    <!-- For GitHub Pages deployment, this will be replaced by the build pipeline -->
+    <base href="/LawyerWebApp/" id="app-base" />
+    <script>
+        // Detect environment and set correct base path (for local development)
+        // Note: For GitHub Pages, the base href is set statically during build
+        (function() {
+            var base = document.getElementById('app-base');
+            var hostname = window.location.hostname;
+            var currentBase = base.getAttribute('href');
+            
+            // Only update if not already set (i.e., in local development)
+            if (currentBase === '/') {
+                // GitHub Pages detection
+                if (hostname === 'kapambwe.github.io' || hostname.includes('github.io')) {
+                    base.setAttribute('href', '/LawyerWebApp/');
+                    console.log('🌐 GitHub Pages detected - using base: /LawyerWebApp/');
+                }
+                // Cloudflare Pages detection (.pages.dev domain)
+                else if (hostname.includes('pages.dev')) {
+                    base.setAttribute('href', '/');
+                    console.log('☁️ Cloudflare Pages detected - using base: /');
+                }
+                // Custom domain or local development
+                else {
+                    base.setAttribute('href', '/');
+                    console.log('💻 Local/Custom domain detected - using base: /');
+                }
+            } else {
+                console.log('✅ Base path pre-configured: ' + currentBase);
+            }
+        })();
+    </script>
+    
+    <!-- Single Page App for GitHub Pages -->
+    <!-- Start Single Page App script -->
+    <script type="text/javascript">
+        // Single Page App for GitHub Pages
+        // https://github.com/rafgraph/spa-github-pages
+        (function(l) {
+            if (l.search[1] === '/' ) {
+                var decoded = l.search.slice(1).split('&').map(function(s) { 
+                    return s.replace(/~and~/g, '&')
+                }).join('?');
+                window.history.replaceState(null, null,
+                    l.pathname.slice(0, -1) + decoded + l.hash
+                );
+            }
+        }(window.location))
+    </script>
+    <!-- End Single Page App script -->
+
+    <!-- Google Fonts - Inter for modern professional look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Material Icons for Radzen -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap" rel="stylesheet">
+
+    <!-- Radzen Blazor CSS -->
+    <link rel="stylesheet" href="_content/Radzen.Blazor/css/material-base.css">
+
+    <!-- Bootstrap (if needed) -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Lawyer Theme - Load after Radzen to override -->
+    <link rel="stylesheet" href="css/lawyer-theme.css" />
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="css/app.css" />
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="CompanyApp.Clients.LawyerWebApp.styles.css" rel="stylesheet" />
+    <link href="_content/Radzen.Blazor/css/material-base.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    
+    <!-- Performance Monitoring -->
+    <script>
+        (function() {
+            // Track application load performance
+            window.addEventListener('load', function() {
+                // Wait a bit for all resources to finish loading
+                setTimeout(function() {
+                    try {
+                        const perfData = performance.getEntriesByType('resource');
+                        const dllFiles = perfData.filter(r => r.name.includes('.dll') || r.name.includes('.wasm'));
+                        const jsFiles = perfData.filter(r => r.name.includes('.js') && !r.name.includes('_framework'));
+                        
+                        // Calculate total sizes
+                        const totalDllSize = dllFiles.reduce((sum, r) => sum + (r.transferSize || 0), 0);
+                        const totalJsSize = jsFiles.reduce((sum, r) => sum + (r.transferSize || 0), 0);
+                        const totalSize = totalDllSize + totalJsSize;
+                        
+                        // Log performance metrics
+                        console.log('%c📊 LawyerWebApp Performance Metrics - Phase 3', 'color: #4CAF50; font-size: 16px; font-weight: bold;');
+                        console.log('%c━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', 'color: #4CAF50;');
+                        console.log('🔹 DLLs loaded:', dllFiles.length);
+                        console.log('🔹 Total DLL size:', (totalDllSize / 1024 / 1024).toFixed(2), 'MB');
+                        console.log('🔹 Total JS size:', (totalJsSize / 1024 / 1024).toFixed(2), 'MB');
+                        console.log('🔹 Total download:', (totalSize / 1024 / 1024).toFixed(2), 'MB');
+                        console.log('%c━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', 'color: #4CAF50;');
+                        
+                        // Log navigation timing
+                        const navTiming = performance.getEntriesByType('navigation')[0];
+                        if (navTiming) {
+                            console.log('⏱️ Page Load Time:', (navTiming.loadEventEnd - navTiming.fetchStart).toFixed(0), 'ms');
+                            console.log('⏱️ DOM Content Loaded:', (navTiming.domContentLoadedEventEnd - navTiming.fetchStart).toFixed(0), 'ms');
+                            console.log('⏱️ Time to Interactive:', (navTiming.domInteractive - navTiming.fetchStart).toFixed(0), 'ms');
+                        }
+                        
+                        // Store metrics for analysis
+                        window.lawyerWebAppMetrics = {
+                            dllCount: dllFiles.length,
+                            dllSizeMB: (totalDllSize / 1024 / 1024),
+                            jsSizeMB: (totalJsSize / 1024 / 1024),
+                            totalSizeMB: (totalSize / 1024 / 1024),
+                            loadTimeMs: navTiming ? (navTiming.loadEventEnd - navTiming.fetchStart) : 0,
+                            timestamp: new Date().toISOString(),
+                            phase: 3
+                        };
+                        
+                        // Log lazy loading status
+                        console.log('%c🎯 Phase 3: Real Lazy Loading ACTIVE!', 'color: #FF5722; font-weight: bold; font-size: 14px;');
+                        console.log('%c   ✓ Workflows assembly configured for lazy loading', 'color: #FF5722;');
+                        console.log('%c   ✓ Assembly loads on first access', 'color: #FF5722;');
+                        console.log('%c   ✓ Reduced initial bundle size', 'color: #FF5722;');
+                        console.log('%c   ✓ Production-ready lazy loading', 'color: #FF5722;');
+                        console.log('%c   ℹ️  Navigate to /workflows to see lazy loading in action', 'color: #FF5722;');
+                        
+                    } catch (err) {
+                        console.error('Error collecting performance metrics:', err);
+                    }
+                }, 2000);
+            });
+            
+            // Track feature access patterns (for future lazy loading optimization)
+            window.trackFeatureAccess = function(featureName) {
+                if (!window.featureAccessLog) {
+                    window.featureAccessLog = [];
+                }
+                const access = {
+                    feature: featureName,
+                    timestamp: new Date().toISOString(),
+                    url: window.location.pathname,
+                    loadTime: window.lastFeatureLoadTime || 0
+                };
+                window.featureAccessLog.push(access);
+                console.log('%c📝 Feature Loaded: ' + featureName, 'color: #9C27B0; font-weight: bold;', access);
+                
+                // Show summary
+                const uniqueFeatures = [...new Set(window.featureAccessLog.map(a => a.feature))];
+                console.log('%c   Total features accessed:', 'color: #9C27B0;', uniqueFeatures.length);
+            };
+            
+            // Track lazy loading performance
+            window.trackLazyLoadStart = function(featureName) {
+                window.lazyLoadStart = performance.now();
+                console.log('%c⏳ Loading: ' + featureName + '...', 'color: #FF9800; font-weight: bold;');
+            };
+            
+            window.trackLazyLoadEnd = function(featureName) {
+                if (window.lazyLoadStart) {
+                    const loadTime = performance.now() - window.lazyLoadStart;
+                    window.lastFeatureLoadTime = loadTime;
+                    console.log('%c✅ Loaded: ' + featureName + ' in ' + loadTime.toFixed(0) + 'ms', 'color: #4CAF50; font-weight: bold;');
+                    window.lazyLoadStart = null;
+                }
+            };
+        })();
+    </script>
+    
+    <!-- Suppress Mono debugger assertion errors -->
+    <script>
+        // Catch and suppress known Mono debugger assertion errors
+        // This prevents the app from crashing when browser DevTools are open
+        window.addEventListener('error', function(event) {
+            if (event.message && event.message.includes('Assertion at') && event.message.includes('debugger-agent')) {
+                console.warn('⚠️ Suppressed Mono debugger assertion error (safe to ignore)');
+                event.preventDefault();
+                return true;
+            }
+        });
+        
+        // Suppress unhandled promise rejections related to debugger
+        window.addEventListener('unhandledrejection', function(event) {
+            if (event.reason && event.reason.message && 
+                (event.reason.message.includes('debugger-agent') || 
+                 event.reason.message.includes('Assertion at'))) {
+                console.warn('⚠️ Suppressed Mono debugger promise rejection (safe to ignore)');
+                event.preventDefault();
+                return true;
+            }
+        });
+    </script>
+    
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/downloadHelper.js"></script>
+    <script src="js/citation-network.js"></script>
+</body>
+
+</html>
+

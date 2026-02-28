@@ -1,0 +1,16 @@
+[
+  {
+    "id": "plan-1",
+    "invoiceId": "invoice-1",
+    "clientId": "client-1",
+    "totalAmount": 5000,
+    "downPayment": 1000,
+    "numberOfInstallments": 4,
+    "installmentAmount": 1000,
+    "frequency": "monthly",
+    "startDate": "2023-10-01T00:00:00Z",
+    "nextPaymentDate": "2023-11-01T00:00:00Z",
+    "status": "active",
+    "createdAt": "2023-09-01T00:00:00Z"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "audit-1",
+    "timestamp": "2023-12-01T10:15:00Z",
+    "userId": "user-1",
+    "userName": "john.doe",
+    "action": "login",
+    "entityType": "User",
+    "entityId": "user-1",
+    "description": "User logged in successfully",
+    "ipAddress": "192.168.1.10",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "severity": "info"
+  },
+  {
+    "id": "audit-2",
+    "timestamp": "2023-12-02T14:30:00Z",
+    "userId": "user-2",
+    "userName": "jane.smith",
+    "action": "create",
+    "entityType": "Case",
+    "entityId": "case-1",
+    "description": "Case created successfully",
+    "ipAddress": "192.168.1.20",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "severity": "info"
+  },
+  {
+    "id": "audit-3",
+    "timestamp": "2023-12-03T09:05:00Z",
+    "userId": "user-3",
+    "userName": "bob.johnson",
+    "action": "update",
+    "entityType": "Invoice",
+    "entityId": "invoice-2",
+    "description": "Invoice updated with payment",
+    "ipAddress": "192.168.1.30",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "severity": "warning"
+  }
+]

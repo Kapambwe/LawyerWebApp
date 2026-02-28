@@ -1,0 +1,30 @@
+{
+  "Assets": [
+    "Current Assets",
+    "Fixed Assets",
+    "Other Assets",
+    "Accounts Receivable",
+    "Cash & Bank"
+  ],
+  "Liabilities": [
+    "Current Liabilities",
+    "Long-term Liabilities",
+    "Accounts Payable"
+  ],
+  "Equity": [
+    "Owner's Equity",
+    "Retained Earnings",
+    "Capital"
+  ],
+  "Revenue": [
+    "Operating Revenue",
+    "Other Income",
+    "Sales"
+  ],
+  "Expenses": [
+    "Operating Expenses",
+    "Cost of Goods Sold",
+    "Administrative",
+    "Marketing"
+  ]
+}

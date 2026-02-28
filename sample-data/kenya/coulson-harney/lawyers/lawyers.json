@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "KE-22345",
+    "joinedDate": "2000-02-07T09:59:08Z",
+    "email": "j.coulson@coulsonharney.com",
+    "status": "active",
+    "phone": "+254-20-289-9000",
+    "fullName": "James Coulson",
+    "isAvailable": true,
+    "hourlyRate": 420,
+    "lastName": "Coulson",
+    "specializations": [
+      "RealEstate",
+      "Property"
+    ],
+    "yearsOfExperience": 26,
+    "id": "1",
+    "firstName": "James"
+  },
+  {
+    "barNumber": "KE-22346",
+    "joinedDate": "2011-02-07T09:59:08Z",
+    "email": "g.mwangi@coulsonharney.com",
+    "status": "active",
+    "phone": "+254-20-289-9001",
+    "fullName": "Grace Mwangi",
+    "isAvailable": true,
+    "hourlyRate": 360,
+    "lastName": "Mwangi",
+    "specializations": [
+      "RealEstate",
+      "Construction"
+    ],
+    "yearsOfExperience": 15,
+    "id": "2",
+    "firstName": "Grace"
+  },
+  {
+    "barNumber": "KE-22347",
+    "joinedDate": "2008-02-07T09:59:08Z",
+    "email": "d.ochieng@coulsonharney.com",
+    "status": "active",
+    "phone": "+254-20-289-9002",
+    "fullName": "David Ochieng",
+    "isAvailable": true,
+    "hourlyRate": 390,
+    "lastName": "Ochieng",
+    "specializations": [
+      "Litigation",
+      "CommercialLaw"
+    ],
+    "yearsOfExperience": 18,
+    "id": "3",
+    "firstName": "David"
+  }
+]

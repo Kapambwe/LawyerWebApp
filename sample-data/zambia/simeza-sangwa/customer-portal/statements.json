@@ -1,0 +1,32 @@
+[
+  {
+    "id": "stmt-1",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "statementDate": "2023-10-31T00:00:00Z",
+    "startDate": "2023-10-01T00:00:00Z",
+    "endDate": "2023-10-31T00:00:00Z",
+    "openingBalance": 0,
+    "totalInvoiced": 5000,
+    "totalPaid": 1500,
+    "closingBalance": 3500,
+    "transactions": [
+      {
+        "id": "invoice-1",
+        "date": "2023-10-01T00:00:00Z",
+        "description": "Invoice INV-2024-001",
+        "referenceNumber": "INV-2024-001",
+        "type": "invoice",
+        "amount": 5000
+      },
+      {
+        "id": "payment-1",
+        "date": "2023-10-15T00:00:00Z",
+        "description": "Payment - CreditCard",
+        "referenceNumber": "REF-CP-000001",
+        "type": "payment",
+        "amount": -1500
+      }
+    ]
+  }
+]

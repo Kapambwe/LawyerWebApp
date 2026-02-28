@@ -1,0 +1,7 @@
+[
+  { "text": "All Invoices", "value": "All" },
+  { "text": "Pending", "value": "Sent" },
+  { "text": "Partially Paid", "value": "PartiallyPaid" },
+  { "text": "Paid", "value": "Paid" },
+  { "text": "Overdue", "value": "Overdue" }
+]

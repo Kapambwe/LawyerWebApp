@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "invoiceNumber": "INV-2024-001",
+    "clientName": "Acme Corporation",
+    "clientEmail": "billing@acmecorp.com",
+    "clientPhone": "+1-555-1001",
+    "description": "Legal Consultation - Corporate Restructuring",
+    "invoiceDate": "2023-12-01T00:00:00Z",
+    "dueDate": "2023-12-16T00:00:00Z",
+    "amount": 15000,
+    "receivedAmount": 5000,
+    "outstandingAmount": 10000,
+    "status": "PartiallyPaid",
+    "daysOverdue": 15,
+    "createdAt": "2023-12-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 1,
+        "invoiceId": 1,
+        "description": "Legal Consultation (40 hours)",
+        "quantity": 40,
+        "unitPrice": 250,
+        "amount": 10000,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "invoiceNumber": "INV-2024-002",
+    "clientName": "Tech Solutions Ltd",
+    "clientEmail": "legal@techsolutions.com",
+    "clientPhone": "+1-555-1002",
+    "description": "Contract Review & Negotiation",
+    "invoiceDate": "2023-12-10T00:00:00Z",
+    "dueDate": "2024-01-10T00:00:00Z",
+    "amount": 8500,
+    "receivedAmount": 0,
+    "outstandingAmount": 8500,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2023-12-10T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 2,
+        "invoiceId": 2,
+        "description": "Contract Review (20 hours)",
+        "quantity": 20,
+        "unitPrice": 300,
+        "amount": 6000,
+        "accountId": 7
+      },
+      {
+        "id": 3,
+        "invoiceId": 2,
+        "description": "Negotiation Services (10 hours)",
+        "quantity": 10,
+        "unitPrice": 250,
+        "amount": 2500,
+        "accountId": 7
+      }
+    ]
+  }
+]

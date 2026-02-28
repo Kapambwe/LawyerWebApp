@@ -1,0 +1,29 @@
+[
+  {
+    "id": "invoice-1",
+    "invoiceNumber": "INV-2024-001",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "caseId": "case-1",
+    "caseNumber": "CASE-2024-001",
+    "issueDate": "2023-10-01T00:00:00Z",
+    "dueDate": "2023-10-31T00:00:00Z",
+    "status": "sent",
+    "amountPaid": 0,
+    "total": 5000,
+    "balance": 5000,
+    "items": [
+      {
+        "description": "Legal Services",
+        "quantity": 10,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 2500
+      }
+    ],
+    "subtotal": 4600,
+    "tax": 400,
+    "taxRate": 8.0,
+    "createdAt": "2023-10-01T00:00:00Z"
+  }
+]

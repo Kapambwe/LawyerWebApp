@@ -1,0 +1,23 @@
+[
+  {
+    "accountNumber": "1000",
+    "accountName": "Cash - Operating",
+    "accountType": "Assets",
+    "debit": 125000,
+    "credit": 0
+  },
+  {
+    "accountNumber": "1100",
+    "accountName": "Accounts Receivable",
+    "accountType": "Assets",
+    "debit": 125000,
+    "credit": 0
+  },
+  {
+    "accountNumber": "2000",
+    "accountName": "Accounts Payable",
+    "accountType": "Liabilities",
+    "debit": 0,
+    "credit": 45000
+  }
+]

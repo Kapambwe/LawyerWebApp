@@ -1,0 +1,56 @@
+[
+  {
+    "barNumber": "GH-12345",
+    "joinedDate": "2000-02-07T09:59:08Z",
+    "email": "a.ankomah@belghana.com",
+    "status": "active",
+    "phone": "+233-30-221-1301",
+    "fullName": "Ace Ankomah",
+    "isAvailable": true,
+    "hourlyRate": 380,
+    "lastName": "Ankomah",
+    "specializations": [
+      "Litigation",
+      "ConstitutionalLaw"
+    ],
+    "yearsOfExperience": 26,
+    "id": "1",
+    "firstName": "Ace"
+  },
+  {
+    "barNumber": "GH-12346",
+    "joinedDate": "2008-02-07T09:59:08Z",
+    "email": "n.bediatuo@belghana.com",
+    "status": "active",
+    "phone": "+233-30-221-1302",
+    "fullName": "Nana Asante Bediatuo",
+    "isAvailable": true,
+    "hourlyRate": 340,
+    "lastName": "Bediatuo",
+    "specializations": [
+      "CorporateLaw",
+      "MergersAcquisitions"
+    ],
+    "yearsOfExperience": 18,
+    "id": "2",
+    "firstName": "Nana Asante"
+  },
+  {
+    "barNumber": "GH-12347",
+    "joinedDate": "2006-02-07T09:59:08Z",
+    "email": "y.afriyie@belghana.com",
+    "status": "active",
+    "phone": "+233-30-221-1303",
+    "fullName": "Yaa Pokua Afriyie",
+    "isAvailable": true,
+    "hourlyRate": 360,
+    "lastName": "Afriyie",
+    "specializations": [
+      "Banking",
+      "Finance"
+    ],
+    "yearsOfExperience": 20,
+    "id": "3",
+    "firstName": "Yaa Pokua"
+  }
+]

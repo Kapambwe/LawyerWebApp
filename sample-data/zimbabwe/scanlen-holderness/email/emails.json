@@ -1,0 +1,57 @@
+[
+  {
+    "id": "email-inbox-1",
+    "subject": "Case Status Update Request",
+    "fromAddress": "client1@example.com",
+    "fromName": "Client 1",
+    "toAddresses": [
+      "lawyer@lawfirm.com"
+    ],
+    "ccAddresses": [],
+    "body": "Email body content for message 1. This is regarding case matter...",
+    "isHtml": true,
+    "direction": "incoming",
+    "status": "delivered",
+    "caseId": "case-1",
+    "clientId": "client-1",
+    "isRead": false,
+    "createdAt": "2023-12-01T00:00:00Z"
+  },
+  {
+    "id": "email-inbox-2",
+    "subject": "Document Review Needed",
+    "fromAddress": "client2@example.com",
+    "fromName": "Client 2",
+    "toAddresses": [
+      "lawyer@lawfirm.com"
+    ],
+    "ccAddresses": [],
+    "body": "Email body content for message 2. This is regarding case matter...",
+    "isHtml": true,
+    "direction": "incoming",
+    "status": "read",
+    "caseId": "",
+    "clientId": "client-2",
+    "isRead": true,
+    "createdAt": "2023-12-03T00:00:00Z"
+  },
+  {
+    "id": "email-sent-1",
+    "subject": "Re: Case Status Update",
+    "fromAddress": "lawyer@lawfirm.com",
+    "fromName": "Law Firm",
+    "toAddresses": [
+      "client1@example.com"
+    ],
+    "ccAddresses": [],
+    "body": "Response to client inquiry 1. We have reviewed your case...",
+    "isHtml": true,
+    "sentDate": "2023-12-04T00:00:00Z",
+    "direction": "outgoing",
+    "status": "sent",
+    "caseId": "case-1",
+    "clientId": "client-1",
+    "isRead": true,
+    "createdAt": "2023-12-04T00:00:00Z"
+  }
+]

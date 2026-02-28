@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Send Email",
+    "description": "Send an email notification",
+    "stepType": "sendEmail",
+    "icon": "email",
+    "color": "#0ea5e9"
+  },
+  {
+    "name": "Create Task",
+    "description": "Create a new task",
+    "stepType": "createTask",
+    "icon": "task",
+    "color": "#6366f1"
+  },
+  {
+    "name": "Update Status",
+    "description": "Update case status",
+    "stepType": "updateStatus",
+    "icon": "update",
+    "color": "#8b5cf6"
+  },
+  {
+    "name": "Send Notification",
+    "description": "Send a notification",
+    "stepType": "sendNotification",
+    "icon": "notifications",
+    "color": "#f59e0b"
+  },
+  {
+    "name": "Generate Document",
+    "description": "Generate a document",
+    "stepType": "generateDocument",
+    "icon": "description",
+    "color": "#14b8a6"
+  },
+  {
+    "name": "Create Invoice",
+    "description": "Generate an invoice",
+    "stepType": "createInvoice",
+    "icon": "receipt",
+    "color": "#ec4899"
+  },
+  {
+    "name": "Assign Lawyer",
+    "description": "Assign lawyer to case",
+    "stepType": "assignLawyer",
+    "icon": "person_add",
+    "color": "#06b6d4"
+  },
+  {
+    "name": "Schedule Hearing",
+    "description": "Schedule a court hearing",
+    "stepType": "scheduleHearing",
+    "icon": "event",
+    "color": "#84cc16"
+  }
+]

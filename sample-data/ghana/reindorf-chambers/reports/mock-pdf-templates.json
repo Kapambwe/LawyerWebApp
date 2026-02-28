@@ -1,0 +1,14 @@
+[
+  {
+    "key": "case-analytics",
+    "content": "CASE ANALYTICS REPORT\nGenerated: {generatedAt}\n\nTotal Cases: {totalCases}\nActive Cases: {activeCases}\nClosed Cases: {closedCases}\n\nThis is a mock PDF export."
+  },
+  {
+    "key": "financial-report",
+    "content": "FINANCIAL REPORT\nGenerated: {generatedAt}\n\nTotal Revenue: {totalRevenue}\nOutstanding: {outstanding}\n\nThis is a mock PDF export."
+  },
+  {
+    "key": "invoice",
+    "content": "INVOICE #{invoiceId}\nDate: {date}\nDue Date: {dueDate}\n\nThis is a mock PDF invoice."
+  }
+]

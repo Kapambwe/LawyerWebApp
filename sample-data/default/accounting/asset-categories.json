@@ -1,0 +1,37 @@
+{
+  "Equipment": [
+    "Office Equipment",
+    "Manufacturing Equipment",
+    "Medical Equipment"
+  ],
+  "Furniture & Fixtures": [
+    "Office Furniture",
+    "Store Fixtures",
+    "Decorations"
+  ],
+  "Vehicles": [
+    "Cars",
+    "Trucks",
+    "Delivery Vehicles"
+  ],
+  "Buildings": [
+    "Office Building",
+    "Warehouse",
+    "Retail Space"
+  ],
+  "Computer & IT": [
+    "Computers",
+    "Servers",
+    "Network Equipment",
+    "Software"
+  ],
+  "Machinery": [
+    "Production Machinery",
+    "Industrial Equipment"
+  ],
+  "Leasehold Improvements": [
+    "Renovations",
+    "Build-outs",
+    "Improvements"
+  ]
+}

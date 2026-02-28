@@ -1,0 +1,30 @@
+[
+  {
+    "id": "plan-1",
+    "invoiceId": "invoice-1",
+    "clientId": "client-1",
+    "totalAmount": 5000,
+    "downPayment": 1000,
+    "numberOfInstallments": 4,
+    "installmentAmount": 1000,
+    "frequency": "monthly",
+    "startDate": "2023-09-01T00:00:00Z",
+    "nextPaymentDate": "2023-10-01T00:00:00Z",
+    "status": "active",
+    "createdAt": "2023-08-15T00:00:00Z"
+  },
+  {
+    "id": "plan-2",
+    "invoiceId": "invoice-2",
+    "clientId": "client-2",
+    "totalAmount": 3000,
+    "downPayment": 600,
+    "numberOfInstallments": 3,
+    "installmentAmount": 800,
+    "frequency": "biWeekly",
+    "startDate": "2023-09-15T00:00:00Z",
+    "nextPaymentDate": "2023-09-29T00:00:00Z",
+    "status": "active",
+    "createdAt": "2023-09-01T00:00:00Z"
+  }
+]

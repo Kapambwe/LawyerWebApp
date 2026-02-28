@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "clientType": "individual",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890",
+    "address": "123 Main St",
+    "city": "Anytown",
+    "country": "USA",
+    "isActive": true,
+    "engagementDate": "2022-01-15T00:00:00Z",
+    "createdAt": "2023-07-01T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "clientType": "corporate",
+    "name": "Acme Corporation",
+    "contactPerson": "Jane Smith",
+    "email": "jane.smith@acme.com",
+    "phone": "987-654-3210",
+    "address": "456 Oak Ave",
+    "city": "Businesstown",
+    "country": "USA",
+    "isActive": true,
+    "engagementDate": "2021-06-20T00:00:00Z",
+    "createdAt": "2022-06-20T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "clientType": "individual",
+    "name": "Peter Pan",
+    "email": "peter.pan@example.com",
+    "phone": "555-123-4567",
+    "address": "789 Pine Ln",
+    "city": "Fictionville",
+    "country": "USA",
+    "isActive": false,
+    "engagementDate": "2023-03-10T00:00:00Z",
+    "createdAt": "2023-11-10T00:00:00Z"
+  }
+]
