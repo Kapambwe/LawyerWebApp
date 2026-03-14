@@ -1,0 +1,227 @@
+[
+  {
+    "id": "template-1",
+    "name": "Case Status Update",
+    "subject": "Update on Case: {CaseNumber}",
+    "body": "Dear {ClientName},\n\nI am writing to provide you with an update on your case {CaseNumber}...",
+    "category": "clientCommunication",
+    "isActive": true,
+    "createdAt": "2023-09-01T00:00:00Z"
+  },
+  {
+    "id": "template-2",
+    "name": "Court Hearing Notice",
+    "subject": "Court Hearing Scheduled - {CaseNumber}",
+    "body": "Dear {ClientName},\n\nThis is to inform you that a court hearing has been scheduled for {HearingDate}...",
+    "category": "courtDocuments",
+    "isActive": true,
+    "createdAt": "2023-10-01T00:00:00Z"
+  },
+  {
+    "id": "template-3",
+    "name": "Invoice Reminder",
+    "subject": "Payment Reminder - Invoice {InvoiceNumber}",
+    "body": "Dear {ClientName},\n\nThis is a friendly reminder that invoice {InvoiceNumber} is due...",
+    "category": "invoicing",
+    "isActive": true,
+    "createdAt": "2023-11-01T00:00:00Z"
+  },
+  {
+    "id": "template-4",
+    "name": "Initial Consultation Confirmation",
+    "subject": "Consultation Appointment Confirmed - {AppointmentDate}",
+    "body": "Dear {ClientName},\n\nThank you for contacting our firm. Your initial consultation has been confirmed for {AppointmentDate} at {AppointmentTime}. Please bring any relevant documents to the meeting...",
+    "category": "clientCommunication",
+    "isActive": true,
+    "createdAt": "2023-09-05T00:00:00Z"
+  },
+  {
+    "id": "template-5",
+    "name": "Retainer Agreement Cover Letter",
+    "subject": "Retainer Agreement - {FirmName}",
+    "body": "Dear {ClientName},\n\nPlease find enclosed our retainer agreement for your review and signature. The initial retainer fee is {RetainerAmount}. Upon signing, we will formally commence representation...",
+    "category": "clientCommunication",
+    "isActive": true,
+    "createdAt": "2023-09-10T00:00:00Z"
+  },
+  {
+    "id": "template-6",
+    "name": "Deposition Notice",
+    "subject": "Notice of Deposition - {WitnessName} - {CaseNumber}",
+    "body": "Dear {RecipientName},\n\nPlease take notice that pursuant to the applicable rules of civil procedure, the deposition of {WitnessName} will be taken on {DepositionDate} at {DepositionTime} at {DepositionLocation}...",
+    "category": "courtDocuments",
+    "isActive": true,
+    "createdAt": "2023-10-05T00:00:00Z"
+  },
+  {
+    "id": "template-7",
+    "name": "Settlement Offer Letter",
+    "subject": "Settlement Proposal - {CaseNumber}",
+    "body": "Dear {OpposingCounsel},\n\nOn behalf of my client {ClientName}, I am writing to propose the following settlement terms in the above-referenced matter. Our client is prepared to accept {SettlementAmount} in full and final settlement of all claims...",
+    "category": "negotiation",
+    "isActive": true,
+    "createdAt": "2023-10-12T00:00:00Z"
+  },
+  {
+    "id": "template-8",
+    "name": "Discovery Request Cover Letter",
+    "subject": "First Set of Discovery Requests - {CaseNumber}",
+    "body": "Dear {OpposingCounsel},\n\nPlease find enclosed Plaintiff's First Set of Interrogatories, Requests for Production of Documents, and Requests for Admissions. Responses are due within 30 days...",
+    "category": "courtDocuments",
+    "isActive": true,
+    "createdAt": "2023-10-20T00:00:00Z"
+  },
+  {
+    "id": "template-9",
+    "name": "Demand Letter",
+    "subject": "Demand for {DemandAmount} - {CaseNumber}",
+    "body": "Dear {ResponsibleParty},\n\nThis letter serves as formal demand for payment of {DemandAmount} owed to my client {ClientName} arising from {CauseOfAction}. Failure to respond within 10 business days will result in the commencement of legal proceedings...",
+    "category": "clientCommunication",
+    "isActive": true,
+    "createdAt": "2023-11-05T00:00:00Z"
+  },
+  {
+    "id": "template-10",
+    "name": "Case Closure Letter",
+    "subject": "Case Closure - {CaseNumber}",
+    "body": "Dear {ClientName},\n\nI am pleased to inform you that your case {CaseNumber} has been successfully resolved. Please find enclosed a summary of the outcome and our final invoice for services rendered...",
+    "category": "clientCommunication",
+    "isActive": true,
+    "createdAt": "2023-11-10T00:00:00Z"
+  },
+  {
+    "id": "template-11",
+    "name": "Overdue Invoice Notice",
+    "subject": "Overdue Payment Notice - Invoice {InvoiceNumber}",
+    "body": "Dear {ClientName},\n\nOur records indicate that invoice {InvoiceNumber} for {InvoiceAmount} remains unpaid as of today. Payment was due on {DueDate}. Please remit payment immediately to avoid suspension of services...",
+    "category": "invoicing",
+    "isActive": true,
+    "createdAt": "2023-11-15T00:00:00Z"
+  },
+  {
+    "id": "template-12",
+    "name": "Witness Subpoena Cover Letter",
+    "subject": "Subpoena - {WitnessName} - Please Review",
+    "body": "Dear {WitnessName},\n\nEnclosed please find a subpoena requiring your appearance as a witness in the matter of {CaseName}, Case No. {CaseNumber}. Your appearance is required on {HearingDate} at {HearingTime}...",
+    "category": "courtDocuments",
+    "isActive": true,
+    "createdAt": "2023-11-20T00:00:00Z"
+  },
+  {
+    "id": "template-13",
+    "name": "Appeal Filing Notice",
+    "subject": "Notice of Appeal Filed - {CaseNumber}",
+    "body": "Dear {ClientName},\n\nPlease be advised that we have filed a Notice of Appeal on your behalf in {CaseNumber}. The Court of Appeals will review the lower court's decision. The appellate process typically takes 12-18 months...",
+    "category": "courtDocuments",
+    "isActive": true,
+    "createdAt": "2023-12-01T00:00:00Z"
+  },
+  {
+    "id": "template-14",
+    "name": "Expert Witness Engagement Letter",
+    "subject": "Expert Witness Engagement - {CaseNumber}",
+    "body": "Dear {ExpertName},\n\nWe are pleased to engage your services as an expert witness in the matter of {CaseName}. Your expert report is due by {ReportDueDate}. Your fee of {ExpertFee} per hour will be billed monthly...",
+    "category": "general",
+    "isActive": true,
+    "createdAt": "2023-12-05T00:00:00Z"
+  },
+  {
+    "id": "template-15",
+    "name": "Mediation Preparation Letter",
+    "subject": "Mediation Scheduled - {CaseNumber} - Action Required",
+    "body": "Dear {ClientName},\n\nMediation in your case has been scheduled for {MediationDate}. To prepare, please review the enclosed mediation summary and prepare a brief statement of your goals and settlement parameters...",
+    "category": "clientCommunication",
+    "isActive": true,
+    "createdAt": "2023-12-10T00:00:00Z"
+  },
+  {
+    "id": "template-16",
+    "name": "Continuance Request Letter",
+    "subject": "Motion for Continuance - {CaseNumber}",
+    "body": "Dear {JudgeName},\n\nCounsel for {Party} respectfully requests a continuance of the {HearingType} currently scheduled for {HearingDate}. Good cause exists for this request because {ReasonForContinuance}...",
+    "category": "courtDocuments",
+    "isActive": true,
+    "createdAt": "2023-12-15T00:00:00Z"
+  },
+  {
+    "id": "template-17",
+    "name": "Trust Account Statement",
+    "subject": "Trust Account Statement - {Period}",
+    "body": "Dear {ClientName},\n\nEnclosed is your trust account statement for the period {StartDate} through {EndDate}. Opening balance: {OpeningBalance}. Deposits: {Deposits}. Disbursements: {Disbursements}. Closing balance: {ClosingBalance}...",
+    "category": "invoicing",
+    "isActive": true,
+    "createdAt": "2024-01-02T00:00:00Z"
+  },
+  {
+    "id": "template-18",
+    "name": "Conflict of Interest Disclosure",
+    "subject": "Conflict of Interest Disclosure - {ClientName}",
+    "body": "Dear {ClientName},\n\nPursuant to our professional responsibility obligations, we are writing to disclose a potential conflict of interest in your matter. We have identified that {ConflictDescription}. Please advise whether you wish to waive this conflict...",
+    "category": "general",
+    "isActive": true,
+    "createdAt": "2024-01-05T00:00:00Z"
+  },
+  {
+    "id": "template-19",
+    "name": "Pre-Trial Checklist",
+    "subject": "Pre-Trial Preparation - {CaseNumber} - Action Required",
+    "body": "Dear {ClientName},\n\nTrial is scheduled for {TrialDate}. Please review the enclosed checklist and confirm that all items are addressed. Key items include: (1) Review trial exhibits, (2) Confirm witness availability, (3) Attend mock examination session...",
+    "category": "courtDocuments",
+    "isActive": true,
+    "createdAt": "2024-01-08T00:00:00Z"
+  },
+  {
+    "id": "template-20",
+    "name": "Arbitration Submission Letter",
+    "subject": "Submission to Arbitration - {CaseNumber}",
+    "body": "Dear Arbitrator {ArbitratorName},\n\nPlease find enclosed our Statement of Claim and supporting documentation in the arbitration proceeding between {Claimant} and {Respondent}. We request that the arbitration be scheduled at your earliest convenience...",
+    "category": "courtDocuments",
+    "isActive": true,
+    "createdAt": "2024-01-12T00:00:00Z"
+  },
+  {
+    "id": "template-21",
+    "name": "Annual Review Letter",
+    "subject": "Annual Case Review - {Year}",
+    "body": "Dear {ClientName},\n\nAs we begin the new year, we want to provide you with an annual summary of your legal matters and update our records. Please review the enclosed summary and confirm that the information is current and accurate...",
+    "category": "clientCommunication",
+    "isActive": true,
+    "createdAt": "2024-01-15T00:00:00Z"
+  },
+  {
+    "id": "template-22",
+    "name": "Power of Attorney Notice",
+    "subject": "Power of Attorney Executed - {ClientName}",
+    "body": "Dear {Agent},\n\nThis letter confirms that {ClientName} has executed a Power of Attorney naming you as attorney-in-fact. Enclosed is a certified copy for your records. Please contact us with any questions regarding the scope of your authority...",
+    "category": "general",
+    "isActive": true,
+    "createdAt": "2024-01-18T00:00:00Z"
+  },
+  {
+    "id": "template-23",
+    "name": "Fee Arrangement Confirmation",
+    "subject": "Fee Arrangement - {CaseNumber}",
+    "body": "Dear {ClientName},\n\nThis letter confirms our fee arrangement for your case. Our firm will charge {FeeType} at a rate of {FeeRate}. We will send monthly invoices detailing time and expenses. Your initial retainer of {RetainerAmount} will be held in trust...",
+    "category": "invoicing",
+    "isActive": true,
+    "createdAt": "2024-01-20T00:00:00Z"
+  },
+  {
+    "id": "template-24",
+    "name": "Referral Thank You",
+    "subject": "Thank You for Your Referral",
+    "body": "Dear {ReferrerName},\n\nThank you for referring {NewClientName} to our firm. We truly appreciate your confidence in our services. We will provide the same high standard of representation that you have come to expect...",
+    "category": "general",
+    "isActive": true,
+    "createdAt": "2024-01-22T00:00:00Z"
+  },
+  {
+    "id": "template-25",
+    "name": "Termination of Representation",
+    "subject": "Notice of Withdrawal as Counsel - {CaseNumber}",
+    "body": "Dear {ClientName},\n\nPlease be advised that this firm is withdrawing as your counsel of record in Case No. {CaseNumber}, effective {EffectiveDate}. You should immediately seek alternative legal representation. Your file will be available for pick up...",
+    "category": "clientCommunication",
+    "isActive": false,
+    "createdAt": "2024-01-25T00:00:00Z"
+  }
+]

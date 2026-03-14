@@ -1,0 +1,1039 @@
+[
+  {
+    "id": "workflow-1",
+    "name": "New Case Onboarding",
+    "description": "Automated workflow when a new case is created",
+    "triggerType": "caseCreated",
+    "isActive": true,
+    "createdAt": "2023-07-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-1-1",
+        "name": "Send Welcome Email",
+        "description": "Send welcome email to client",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-1",
+            "sourceStepId": "step-1-1",
+            "targetStepId": "step-1-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-1-2",
+        "name": "Create Initial Tasks",
+        "description": "Create initial case management tasks",
+        "stepType": "createTask",
+        "icon": "task",
+        "color": "#6366f1",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": [
+          {
+            "id": "conn-2",
+            "sourceStepId": "step-1-2",
+            "targetStepId": "step-1-3",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-1-3",
+        "name": "Assign Lawyer",
+        "description": "Assign primary lawyer to case",
+        "stepType": "assignLawyer",
+        "icon": "person_add",
+        "color": "#06b6d4",
+        "order": 2,
+        "positionX": 100,
+        "positionY": 400,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-2",
+    "name": "Case Status Change Notifications",
+    "description": "Send notifications when case status changes",
+    "triggerType": "caseStatusChanged",
+    "isActive": true,
+    "createdAt": "2023-08-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-2-1",
+        "name": "Check Status Type",
+        "description": "Determine the type of status change",
+        "stepType": "condition",
+        "icon": "call_split",
+        "color": "#f97316",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": []
+      },
+      {
+        "id": "step-2-2",
+        "name": "Notify Client",
+        "description": "Send status update to client",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 350,
+        "positionY": 100,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-3",
+    "name": "Invoice Generation",
+    "description": "Automatically generate and send invoice after milestone completion",
+    "triggerType": "milestoneCompleted",
+    "isActive": true,
+    "createdAt": "2023-09-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-3-1",
+        "name": "Create Invoice",
+        "description": "Generate invoice for completed milestone",
+        "stepType": "createInvoice",
+        "icon": "receipt",
+        "color": "#ec4899",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-3-1",
+            "sourceStepId": "step-3-1",
+            "targetStepId": "step-3-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-3-2",
+        "name": "Email Invoice to Client",
+        "description": "Send invoice via email",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-4",
+    "name": "Deadline Reminder",
+    "description": "Send reminders as case deadlines approach",
+    "triggerType": "deadlineNear",
+    "isActive": true,
+    "createdAt": "2023-09-15T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-4-1",
+        "name": "Notify Assigned Lawyer",
+        "description": "Send notification to assigned lawyer",
+        "stepType": "sendNotification",
+        "icon": "notifications",
+        "color": "#f59e0b",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-4-1",
+            "sourceStepId": "step-4-1",
+            "targetStepId": "step-4-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-4-2",
+        "name": "Create Urgent Task",
+        "description": "Create high-priority task for deadline",
+        "stepType": "createTask",
+        "icon": "task",
+        "color": "#6366f1",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-5",
+    "name": "Client Follow-Up",
+    "description": "Follow up with client after 30 days of inactivity",
+    "triggerType": "clientInactive",
+    "isActive": true,
+    "createdAt": "2023-10-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-5-1",
+        "name": "Delay 30 Days",
+        "description": "Wait for inactivity period",
+        "stepType": "delay",
+        "icon": "schedule",
+        "color": "#64748b",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-5-1",
+            "sourceStepId": "step-5-1",
+            "targetStepId": "step-5-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-5-2",
+        "name": "Send Follow-Up Email",
+        "description": "Send follow-up email to client",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-6",
+    "name": "Document Request",
+    "description": "Request required documents from client",
+    "triggerType": "documentRequired",
+    "isActive": true,
+    "createdAt": "2023-10-15T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-6-1",
+        "name": "Generate Document Request",
+        "description": "Create document request form",
+        "stepType": "generateDocument",
+        "icon": "description",
+        "color": "#14b8a6",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-6-1",
+            "sourceStepId": "step-6-1",
+            "targetStepId": "step-6-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-6-2",
+        "name": "Notify Client",
+        "description": "Email client with document list",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-7",
+    "name": "Court Date Preparation",
+    "description": "Prepare team and client for upcoming court hearing",
+    "triggerType": "hearingScheduled",
+    "isActive": true,
+    "createdAt": "2023-11-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-7-1",
+        "name": "Schedule Hearing",
+        "description": "Add hearing to calendar",
+        "stepType": "scheduleHearing",
+        "icon": "event",
+        "color": "#84cc16",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-7-1",
+            "sourceStepId": "step-7-1",
+            "targetStepId": "step-7-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-7-2",
+        "name": "Notify Client of Hearing",
+        "description": "Inform client about court date",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-8",
+    "name": "Case Closure",
+    "description": "Handle all tasks required when a case is closed",
+    "triggerType": "caseClosed",
+    "isActive": true,
+    "createdAt": "2023-11-15T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-8-1",
+        "name": "Archive Case Documents",
+        "description": "Archive all case-related documents",
+        "stepType": "generateDocument",
+        "icon": "description",
+        "color": "#14b8a6",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-8-1",
+            "sourceStepId": "step-8-1",
+            "targetStepId": "step-8-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-8-2",
+        "name": "Send Closure Letter",
+        "description": "Email closure letter to client",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-9",
+    "name": "New Client Registration",
+    "description": "Onboard a new client to the firm",
+    "triggerType": "clientRegistered",
+    "isActive": true,
+    "createdAt": "2023-12-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-9-1",
+        "name": "Send Welcome Pack",
+        "description": "Send welcome documents to new client",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-9-1",
+            "sourceStepId": "step-9-1",
+            "targetStepId": "step-9-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-9-2",
+        "name": "Assign Account Manager",
+        "description": "Assign a relationship manager",
+        "stepType": "assignLawyer",
+        "icon": "person_add",
+        "color": "#06b6d4",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-10",
+    "name": "Payment Reminder",
+    "description": "Automatically remind clients of overdue payments",
+    "triggerType": "paymentOverdue",
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-10-1",
+        "name": "Check Payment Status",
+        "description": "Verify the overdue payment details",
+        "stepType": "condition",
+        "icon": "call_split",
+        "color": "#f97316",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-10-1",
+            "sourceStepId": "step-10-1",
+            "targetStepId": "step-10-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-10-2",
+        "name": "Send Payment Reminder",
+        "description": "Email payment reminder to client",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-11",
+    "name": "Legal Research Request",
+    "description": "Initiate and track legal research tasks",
+    "triggerType": "researchRequested",
+    "isActive": true,
+    "createdAt": "2024-01-15T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-11-1",
+        "name": "Create Research Task",
+        "description": "Create legal research task",
+        "stepType": "createTask",
+        "icon": "task",
+        "color": "#6366f1",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-11-1",
+            "sourceStepId": "step-11-1",
+            "targetStepId": "step-11-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-11-2",
+        "name": "Notify Research Team",
+        "description": "Notify the legal research team",
+        "stepType": "sendNotification",
+        "icon": "notifications",
+        "color": "#f59e0b",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-12",
+    "name": "Conflict Check",
+    "description": "Run conflict of interest check before accepting a case",
+    "triggerType": "caseCreated",
+    "isActive": true,
+    "createdAt": "2024-02-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-12-1",
+        "name": "Require Approval",
+        "description": "Partner approval required after conflict check",
+        "stepType": "approvalRequired",
+        "icon": "check_circle",
+        "color": "#10b981",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-12-1",
+            "sourceStepId": "step-12-1",
+            "targetStepId": "step-12-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-12-2",
+        "name": "Update Case Status",
+        "description": "Update status after conflict review",
+        "stepType": "updateStatus",
+        "icon": "update",
+        "color": "#8b5cf6",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-13",
+    "name": "Retainer Agreement Setup",
+    "description": "Set up retainer agreement with new client",
+    "triggerType": "retainerRequested",
+    "isActive": true,
+    "createdAt": "2024-02-15T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-13-1",
+        "name": "Generate Retainer Agreement",
+        "description": "Create retainer agreement document",
+        "stepType": "generateDocument",
+        "icon": "description",
+        "color": "#14b8a6",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-13-1",
+            "sourceStepId": "step-13-1",
+            "targetStepId": "step-13-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-13-2",
+        "name": "Send for Signature",
+        "description": "Email retainer for client signature",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-14",
+    "name": "Discovery Process",
+    "description": "Manage discovery phase tasks and deadlines",
+    "triggerType": "discoveryStarted",
+    "isActive": false,
+    "createdAt": "2024-03-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-14-1",
+        "name": "Create Discovery Tasks",
+        "description": "Generate all discovery-related tasks",
+        "stepType": "createTask",
+        "icon": "task",
+        "color": "#6366f1",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-14-1",
+            "sourceStepId": "step-14-1",
+            "targetStepId": "step-14-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-14-2",
+        "name": "Set Deadlines",
+        "description": "Apply deadline schedule to discovery tasks",
+        "stepType": "updateStatus",
+        "icon": "update",
+        "color": "#8b5cf6",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-15",
+    "name": "Settlement Negotiation",
+    "description": "Track and manage settlement negotiation steps",
+    "triggerType": "settlementProposed",
+    "isActive": true,
+    "createdAt": "2024-03-15T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-15-1",
+        "name": "Require Partner Approval",
+        "description": "Get senior partner approval for settlement",
+        "stepType": "approvalRequired",
+        "icon": "check_circle",
+        "color": "#10b981",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-15-1",
+            "sourceStepId": "step-15-1",
+            "targetStepId": "step-15-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-15-2",
+        "name": "Notify Client of Settlement",
+        "description": "Email settlement terms to client",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-16",
+    "name": "Appeal Filing",
+    "description": "Initiate workflow when an appeal is to be filed",
+    "triggerType": "appealInitiated",
+    "isActive": true,
+    "createdAt": "2024-04-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-16-1",
+        "name": "Create Appeal Tasks",
+        "description": "Create tasks for appeal preparation",
+        "stepType": "createTask",
+        "icon": "task",
+        "color": "#6366f1",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-16-1",
+            "sourceStepId": "step-16-1",
+            "targetStepId": "step-16-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-16-2",
+        "name": "Schedule Appeal Hearing",
+        "description": "Add appeal hearing to calendar",
+        "stepType": "scheduleHearing",
+        "icon": "event",
+        "color": "#84cc16",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-17",
+    "name": "Evidence Management",
+    "description": "Manage and track evidence received for a case",
+    "triggerType": "evidenceReceived",
+    "isActive": true,
+    "createdAt": "2024-04-15T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-17-1",
+        "name": "Log Evidence",
+        "description": "Create evidence log task",
+        "stepType": "createTask",
+        "icon": "task",
+        "color": "#6366f1",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-17-1",
+            "sourceStepId": "step-17-1",
+            "targetStepId": "step-17-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-17-2",
+        "name": "Notify Lead Lawyer",
+        "description": "Notify lead lawyer of new evidence",
+        "stepType": "sendNotification",
+        "icon": "notifications",
+        "color": "#f59e0b",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-18",
+    "name": "Witness Coordination",
+    "description": "Coordinate and prepare witnesses for hearings",
+    "triggerType": "witnessAdded",
+    "isActive": true,
+    "createdAt": "2024-05-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-18-1",
+        "name": "Send Witness Notice",
+        "description": "Email witness preparation notice",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-18-1",
+            "sourceStepId": "step-18-1",
+            "targetStepId": "step-18-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-18-2",
+        "name": "Create Prep Tasks",
+        "description": "Create tasks for witness preparation",
+        "stepType": "createTask",
+        "icon": "task",
+        "color": "#6366f1",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-19",
+    "name": "Expert Witness Engagement",
+    "description": "Engage and manage expert witnesses",
+    "triggerType": "expertRequired",
+    "isActive": false,
+    "createdAt": "2024-05-15T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-19-1",
+        "name": "Approve Expert Engagement",
+        "description": "Require approval to engage expert",
+        "stepType": "approvalRequired",
+        "icon": "check_circle",
+        "color": "#10b981",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-19-1",
+            "sourceStepId": "step-19-1",
+            "targetStepId": "step-19-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-19-2",
+        "name": "Send Engagement Letter",
+        "description": "Email engagement letter to expert",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-20",
+    "name": "Mediation Setup",
+    "description": "Prepare parties and schedule mediation sessions",
+    "triggerType": "mediationRequested",
+    "isActive": true,
+    "createdAt": "2024-06-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-20-1",
+        "name": "Schedule Mediation",
+        "description": "Set mediation date on calendar",
+        "stepType": "scheduleHearing",
+        "icon": "event",
+        "color": "#84cc16",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-20-1",
+            "sourceStepId": "step-20-1",
+            "targetStepId": "step-20-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-20-2",
+        "name": "Notify All Parties",
+        "description": "Send mediation notice to all parties",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-21",
+    "name": "Compliance Review",
+    "description": "Trigger compliance review workflow on schedule",
+    "triggerType": "complianceDue",
+    "isActive": true,
+    "createdAt": "2024-06-15T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-21-1",
+        "name": "Create Compliance Tasks",
+        "description": "Generate compliance checklist tasks",
+        "stepType": "createTask",
+        "icon": "task",
+        "color": "#6366f1",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-21-1",
+            "sourceStepId": "step-21-1",
+            "targetStepId": "step-21-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-21-2",
+        "name": "Alert Compliance Officer",
+        "description": "Notify compliance officer of pending review",
+        "stepType": "sendNotification",
+        "icon": "notifications",
+        "color": "#f59e0b",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-22",
+    "name": "Matter Escalation",
+    "description": "Escalate high-priority matters to senior partners",
+    "triggerType": "matterEscalated",
+    "isActive": true,
+    "createdAt": "2024-07-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-22-1",
+        "name": "Update Case Priority",
+        "description": "Mark case as high priority",
+        "stepType": "updateStatus",
+        "icon": "update",
+        "color": "#8b5cf6",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-22-1",
+            "sourceStepId": "step-22-1",
+            "targetStepId": "step-22-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-22-2",
+        "name": "Notify Senior Partner",
+        "description": "Send escalation email to senior partner",
+        "stepType": "sendEmail",
+        "icon": "email",
+        "color": "#0ea5e9",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-23",
+    "name": "Staff Assignment",
+    "description": "Assign support staff and paralegals to a case",
+    "triggerType": "staffRequired",
+    "isActive": true,
+    "createdAt": "2024-07-15T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-23-1",
+        "name": "Assign Paralegal",
+        "description": "Assign a paralegal to the case",
+        "stepType": "assignLawyer",
+        "icon": "person_add",
+        "color": "#06b6d4",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-23-1",
+            "sourceStepId": "step-23-1",
+            "targetStepId": "step-23-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-23-2",
+        "name": "Create Onboarding Tasks",
+        "description": "Create tasks for staff onboarding to case",
+        "stepType": "createTask",
+        "icon": "task",
+        "color": "#6366f1",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-24",
+    "name": "Trust Account Reconciliation",
+    "description": "Reconcile trust accounts at end of month",
+    "triggerType": "monthEnd",
+    "isActive": true,
+    "createdAt": "2024-08-01T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-24-1",
+        "name": "Generate Reconciliation Report",
+        "description": "Generate trust account reconciliation report",
+        "stepType": "generateDocument",
+        "icon": "description",
+        "color": "#14b8a6",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-24-1",
+            "sourceStepId": "step-24-1",
+            "targetStepId": "step-24-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-24-2",
+        "name": "Require Accountant Approval",
+        "description": "Senior accountant must approve reconciliation",
+        "stepType": "approvalRequired",
+        "icon": "check_circle",
+        "color": "#10b981",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "workflow-25",
+    "name": "Annual Performance Review",
+    "description": "Trigger performance review workflow annually",
+    "triggerType": "annualReview",
+    "isActive": true,
+    "createdAt": "2024-08-15T00:00:00Z",
+    "steps": [
+      {
+        "id": "step-25-1",
+        "name": "Create Review Tasks",
+        "description": "Generate performance review task list",
+        "stepType": "createTask",
+        "icon": "task",
+        "color": "#6366f1",
+        "order": 0,
+        "positionX": 100,
+        "positionY": 100,
+        "connections": [
+          {
+            "id": "conn-25-1",
+            "sourceStepId": "step-25-1",
+            "targetStepId": "step-25-2",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "step-25-2",
+        "name": "Notify HR Team",
+        "description": "Send performance review initiation to HR",
+        "stepType": "sendNotification",
+        "icon": "notifications",
+        "color": "#f59e0b",
+        "order": 1,
+        "positionX": 100,
+        "positionY": 250,
+        "connections": []
+      }
+    ]
+  }
+]

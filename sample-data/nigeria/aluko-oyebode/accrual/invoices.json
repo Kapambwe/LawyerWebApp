@@ -1,0 +1,740 @@
+[
+  {
+    "id": 1,
+    "invoiceNumber": "INV-2024-001",
+    "clientName": "Acme Corporation",
+    "clientEmail": "billing@acmecorp.com",
+    "clientPhone": "+1-555-1001",
+    "description": "Legal Consultation - Corporate Restructuring",
+    "invoiceDate": "2023-12-01T00:00:00Z",
+    "dueDate": "2023-12-16T00:00:00Z",
+    "amount": 15000,
+    "receivedAmount": 5000,
+    "outstandingAmount": 10000,
+    "status": "PartiallyPaid",
+    "daysOverdue": 15,
+    "createdAt": "2023-12-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 1,
+        "invoiceId": 1,
+        "description": "Legal Consultation (40 hours)",
+        "quantity": 40,
+        "unitPrice": 250,
+        "amount": 10000,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "invoiceNumber": "INV-2024-002",
+    "clientName": "Tech Solutions Ltd",
+    "clientEmail": "legal@techsolutions.com",
+    "clientPhone": "+1-555-1002",
+    "description": "Contract Review & Negotiation",
+    "invoiceDate": "2023-12-10T00:00:00Z",
+    "dueDate": "2024-01-10T00:00:00Z",
+    "amount": 8500,
+    "receivedAmount": 0,
+    "outstandingAmount": 8500,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2023-12-10T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 2,
+        "invoiceId": 2,
+        "description": "Contract Review (20 hours)",
+        "quantity": 20,
+        "unitPrice": 300,
+        "amount": 6000,
+        "accountId": 7
+      },
+      {
+        "id": 3,
+        "invoiceId": 2,
+        "description": "Negotiation Services (10 hours)",
+        "quantity": 10,
+        "unitPrice": 250,
+        "amount": 2500,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "invoiceNumber": "INV-2024-003",
+    "clientName": "Green Valley LLC",
+    "clientEmail": "finance@greenvalley.com",
+    "clientPhone": "+1-555-1003",
+    "description": "Property Dispute Resolution",
+    "invoiceDate": "2024-01-05T00:00:00Z",
+    "dueDate": "2024-01-20T00:00:00Z",
+    "amount": 6200,
+    "receivedAmount": 6200,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-01-05T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 4,
+        "invoiceId": 3,
+        "description": "Property Law Services (18 hours)",
+        "quantity": 18,
+        "unitPrice": 300,
+        "amount": 5400,
+        "accountId": 7
+      },
+      {
+        "id": 5,
+        "invoiceId": 3,
+        "description": "Filing Fees",
+        "quantity": 1,
+        "unitPrice": 800,
+        "amount": 800,
+        "accountId": 15
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "invoiceNumber": "INV-2024-004",
+    "clientName": "Harbor Shipping Co",
+    "clientEmail": "legal@harborshipping.com",
+    "clientPhone": "+1-555-1004",
+    "description": "Commercial Litigation - Q1",
+    "invoiceDate": "2024-01-18T00:00:00Z",
+    "dueDate": "2024-02-02T00:00:00Z",
+    "amount": 22000,
+    "receivedAmount": 0,
+    "outstandingAmount": 22000,
+    "status": "Overdue",
+    "daysOverdue": 20,
+    "createdAt": "2024-01-18T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 6,
+        "invoiceId": 4,
+        "description": "Litigation Services (55 hours)",
+        "quantity": 55,
+        "unitPrice": 350,
+        "amount": 19250,
+        "accountId": 7
+      },
+      {
+        "id": 7,
+        "invoiceId": 4,
+        "description": "Court Costs",
+        "quantity": 1,
+        "unitPrice": 2750,
+        "amount": 2750,
+        "accountId": 15
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "invoiceNumber": "INV-2024-005",
+    "clientName": "Maria Santos",
+    "clientEmail": "m.santos@email.com",
+    "clientPhone": "+1-555-1005",
+    "description": "Immigration Case Services",
+    "invoiceDate": "2024-02-01T00:00:00Z",
+    "dueDate": "2024-02-16T00:00:00Z",
+    "amount": 4500,
+    "receivedAmount": 4500,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-02-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 8,
+        "invoiceId": 5,
+        "description": "Immigration Consultation (9 hours)",
+        "quantity": 9,
+        "unitPrice": 350,
+        "amount": 3150,
+        "accountId": 7
+      },
+      {
+        "id": 9,
+        "invoiceId": 5,
+        "description": "Application Filing Fees",
+        "quantity": 1,
+        "unitPrice": 1350,
+        "amount": 1350,
+        "accountId": 15
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "invoiceNumber": "INV-2024-006",
+    "clientName": "Pinnacle Group",
+    "clientEmail": "accounts@pinnaclegroup.com",
+    "clientPhone": "+1-555-1006",
+    "description": "Tax Advisory Services",
+    "invoiceDate": "2024-02-12T00:00:00Z",
+    "dueDate": "2024-02-27T00:00:00Z",
+    "amount": 9600,
+    "receivedAmount": 4800,
+    "outstandingAmount": 4800,
+    "status": "PartiallyPaid",
+    "daysOverdue": 8,
+    "createdAt": "2024-02-12T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 10,
+        "invoiceId": 6,
+        "description": "Tax Law Consultation (16 hours)",
+        "quantity": 16,
+        "unitPrice": 600,
+        "amount": 9600,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "invoiceNumber": "INV-2024-007",
+    "clientName": "David & Sons Ltd",
+    "clientEmail": "finance@davidandsons.com",
+    "clientPhone": "+1-555-1007",
+    "description": "Criminal Defence - Case CRIM-2024-007",
+    "invoiceDate": "2024-02-20T00:00:00Z",
+    "dueDate": "2024-03-06T00:00:00Z",
+    "amount": 18500,
+    "receivedAmount": 18500,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-02-20T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 11,
+        "invoiceId": 7,
+        "description": "Criminal Defence (37 hours)",
+        "quantity": 37,
+        "unitPrice": 450,
+        "amount": 16650,
+        "accountId": 7
+      },
+      {
+        "id": 12,
+        "invoiceId": 7,
+        "description": "Expert Witness Coordination",
+        "quantity": 1,
+        "unitPrice": 1850,
+        "amount": 1850,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "invoiceNumber": "INV-2024-008",
+    "clientName": "Oliver Mensah",
+    "clientEmail": "o.mensah@email.com",
+    "clientPhone": "+1-555-1008",
+    "description": "Labour Dispute Resolution",
+    "invoiceDate": "2024-03-01T00:00:00Z",
+    "dueDate": "2024-03-16T00:00:00Z",
+    "amount": 7200,
+    "receivedAmount": 0,
+    "outstandingAmount": 7200,
+    "status": "Overdue",
+    "daysOverdue": 12,
+    "createdAt": "2024-03-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 13,
+        "invoiceId": 8,
+        "description": "Employment Law Services (18 hours)",
+        "quantity": 18,
+        "unitPrice": 400,
+        "amount": 7200,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "invoiceNumber": "INV-2024-009",
+    "clientName": "Lakeview Partners",
+    "clientEmail": "billing@lakeviewpartners.com",
+    "clientPhone": "+1-555-1009",
+    "description": "Mediation & Arbitration Services",
+    "invoiceDate": "2024-03-10T00:00:00Z",
+    "dueDate": "2024-03-25T00:00:00Z",
+    "amount": 5400,
+    "receivedAmount": 5400,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-03-10T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 14,
+        "invoiceId": 9,
+        "description": "Mediation Sessions (9 hours)",
+        "quantity": 9,
+        "unitPrice": 600,
+        "amount": 5400,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "invoiceNumber": "INV-2024-010",
+    "clientName": "Alpha Retail Inc",
+    "clientEmail": "legal@alpharetail.com",
+    "clientPhone": "+1-555-1010",
+    "description": "Intellectual Property Litigation",
+    "invoiceDate": "2024-03-20T00:00:00Z",
+    "dueDate": "2024-04-04T00:00:00Z",
+    "amount": 14000,
+    "receivedAmount": 7000,
+    "outstandingAmount": 7000,
+    "status": "PartiallyPaid",
+    "daysOverdue": 5,
+    "createdAt": "2024-03-20T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 15,
+        "invoiceId": 10,
+        "description": "IP Litigation (28 hours)",
+        "quantity": 28,
+        "unitPrice": 500,
+        "amount": 14000,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "invoiceNumber": "INV-2024-011",
+    "clientName": "Sandra Williams",
+    "clientEmail": "s.williams@email.com",
+    "clientPhone": "+1-555-1011",
+    "description": "Family Law - Divorce Proceedings",
+    "invoiceDate": "2024-04-01T00:00:00Z",
+    "dueDate": "2024-04-16T00:00:00Z",
+    "amount": 3500,
+    "receivedAmount": 3500,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-04-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 16,
+        "invoiceId": 11,
+        "description": "Family Law Services (7 hours)",
+        "quantity": 7,
+        "unitPrice": 500,
+        "amount": 3500,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "invoiceNumber": "INV-2024-012",
+    "clientName": "Crestwood Holdings",
+    "clientEmail": "finance@crestwood.com",
+    "clientPhone": "+1-555-1012",
+    "description": "Commercial Contract Drafting",
+    "invoiceDate": "2024-04-10T00:00:00Z",
+    "dueDate": "2024-04-25T00:00:00Z",
+    "amount": 11500,
+    "receivedAmount": 0,
+    "outstandingAmount": 11500,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2024-04-10T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 17,
+        "invoiceId": 12,
+        "description": "Contract Drafting (20 hours)",
+        "quantity": 20,
+        "unitPrice": 500,
+        "amount": 10000,
+        "accountId": 7
+      },
+      {
+        "id": 18,
+        "invoiceId": 12,
+        "description": "Filing & Registration",
+        "quantity": 1,
+        "unitPrice": 1500,
+        "amount": 1500,
+        "accountId": 15
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "invoiceNumber": "INV-2024-013",
+    "clientName": "Bright Future NGO",
+    "clientEmail": "admin@brightfuture.org",
+    "clientPhone": "+1-555-1013",
+    "description": "Charitable Incorporation Services",
+    "invoiceDate": "2024-04-18T00:00:00Z",
+    "dueDate": "2024-05-03T00:00:00Z",
+    "amount": 2800,
+    "receivedAmount": 2800,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-04-18T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 19,
+        "invoiceId": 13,
+        "description": "Non-Profit Legal Advisory (4 hours)",
+        "quantity": 4,
+        "unitPrice": 700,
+        "amount": 2800,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "invoiceNumber": "INV-2024-014",
+    "clientName": "Prime Logistics",
+    "clientEmail": "legal@primelogistics.com",
+    "clientPhone": "+1-555-1014",
+    "description": "Regulatory Compliance Review",
+    "invoiceDate": "2024-05-01T00:00:00Z",
+    "dueDate": "2024-05-16T00:00:00Z",
+    "amount": 16800,
+    "receivedAmount": 8400,
+    "outstandingAmount": 8400,
+    "status": "PartiallyPaid",
+    "daysOverdue": 10,
+    "createdAt": "2024-05-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 20,
+        "invoiceId": 14,
+        "description": "Compliance Review (40 hours)",
+        "quantity": 40,
+        "unitPrice": 420,
+        "amount": 16800,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "invoiceNumber": "INV-2024-015",
+    "clientName": "Kevin Adeyemi",
+    "clientEmail": "k.adeyemi@email.com",
+    "clientPhone": "+1-555-1015",
+    "description": "Civil Dispute Consultation",
+    "invoiceDate": "2024-05-10T00:00:00Z",
+    "dueDate": "2024-05-25T00:00:00Z",
+    "amount": 3200,
+    "receivedAmount": 3200,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-05-10T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 21,
+        "invoiceId": 15,
+        "description": "Civil Law Consultation (8 hours)",
+        "quantity": 8,
+        "unitPrice": 400,
+        "amount": 3200,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "invoiceNumber": "INV-2024-016",
+    "clientName": "Nexus Pharma",
+    "clientEmail": "legal@nexuspharma.com",
+    "clientPhone": "+1-555-1016",
+    "description": "Pharmaceutical Patent Services",
+    "invoiceDate": "2024-05-20T00:00:00Z",
+    "dueDate": "2024-06-04T00:00:00Z",
+    "amount": 24000,
+    "receivedAmount": 24000,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-05-20T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 22,
+        "invoiceId": 16,
+        "description": "Patent Registration (48 hours)",
+        "quantity": 48,
+        "unitPrice": 500,
+        "amount": 24000,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "invoiceNumber": "INV-2024-017",
+    "clientName": "Tunde Fashola",
+    "clientEmail": "t.fashola@email.com",
+    "clientPhone": "+1-555-1017",
+    "description": "Employment Contract Drafting",
+    "invoiceDate": "2024-06-01T00:00:00Z",
+    "dueDate": "2024-06-16T00:00:00Z",
+    "amount": 2100,
+    "receivedAmount": 0,
+    "outstandingAmount": 2100,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2024-06-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 23,
+        "invoiceId": 17,
+        "description": "Contract Drafting (6 hours)",
+        "quantity": 6,
+        "unitPrice": 350,
+        "amount": 2100,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "invoiceNumber": "INV-2024-018",
+    "clientName": "Westgate Development",
+    "clientEmail": "legal@westgatedev.com",
+    "clientPhone": "+1-555-1018",
+    "description": "Real Estate Development Legal Advisory",
+    "invoiceDate": "2024-06-10T00:00:00Z",
+    "dueDate": "2024-06-25T00:00:00Z",
+    "amount": 13500,
+    "receivedAmount": 0,
+    "outstandingAmount": 13500,
+    "status": "Overdue",
+    "daysOverdue": 18,
+    "createdAt": "2024-06-10T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 24,
+        "invoiceId": 18,
+        "description": "Legal Advisory (27 hours)",
+        "quantity": 27,
+        "unitPrice": 500,
+        "amount": 13500,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "invoiceNumber": "INV-2024-019",
+    "clientName": "Sunrise Healthcare",
+    "clientEmail": "legal@sunrisehealthcare.com",
+    "clientPhone": "+1-555-1019",
+    "description": "Medical Malpractice Defence",
+    "invoiceDate": "2024-06-20T00:00:00Z",
+    "dueDate": "2024-07-05T00:00:00Z",
+    "amount": 19500,
+    "receivedAmount": 9750,
+    "outstandingAmount": 9750,
+    "status": "PartiallyPaid",
+    "daysOverdue": 7,
+    "createdAt": "2024-06-20T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 25,
+        "invoiceId": 19,
+        "description": "Malpractice Defence (39 hours)",
+        "quantity": 39,
+        "unitPrice": 500,
+        "amount": 19500,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "invoiceNumber": "INV-2024-020",
+    "clientName": "Emeka Eze",
+    "clientEmail": "e.eze@email.com",
+    "clientPhone": "+1-555-1020",
+    "description": "Business Incorporation & Setup",
+    "invoiceDate": "2024-07-01T00:00:00Z",
+    "dueDate": "2024-07-16T00:00:00Z",
+    "amount": 4200,
+    "receivedAmount": 4200,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-07-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 26,
+        "invoiceId": 20,
+        "description": "Incorporation Services (8 hours)",
+        "quantity": 8,
+        "unitPrice": 350,
+        "amount": 2800,
+        "accountId": 7
+      },
+      {
+        "id": 27,
+        "invoiceId": 20,
+        "description": "Registration Fees",
+        "quantity": 1,
+        "unitPrice": 1400,
+        "amount": 1400,
+        "accountId": 15
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "invoiceNumber": "INV-2024-021",
+    "clientName": "Atlas Investments",
+    "clientEmail": "legal@atlasinvestments.com",
+    "clientPhone": "+1-555-1021",
+    "description": "M&A Due Diligence",
+    "invoiceDate": "2024-07-10T00:00:00Z",
+    "dueDate": "2024-07-25T00:00:00Z",
+    "amount": 35000,
+    "receivedAmount": 17500,
+    "outstandingAmount": 17500,
+    "status": "PartiallyPaid",
+    "daysOverdue": 0,
+    "createdAt": "2024-07-10T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 28,
+        "invoiceId": 21,
+        "description": "Due Diligence (70 hours)",
+        "quantity": 70,
+        "unitPrice": 500,
+        "amount": 35000,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "invoiceNumber": "INV-2024-022",
+    "clientName": "Nadia Okafor",
+    "clientEmail": "n.okafor@email.com",
+    "clientPhone": "+1-555-1022",
+    "description": "Restraining Order Application",
+    "invoiceDate": "2024-07-15T00:00:00Z",
+    "dueDate": "2024-07-30T00:00:00Z",
+    "amount": 2400,
+    "receivedAmount": 2400,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-07-15T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 29,
+        "invoiceId": 22,
+        "description": "Legal Services (6 hours)",
+        "quantity": 6,
+        "unitPrice": 400,
+        "amount": 2400,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "invoiceNumber": "INV-2024-023",
+    "clientName": "Blue Ridge Ventures",
+    "clientEmail": "finance@blueridgeventures.com",
+    "clientPhone": "+1-555-1023",
+    "description": "Venture Capital Agreement Drafting",
+    "invoiceDate": "2024-07-20T00:00:00Z",
+    "dueDate": "2024-08-04T00:00:00Z",
+    "amount": 8800,
+    "receivedAmount": 0,
+    "outstandingAmount": 8800,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2024-07-20T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 30,
+        "invoiceId": 23,
+        "description": "Agreement Drafting (16 hours)",
+        "quantity": 16,
+        "unitPrice": 550,
+        "amount": 8800,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "invoiceNumber": "INV-2024-024",
+    "clientName": "Sunshine Estate",
+    "clientEmail": "legal@sunshineestate.com",
+    "clientPhone": "+1-555-1024",
+    "description": "Estate Planning & Wills",
+    "invoiceDate": "2024-07-25T00:00:00Z",
+    "dueDate": "2024-08-09T00:00:00Z",
+    "amount": 5600,
+    "receivedAmount": 0,
+    "outstandingAmount": 5600,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2024-07-25T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 31,
+        "invoiceId": 24,
+        "description": "Estate Planning (8 hours)",
+        "quantity": 8,
+        "unitPrice": 700,
+        "amount": 5600,
+        "accountId": 7
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "invoiceNumber": "INV-2024-025",
+    "clientName": "Metro Power Corp",
+    "clientEmail": "legal@metropower.com",
+    "clientPhone": "+1-555-1025",
+    "description": "Energy Sector Regulatory Advice",
+    "invoiceDate": "2024-08-01T00:00:00Z",
+    "dueDate": "2024-08-16T00:00:00Z",
+    "amount": 28000,
+    "receivedAmount": 0,
+    "outstandingAmount": 28000,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2024-08-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 32,
+        "invoiceId": 25,
+        "description": "Regulatory Legal Advisory (50 hours)",
+        "quantity": 50,
+        "unitPrice": 560,
+        "amount": 28000,
+        "accountId": 7
+      }
+    ]
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "accountNumber": "1000",
+    "accountName": "Cash - Operating",
+    "accountType": "Assets",
+    "debit": 125000,
+    "credit": 0
+  },
+  {
+    "accountNumber": "1100",
+    "accountName": "Accounts Receivable",
+    "accountType": "Assets",
+    "debit": 125000,
+    "credit": 0
+  },
+  {
+    "accountNumber": "1200",
+    "accountName": "Unbilled Revenue",
+    "accountType": "Assets",
+    "debit": 55000,
+    "credit": 0
+  },
+  {
+    "accountNumber": "1300",
+    "accountName": "Prepaid Expenses",
+    "accountType": "Assets",
+    "debit": 12000,
+    "credit": 0
+  },
+  {
+    "accountNumber": "1400",
+    "accountName": "Supplies Inventory",
+    "accountType": "Assets",
+    "debit": 3500,
+    "credit": 0
+  },
+  {
+    "accountNumber": "1500",
+    "accountName": "Equipment",
+    "accountType": "Assets",
+    "debit": 85000,
+    "credit": 0
+  },
+  {
+    "accountNumber": "1550",
+    "accountName": "Furniture & Fixtures",
+    "accountType": "Assets",
+    "debit": 65000,
+    "credit": 0
+  },
+  {
+    "accountNumber": "1600",
+    "accountName": "Accumulated Depreciation",
+    "accountType": "Assets",
+    "debit": 0,
+    "credit": 45000
+  },
+  {
+    "accountNumber": "1800",
+    "accountName": "Trust Cash",
+    "accountType": "Assets",
+    "debit": 485750,
+    "credit": 0
+  },
+  {
+    "accountNumber": "2000",
+    "accountName": "Accounts Payable",
+    "accountType": "Liabilities",
+    "debit": 0,
+    "credit": 45000
+  },
+  {
+    "accountNumber": "2100",
+    "accountName": "Client Trust Liability",
+    "accountType": "Liabilities",
+    "debit": 0,
+    "credit": 485750
+  },
+  {
+    "accountNumber": "2200",
+    "accountName": "Accrued Liabilities",
+    "accountType": "Liabilities",
+    "debit": 0,
+    "credit": 18500
+  },
+  {
+    "accountNumber": "2500",
+    "accountName": "Bank Loan - Long Term",
+    "accountType": "Liabilities",
+    "debit": 0,
+    "credit": 120000
+  },
+  {
+    "accountNumber": "3000",
+    "accountName": "Partners' Capital",
+    "accountType": "Equity",
+    "debit": 0,
+    "credit": 350000
+  },
+  {
+    "accountNumber": "3200",
+    "accountName": "Retained Earnings",
+    "accountType": "Equity",
+    "debit": 0,
+    "credit": 215000
+  },
+  {
+    "accountNumber": "4000",
+    "accountName": "Legal Fees Revenue",
+    "accountType": "Revenue",
+    "debit": 0,
+    "credit": 315000
+  },
+  {
+    "accountNumber": "4100",
+    "accountName": "Interest Income",
+    "accountType": "Revenue",
+    "debit": 0,
+    "credit": 3000
+  },
+  {
+    "accountNumber": "4200",
+    "accountName": "Disbursement Recoveries",
+    "accountType": "Revenue",
+    "debit": 0,
+    "credit": 12500
+  },
+  {
+    "accountNumber": "5000",
+    "accountName": "Salaries Expense",
+    "accountType": "Expenses",
+    "debit": 192000,
+    "credit": 0
+  },
+  {
+    "accountNumber": "5050",
+    "accountName": "Bonus Expense",
+    "accountType": "Expenses",
+    "debit": 15000,
+    "credit": 0
+  },
+  {
+    "accountNumber": "5100",
+    "accountName": "Office Supplies Expense",
+    "accountType": "Expenses",
+    "debit": 9250,
+    "credit": 0
+  },
+  {
+    "accountNumber": "5150",
+    "accountName": "Telephone & Internet",
+    "accountType": "Expenses",
+    "debit": 10200,
+    "credit": 0
+  },
+  {
+    "accountNumber": "5200",
+    "accountName": "Insurance Expense",
+    "accountType": "Expenses",
+    "debit": 43200,
+    "credit": 0
+  },
+  {
+    "accountNumber": "5250",
+    "accountName": "Software & Subscriptions",
+    "accountType": "Expenses",
+    "debit": 28800,
+    "credit": 0
+  },
+  {
+    "accountNumber": "5300",
+    "accountName": "Travel Expense",
+    "accountType": "Expenses",
+    "debit": 26400,
+    "credit": 0
+  }
+]

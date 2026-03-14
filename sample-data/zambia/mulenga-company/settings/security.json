@@ -1,0 +1,8 @@
+{
+  "requireTwoFactor": false,
+  "sessionTimeout": 30,
+  "passwordMinLength": 8,
+  "requireUppercase": true,
+  "requireNumbers": true,
+  "requireSpecialChars": true
+}

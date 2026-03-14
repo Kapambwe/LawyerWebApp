@@ -1,0 +1,252 @@
+[
+  {
+    "id": "trust-1",
+    "accountNumber": "IOLTA-001-2024",
+    "accountName": "Client Trust Account - Main",
+    "bankName": "First National Bank",
+    "accountType": "iolta",
+    "balance": 485750.0,
+    "isActive": true,
+    "openedDate": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": "trust-2",
+    "accountNumber": "CLIENT-002-2024",
+    "accountName": "Client Trust Account - Secondary",
+    "bankName": "First National Bank",
+    "accountType": "clientTrust",
+    "balance": 225000.0,
+    "isActive": true,
+    "openedDate": "2022-01-01T00:00:00Z"
+  },
+  {
+    "id": "trust-3",
+    "accountNumber": "OPER-003-2024",
+    "accountName": "Operating Account",
+    "bankName": "Business Bank",
+    "accountType": "operatingAccount",
+    "balance": 125000.0,
+    "isActive": true,
+    "openedDate": "2020-01-01T00:00:00Z"
+  },
+  {
+    "id": "trust-4",
+    "accountNumber": "ESCROW-004-2024",
+    "accountName": "Real Estate Escrow Account",
+    "bankName": "City Trust Bank",
+    "accountType": "escrow",
+    "balance": 312000.0,
+    "isActive": true,
+    "openedDate": "2021-06-15T00:00:00Z"
+  },
+  {
+    "id": "trust-5",
+    "accountNumber": "RETAIN-005-2024",
+    "accountName": "Corporate Retainer Account",
+    "bankName": "First National Bank",
+    "accountType": "retainer",
+    "balance": 98500.0,
+    "isActive": true,
+    "openedDate": "2022-03-01T00:00:00Z"
+  },
+  {
+    "id": "trust-6",
+    "accountNumber": "IOLTA-006-2024",
+    "accountName": "Litigation Trust Account",
+    "bankName": "Metro Commerce Bank",
+    "accountType": "iolta",
+    "balance": 175000.0,
+    "isActive": true,
+    "openedDate": "2022-07-01T00:00:00Z"
+  },
+  {
+    "id": "trust-7",
+    "accountNumber": "CLIENT-007-2024",
+    "accountName": "Family Law Trust Account",
+    "bankName": "Business Bank",
+    "accountType": "clientTrust",
+    "balance": 64250.0,
+    "isActive": true,
+    "openedDate": "2023-01-10T00:00:00Z"
+  },
+  {
+    "id": "trust-8",
+    "accountNumber": "ESCROW-008-2024",
+    "accountName": "Commercial Property Escrow",
+    "bankName": "City Trust Bank",
+    "accountType": "escrow",
+    "balance": 890000.0,
+    "isActive": true,
+    "openedDate": "2023-02-01T00:00:00Z"
+  },
+  {
+    "id": "trust-9",
+    "accountNumber": "OPER-009-2024",
+    "accountName": "Secondary Operating Account",
+    "bankName": "Metro Commerce Bank",
+    "accountType": "operatingAccount",
+    "balance": 45000.0,
+    "isActive": true,
+    "openedDate": "2021-09-01T00:00:00Z"
+  },
+  {
+    "id": "trust-10",
+    "accountNumber": "RETAIN-010-2024",
+    "accountName": "IP Matters Retainer Account",
+    "bankName": "First National Bank",
+    "accountType": "retainer",
+    "balance": 120000.0,
+    "isActive": true,
+    "openedDate": "2022-11-01T00:00:00Z"
+  },
+  {
+    "id": "trust-11",
+    "accountNumber": "IOLTA-011-2024",
+    "accountName": "Immigration Trust Account",
+    "bankName": "First National Bank",
+    "accountType": "iolta",
+    "balance": 33500.0,
+    "isActive": true,
+    "openedDate": "2023-04-01T00:00:00Z"
+  },
+  {
+    "id": "trust-12",
+    "accountNumber": "CLIENT-012-2024",
+    "accountName": "Estate Planning Trust Account",
+    "bankName": "City Trust Bank",
+    "accountType": "clientTrust",
+    "balance": 275000.0,
+    "isActive": true,
+    "openedDate": "2021-03-15T00:00:00Z"
+  },
+  {
+    "id": "trust-13",
+    "accountNumber": "ESCROW-013-2024",
+    "accountName": "Settlement Escrow Account",
+    "bankName": "Business Bank",
+    "accountType": "escrow",
+    "balance": 540000.0,
+    "isActive": true,
+    "openedDate": "2022-08-01T00:00:00Z"
+  },
+  {
+    "id": "trust-14",
+    "accountNumber": "RETAIN-014-2024",
+    "accountName": "Employment Law Retainer",
+    "bankName": "Metro Commerce Bank",
+    "accountType": "retainer",
+    "balance": 57800.0,
+    "isActive": true,
+    "openedDate": "2023-05-01T00:00:00Z"
+  },
+  {
+    "id": "trust-15",
+    "accountNumber": "IOLTA-015-2024",
+    "accountName": "Criminal Defense Trust Account",
+    "bankName": "First National Bank",
+    "accountType": "iolta",
+    "balance": 89000.0,
+    "isActive": true,
+    "openedDate": "2020-06-01T00:00:00Z"
+  },
+  {
+    "id": "trust-16",
+    "accountNumber": "CLIENT-016-2024",
+    "accountName": "Corporate M&A Trust Account",
+    "bankName": "City Trust Bank",
+    "accountType": "clientTrust",
+    "balance": 1250000.0,
+    "isActive": true,
+    "openedDate": "2023-07-01T00:00:00Z"
+  },
+  {
+    "id": "trust-17",
+    "accountNumber": "OPER-017-2024",
+    "accountName": "Payroll Operating Account",
+    "bankName": "Business Bank",
+    "accountType": "operatingAccount",
+    "balance": 85000.0,
+    "isActive": true,
+    "openedDate": "2020-01-15T00:00:00Z"
+  },
+  {
+    "id": "trust-18",
+    "accountNumber": "ESCROW-018-2024",
+    "accountName": "Residential Real Estate Escrow",
+    "bankName": "Metro Commerce Bank",
+    "accountType": "escrow",
+    "balance": 215000.0,
+    "isActive": true,
+    "openedDate": "2023-09-01T00:00:00Z"
+  },
+  {
+    "id": "trust-19",
+    "accountNumber": "RETAIN-019-2024",
+    "accountName": "Tax Law Retainer Account",
+    "bankName": "First National Bank",
+    "accountType": "retainer",
+    "balance": 44000.0,
+    "isActive": true,
+    "openedDate": "2022-12-01T00:00:00Z"
+  },
+  {
+    "id": "trust-20",
+    "accountNumber": "IOLTA-020-2024",
+    "accountName": "Personal Injury Trust Account",
+    "bankName": "City Trust Bank",
+    "accountType": "iolta",
+    "balance": 670000.0,
+    "isActive": true,
+    "openedDate": "2021-11-01T00:00:00Z"
+  },
+  {
+    "id": "trust-21",
+    "accountNumber": "CLIENT-021-2024",
+    "accountName": "Bankruptcy Trust Account",
+    "bankName": "Business Bank",
+    "accountType": "clientTrust",
+    "balance": 112000.0,
+    "isActive": false,
+    "openedDate": "2020-05-01T00:00:00Z"
+  },
+  {
+    "id": "trust-22",
+    "accountNumber": "ESCROW-022-2024",
+    "accountName": "Insurance Settlement Escrow",
+    "bankName": "Metro Commerce Bank",
+    "accountType": "escrow",
+    "balance": 380000.0,
+    "isActive": true,
+    "openedDate": "2023-10-01T00:00:00Z"
+  },
+  {
+    "id": "trust-23",
+    "accountNumber": "RETAIN-023-2024",
+    "accountName": "Environmental Law Retainer",
+    "bankName": "First National Bank",
+    "accountType": "retainer",
+    "balance": 95000.0,
+    "isActive": true,
+    "openedDate": "2023-03-01T00:00:00Z"
+  },
+  {
+    "id": "trust-24",
+    "accountNumber": "OPER-024-2024",
+    "accountName": "Disbursement Operating Account",
+    "bankName": "City Trust Bank",
+    "accountType": "operatingAccount",
+    "balance": 32000.0,
+    "isActive": true,
+    "openedDate": "2022-06-01T00:00:00Z"
+  },
+  {
+    "id": "trust-25",
+    "accountNumber": "IOLTA-025-2024",
+    "accountName": "Construction Law Trust Account",
+    "bankName": "Business Bank",
+    "accountType": "iolta",
+    "balance": 148500.0,
+    "isActive": true,
+    "openedDate": "2022-09-01T00:00:00Z"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "11111111-1111-1111-1111-111111111111",
+    "name": "Admin",
+    "description": "Full system access with all permissions",
+    "userCount": 2,
+    "isSystem": true,
+    "permissions": ["ViewDashboard","ManageCases","ManageClients","ManageDocuments","ManageInvoices","ManagePayments","ManageUsers","ViewReports","ManageSettings","ManageTrustAccounts","ViewAuditLogs","ManageRoles","ManageCalendar","ViewCalendar","ManageTimeEntries","ViewTimeEntries","ManageExpenses","ViewExpenses","ManageReferrals","ViewReferrals","ViewCases","ViewClients","ViewDocuments","ViewInvoices","ViewPayments"]
+  },
+  {
+    "id": "22222222-2222-2222-2222-222222222222",
+    "name": "Lawyer",
+    "description": "Manage cases, clients, and billing",
+    "userCount": 2,
+    "isSystem": true,
+    "permissions": ["ViewDashboard","ManageCases","ViewCases","ManageClients","ViewClients","ManageDocuments","ViewDocuments","ManageInvoices","ViewInvoices","ViewReports","ManageCalendar","ViewCalendar","ManageTimeEntries","ViewTimeEntries","ManageExpenses","ViewExpenses","ManageReferrals","ViewReferrals"]
+  },
+  {
+    "id": "33333333-3333-3333-3333-333333333333",
+    "name": "Paralegal",
+    "description": "Assist with cases and documentation",
+    "userCount": 2,
+    "isSystem": true,
+    "permissions": ["ViewDashboard","ViewCases","ViewClients","ManageDocuments","ViewDocuments","ViewInvoices","ViewCalendar","ViewTimeEntries","ViewExpenses"]
+  },
+  {
+    "id": "44444444-4444-4444-4444-444444444444",
+    "name": "Accountant",
+    "description": "Manage financial operations",
+    "userCount": 2,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ManageInvoices","ViewInvoices","ManagePayments","ViewPayments","ViewReports","ManageTrustAccounts","ViewExpenses","ManageExpenses"]
+  },
+  {
+    "id": "55555555-5555-5555-5555-555555555555",
+    "name": "Senior Partner",
+    "description": "Senior attorney with full case and billing access",
+    "userCount": 1,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ManageCases","ViewCases","ManageClients","ViewClients","ManageDocuments","ViewDocuments","ManageInvoices","ViewInvoices","ManagePayments","ViewPayments","ViewReports","ManageTrustAccounts","ManageCalendar","ViewCalendar","ManageTimeEntries","ViewTimeEntries","ManageReferrals","ViewReferrals","ViewAuditLogs"]
+  },
+  {
+    "id": "66666666-6666-6666-6666-666666666666",
+    "name": "Junior Associate",
+    "description": "Entry-level attorney with limited case access",
+    "userCount": 3,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewCases","ViewClients","ViewDocuments","ViewInvoices","ViewCalendar","ManageTimeEntries","ViewTimeEntries","ViewExpenses"]
+  },
+  {
+    "id": "77777777-7777-7777-7777-777777777777",
+    "name": "Legal Assistant",
+    "description": "Administrative support for legal team",
+    "userCount": 2,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewCases","ViewClients","ViewDocuments","ViewCalendar","ViewTimeEntries"]
+  },
+  {
+    "id": "88888888-8888-8888-8888-888888888888",
+    "name": "Billing Manager",
+    "description": "Manage all billing and payment operations",
+    "userCount": 1,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ManageInvoices","ViewInvoices","ManagePayments","ViewPayments","ViewReports","ManageTrustAccounts","ManageExpenses","ViewExpenses","ViewCases","ViewClients"]
+  },
+  {
+    "id": "99999999-9999-9999-9999-999999999999",
+    "name": "Office Manager",
+    "description": "Firm operations and staff management",
+    "userCount": 1,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ManageUsers","ViewReports","ManageCalendar","ViewCalendar","ViewCases","ViewClients","ViewDocuments","ViewInvoices"]
+  },
+  {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "name": "IT Administrator",
+    "description": "System administration and security management",
+    "userCount": 1,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ManageUsers","ManageSettings","ViewAuditLogs","ManageRoles"]
+  },
+  {
+    "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "name": "Compliance Officer",
+    "description": "Monitor regulatory compliance and audit trails",
+    "userCount": 1,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewAuditLogs","ViewReports","ViewCases","ViewClients","ViewDocuments","ViewInvoices","ViewPayments"]
+  },
+  {
+    "id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+    "name": "Case Manager",
+    "description": "Oversee case workflows and task assignment",
+    "userCount": 2,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ManageCases","ViewCases","ViewClients","ViewDocuments","ManageCalendar","ViewCalendar","ViewTimeEntries","ViewExpenses"]
+  },
+  {
+    "id": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+    "name": "Human Resources",
+    "description": "Manage firm staff and HR operations",
+    "userCount": 1,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ManageUsers","ViewReports","ViewCalendar"]
+  },
+  {
+    "id": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "name": "Marketing",
+    "description": "Firm marketing and client development",
+    "userCount": 1,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewClients","ViewReports","ViewReferrals"]
+  },
+  {
+    "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+    "name": "Client Relations",
+    "description": "Manage client communication and portal",
+    "userCount": 2,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewClients","ViewCases","ViewDocuments","ViewInvoices","ViewCalendar"]
+  },
+  {
+    "id": "11111111-1111-1111-1111-222222222222",
+    "name": "Legal Researcher",
+    "description": "Conduct legal research for case teams",
+    "userCount": 2,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewCases","ViewClients","ViewDocuments","ViewTimeEntries","ManageTimeEntries"]
+  },
+  {
+    "id": "11111111-1111-1111-1111-333333333333",
+    "name": "Document Reviewer",
+    "description": "Review and manage case documents",
+    "userCount": 2,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewCases","ViewDocuments","ManageDocuments","ViewTimeEntries"]
+  },
+  {
+    "id": "11111111-1111-1111-1111-444444444444",
+    "name": "Trust Account Manager",
+    "description": "Manage client trust accounts exclusively",
+    "userCount": 1,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ManageTrustAccounts","ViewInvoices","ViewPayments","ViewReports"]
+  },
+  {
+    "id": "11111111-1111-1111-1111-555555555555",
+    "name": "Report Viewer",
+    "description": "Read-only access to firm reports",
+    "userCount": 3,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewReports"]
+  },
+  {
+    "id": "11111111-1111-1111-1111-666666666666",
+    "name": "Data Analyst",
+    "description": "Access reports and financial data for analysis",
+    "userCount": 1,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewReports","ViewInvoices","ViewPayments","ViewTimeEntries","ViewExpenses"]
+  },
+  {
+    "id": "11111111-1111-1111-1111-777777777777",
+    "name": "Security Auditor",
+    "description": "Review security and access audit logs",
+    "userCount": 1,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewAuditLogs","ViewReports","ManageRoles"]
+  },
+  {
+    "id": "11111111-1111-1111-1111-888888888888",
+    "name": "External Counsel",
+    "description": "Outside counsel with limited case access",
+    "userCount": 4,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewCases","ViewDocuments","ViewCalendar"]
+  },
+  {
+    "id": "11111111-1111-1111-1111-999999999999",
+    "name": "Intern",
+    "description": "Limited access for law clerk and intern positions",
+    "userCount": 5,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewCases","ViewDocuments"]
+  },
+  {
+    "id": "11111111-1111-1111-1111-aaaaaaaaaaaa",
+    "name": "Referral Coordinator",
+    "description": "Manage attorney referral network and relationships",
+    "userCount": 1,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ManageReferrals","ViewReferrals","ViewClients","ViewReports"]
+  },
+  {
+    "id": "11111111-1111-1111-1111-bbbbbbbbbbbb",
+    "name": "Read Only",
+    "description": "View-only access across all modules",
+    "userCount": 2,
+    "isSystem": false,
+    "permissions": ["ViewDashboard","ViewCases","ViewClients","ViewDocuments","ViewInvoices","ViewPayments","ViewReports","ViewCalendar","ViewTimeEntries","ViewExpenses","ViewReferrals"]
+  }
+]

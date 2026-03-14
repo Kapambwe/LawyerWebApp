@@ -1,0 +1,713 @@
+[
+  {
+    "id": 1,
+    "billNumber": "BILL-2024-001",
+    "vendorName": "Office Supplies Co",
+    "vendorEmail": "billing@officesupplies.com",
+    "vendorPhone": "+1-555-0101",
+    "description": "Office Supplies - Monthly Order",
+    "billDate": "2023-12-05T00:00:00Z",
+    "dueDate": "2023-12-20T00:00:00Z",
+    "amount": 3500,
+    "paidAmount": 0,
+    "outstandingAmount": 3500,
+    "status": "Open",
+    "daysOverdue": 10,
+    "createdAt": "2023-12-05T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 1,
+        "billId": 1,
+        "description": "Paper Reams (50)",
+        "quantity": 50,
+        "unitPrice": 25,
+        "amount": 1250,
+        "accountId": 10
+      },
+      {
+        "id": 2,
+        "billId": 1,
+        "description": "Printer Ink Cartridges",
+        "quantity": 15,
+        "unitPrice": 75,
+        "amount": 1125,
+        "accountId": 10
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "billNumber": "BILL-2024-002",
+    "vendorName": "Tech Services Inc",
+    "vendorEmail": "accounts@techservices.com",
+    "vendorPhone": "+1-555-0202",
+    "description": "IT Services & Support - Q4",
+    "billDate": "2023-12-15T00:00:00Z",
+    "dueDate": "2024-01-15T00:00:00Z",
+    "amount": 8200,
+    "paidAmount": 0,
+    "outstandingAmount": 8200,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2023-12-15T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 3,
+        "billId": 2,
+        "description": "Monthly IT Support",
+        "quantity": 3,
+        "unitPrice": 2000,
+        "amount": 6000,
+        "accountId": 8
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "billNumber": "BILL-2024-003",
+    "vendorName": "Legal Research Ltd",
+    "vendorEmail": "billing@legalresearch.com",
+    "vendorPhone": "+1-555-0303",
+    "description": "Legal Research Database Subscription",
+    "billDate": "2024-01-05T00:00:00Z",
+    "dueDate": "2024-01-20T00:00:00Z",
+    "amount": 1200,
+    "paidAmount": 1200,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-01-05T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 4,
+        "billId": 3,
+        "description": "Annual Database Subscription",
+        "quantity": 1,
+        "unitPrice": 1200,
+        "amount": 1200,
+        "accountId": 9
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "billNumber": "BILL-2024-004",
+    "vendorName": "City Couriers",
+    "vendorEmail": "accounts@citycouriers.com",
+    "vendorPhone": "+1-555-0404",
+    "description": "Courier & Delivery Services - January",
+    "billDate": "2024-01-12T00:00:00Z",
+    "dueDate": "2024-01-27T00:00:00Z",
+    "amount": 750,
+    "paidAmount": 750,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-01-12T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 5,
+        "billId": 4,
+        "description": "Court Document Delivery",
+        "quantity": 15,
+        "unitPrice": 50,
+        "amount": 750,
+        "accountId": 11
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "billNumber": "BILL-2024-005",
+    "vendorName": "Lexis Nexis",
+    "vendorEmail": "billing@lexisnexis.com",
+    "vendorPhone": "+1-555-0505",
+    "description": "Legal Research Tools - Q1",
+    "billDate": "2024-01-18T00:00:00Z",
+    "dueDate": "2024-02-18T00:00:00Z",
+    "amount": 4500,
+    "paidAmount": 0,
+    "outstandingAmount": 4500,
+    "status": "Open",
+    "daysOverdue": 5,
+    "createdAt": "2024-01-18T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 6,
+        "billId": 5,
+        "description": "Legal Research Platform",
+        "quantity": 3,
+        "unitPrice": 1500,
+        "amount": 4500,
+        "accountId": 9
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "billNumber": "BILL-2024-006",
+    "vendorName": "Pinnacle Cleaning Services",
+    "vendorEmail": "invoices@pinnacleclean.com",
+    "vendorPhone": "+1-555-0606",
+    "description": "Office Cleaning - February",
+    "billDate": "2024-02-01T00:00:00Z",
+    "dueDate": "2024-02-15T00:00:00Z",
+    "amount": 900,
+    "paidAmount": 900,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-02-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 7,
+        "billId": 6,
+        "description": "Weekly Office Cleaning (4 weeks)",
+        "quantity": 4,
+        "unitPrice": 225,
+        "amount": 900,
+        "accountId": 12
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "billNumber": "BILL-2024-007",
+    "vendorName": "Westside Printing",
+    "vendorEmail": "billing@westsideprint.com",
+    "vendorPhone": "+1-555-0707",
+    "description": "Legal Document Printing - Q1",
+    "billDate": "2024-02-10T00:00:00Z",
+    "dueDate": "2024-02-25T00:00:00Z",
+    "amount": 2100,
+    "paidAmount": 1000,
+    "outstandingAmount": 1100,
+    "status": "PartiallyPaid",
+    "daysOverdue": 3,
+    "createdAt": "2024-02-10T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 8,
+        "billId": 7,
+        "description": "Case File Printing",
+        "quantity": 100,
+        "unitPrice": 21,
+        "amount": 2100,
+        "accountId": 10
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "billNumber": "BILL-2024-008",
+    "vendorName": "HR Solutions Group",
+    "vendorEmail": "accounts@hrsolutions.com",
+    "vendorPhone": "+1-555-0808",
+    "description": "Payroll Processing Services",
+    "billDate": "2024-02-15T00:00:00Z",
+    "dueDate": "2024-03-01T00:00:00Z",
+    "amount": 3200,
+    "paidAmount": 3200,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-02-15T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 9,
+        "billId": 8,
+        "description": "Monthly Payroll Processing",
+        "quantity": 2,
+        "unitPrice": 1600,
+        "amount": 3200,
+        "accountId": 8
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "billNumber": "BILL-2024-009",
+    "vendorName": "Digital Security Inc",
+    "vendorEmail": "billing@digitalsecurity.com",
+    "vendorPhone": "+1-555-0909",
+    "description": "Cybersecurity Services - Q1",
+    "billDate": "2024-03-01T00:00:00Z",
+    "dueDate": "2024-03-16T00:00:00Z",
+    "amount": 5600,
+    "paidAmount": 0,
+    "outstandingAmount": 5600,
+    "status": "Overdue",
+    "daysOverdue": 15,
+    "createdAt": "2024-03-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 10,
+        "billId": 9,
+        "description": "Security Monitoring",
+        "quantity": 2,
+        "unitPrice": 2000,
+        "amount": 4000,
+        "accountId": 8
+      },
+      {
+        "id": 11,
+        "billId": 9,
+        "description": "Penetration Testing",
+        "quantity": 1,
+        "unitPrice": 1600,
+        "amount": 1600,
+        "accountId": 8
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "billNumber": "BILL-2024-010",
+    "vendorName": "Parkside Catering",
+    "vendorEmail": "invoices@parksidecater.com",
+    "vendorPhone": "+1-555-1010",
+    "description": "Client Meeting Catering",
+    "billDate": "2024-03-08T00:00:00Z",
+    "dueDate": "2024-03-23T00:00:00Z",
+    "amount": 1400,
+    "paidAmount": 1400,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-03-08T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 12,
+        "billId": 10,
+        "description": "Board Room Catering (7 events)",
+        "quantity": 7,
+        "unitPrice": 200,
+        "amount": 1400,
+        "accountId": 12
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "billNumber": "BILL-2024-011",
+    "vendorName": "Cloud Storage Corp",
+    "vendorEmail": "billing@cloudstorage.com",
+    "vendorPhone": "+1-555-1111",
+    "description": "Cloud Storage & Backup Services",
+    "billDate": "2024-03-15T00:00:00Z",
+    "dueDate": "2024-03-30T00:00:00Z",
+    "amount": 2400,
+    "paidAmount": 2400,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-03-15T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 13,
+        "billId": 11,
+        "description": "Enterprise Cloud Plan (3 months)",
+        "quantity": 3,
+        "unitPrice": 800,
+        "amount": 2400,
+        "accountId": 8
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "billNumber": "BILL-2024-012",
+    "vendorName": "Metro Electric",
+    "vendorEmail": "accounts@metroelectric.com",
+    "vendorPhone": "+1-555-1212",
+    "description": "Electricity Bill - Q1",
+    "billDate": "2024-03-25T00:00:00Z",
+    "dueDate": "2024-04-10T00:00:00Z",
+    "amount": 1850,
+    "paidAmount": 0,
+    "outstandingAmount": 1850,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2024-03-25T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 14,
+        "billId": 12,
+        "description": "Office Electricity (3 months)",
+        "quantity": 3,
+        "unitPrice": 617,
+        "amount": 1851,
+        "accountId": 13
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "billNumber": "BILL-2024-013",
+    "vendorName": "SafeGuard Insurance",
+    "vendorEmail": "billing@safeguard.com",
+    "vendorPhone": "+1-555-1313",
+    "description": "Professional Liability Insurance",
+    "billDate": "2024-04-01T00:00:00Z",
+    "dueDate": "2024-04-30T00:00:00Z",
+    "amount": 12000,
+    "paidAmount": 12000,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-04-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 15,
+        "billId": 13,
+        "description": "Annual Professional Liability Premium",
+        "quantity": 1,
+        "unitPrice": 12000,
+        "amount": 12000,
+        "accountId": 14
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "billNumber": "BILL-2024-014",
+    "vendorName": "Quick Transcription",
+    "vendorEmail": "invoices@quicktranscript.com",
+    "vendorPhone": "+1-555-1414",
+    "description": "Court Transcription Services",
+    "billDate": "2024-04-10T00:00:00Z",
+    "dueDate": "2024-04-25T00:00:00Z",
+    "amount": 3750,
+    "paidAmount": 3750,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-04-10T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 16,
+        "billId": 14,
+        "description": "Deposition Transcription",
+        "quantity": 5,
+        "unitPrice": 750,
+        "amount": 3750,
+        "accountId": 9
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "billNumber": "BILL-2024-015",
+    "vendorName": "First Rate Telecoms",
+    "vendorEmail": "billing@firstratetele.com",
+    "vendorPhone": "+1-555-1515",
+    "description": "Telephone & Internet Services - April",
+    "billDate": "2024-04-18T00:00:00Z",
+    "dueDate": "2024-05-03T00:00:00Z",
+    "amount": 680,
+    "paidAmount": 680,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-04-18T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 17,
+        "billId": 15,
+        "description": "Monthly Phone & Internet",
+        "quantity": 1,
+        "unitPrice": 680,
+        "amount": 680,
+        "accountId": 13
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "billNumber": "BILL-2024-016",
+    "vendorName": "Expert Witness Bureau",
+    "vendorEmail": "accounts@expertwitness.com",
+    "vendorPhone": "+1-555-1616",
+    "description": "Expert Witness Services - Case CR-2024-016",
+    "billDate": "2024-04-25T00:00:00Z",
+    "dueDate": "2024-05-10T00:00:00Z",
+    "amount": 6500,
+    "paidAmount": 0,
+    "outstandingAmount": 6500,
+    "status": "Open",
+    "daysOverdue": 2,
+    "createdAt": "2024-04-25T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 18,
+        "billId": 16,
+        "description": "Expert Testimony (2 days)",
+        "quantity": 2,
+        "unitPrice": 3250,
+        "amount": 6500,
+        "accountId": 9
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "billNumber": "BILL-2024-017",
+    "vendorName": "Maintenance Plus",
+    "vendorEmail": "billing@maintenanceplus.com",
+    "vendorPhone": "+1-555-1717",
+    "description": "Office Maintenance - May",
+    "billDate": "2024-05-05T00:00:00Z",
+    "dueDate": "2024-05-20T00:00:00Z",
+    "amount": 1100,
+    "paidAmount": 1100,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-05-05T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 19,
+        "billId": 17,
+        "description": "HVAC Maintenance",
+        "quantity": 1,
+        "unitPrice": 600,
+        "amount": 600,
+        "accountId": 12
+      },
+      {
+        "id": 20,
+        "billId": 17,
+        "description": "Plumbing Repairs",
+        "quantity": 1,
+        "unitPrice": 500,
+        "amount": 500,
+        "accountId": 12
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "billNumber": "BILL-2024-018",
+    "vendorName": "Ridgeline Rent",
+    "vendorEmail": "accounts@ridgeline.com",
+    "vendorPhone": "+1-555-1818",
+    "description": "Office Rent - May",
+    "billDate": "2024-05-01T00:00:00Z",
+    "dueDate": "2024-05-05T00:00:00Z",
+    "amount": 8500,
+    "paidAmount": 8500,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-05-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 21,
+        "billId": 18,
+        "description": "Monthly Office Rent",
+        "quantity": 1,
+        "unitPrice": 8500,
+        "amount": 8500,
+        "accountId": 13
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "billNumber": "BILL-2024-019",
+    "vendorName": "Ace Accounting Software",
+    "vendorEmail": "billing@aceaccounting.com",
+    "vendorPhone": "+1-555-1919",
+    "description": "Accounting Software License",
+    "billDate": "2024-05-15T00:00:00Z",
+    "dueDate": "2024-05-30T00:00:00Z",
+    "amount": 2800,
+    "paidAmount": 2800,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-05-15T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 22,
+        "billId": 19,
+        "description": "Annual Software License",
+        "quantity": 1,
+        "unitPrice": 2800,
+        "amount": 2800,
+        "accountId": 8
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "billNumber": "BILL-2024-020",
+    "vendorName": "Summit Conference Centre",
+    "vendorEmail": "invoices@summitconf.com",
+    "vendorPhone": "+1-555-2020",
+    "description": "Conference Room Hire",
+    "billDate": "2024-05-22T00:00:00Z",
+    "dueDate": "2024-06-06T00:00:00Z",
+    "amount": 1600,
+    "paidAmount": 0,
+    "outstandingAmount": 1600,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2024-05-22T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 23,
+        "billId": 20,
+        "description": "Conference Room (4 half-days)",
+        "quantity": 4,
+        "unitPrice": 400,
+        "amount": 1600,
+        "accountId": 12
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "billNumber": "BILL-2024-021",
+    "vendorName": "ProShred Document Services",
+    "vendorEmail": "billing@proshred.com",
+    "vendorPhone": "+1-555-2121",
+    "description": "Secure Document Shredding",
+    "billDate": "2024-06-01T00:00:00Z",
+    "dueDate": "2024-06-16T00:00:00Z",
+    "amount": 450,
+    "paidAmount": 450,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-06-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 24,
+        "billId": 21,
+        "description": "Confidential Document Shredding",
+        "quantity": 9,
+        "unitPrice": 50,
+        "amount": 450,
+        "accountId": 10
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "billNumber": "BILL-2024-022",
+    "vendorName": "Landmark Law Publishers",
+    "vendorEmail": "accounts@landmarklaw.com",
+    "vendorPhone": "+1-555-2222",
+    "description": "Legal Reference Books & Journals",
+    "billDate": "2024-06-10T00:00:00Z",
+    "dueDate": "2024-06-25T00:00:00Z",
+    "amount": 1950,
+    "paidAmount": 1950,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-06-10T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 25,
+        "billId": 22,
+        "description": "Law Journals Subscription",
+        "quantity": 3,
+        "unitPrice": 450,
+        "amount": 1350,
+        "accountId": 9
+      },
+      {
+        "id": 26,
+        "billId": 22,
+        "description": "Reference Books",
+        "quantity": 6,
+        "unitPrice": 100,
+        "amount": 600,
+        "accountId": 9
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "billNumber": "BILL-2024-023",
+    "vendorName": "Ridgeline Rent",
+    "vendorEmail": "accounts@ridgeline.com",
+    "vendorPhone": "+1-555-1818",
+    "description": "Office Rent - June",
+    "billDate": "2024-06-01T00:00:00Z",
+    "dueDate": "2024-06-05T00:00:00Z",
+    "amount": 8500,
+    "paidAmount": 8500,
+    "outstandingAmount": 0,
+    "status": "Paid",
+    "daysOverdue": 0,
+    "createdAt": "2024-06-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 27,
+        "billId": 23,
+        "description": "Monthly Office Rent",
+        "quantity": 1,
+        "unitPrice": 8500,
+        "amount": 8500,
+        "accountId": 13
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "billNumber": "BILL-2024-024",
+    "vendorName": "First Rate Telecoms",
+    "vendorEmail": "billing@firstratetele.com",
+    "vendorPhone": "+1-555-1515",
+    "description": "Telephone & Internet Services - June",
+    "billDate": "2024-06-18T00:00:00Z",
+    "dueDate": "2024-07-03T00:00:00Z",
+    "amount": 680,
+    "paidAmount": 0,
+    "outstandingAmount": 680,
+    "status": "Open",
+    "daysOverdue": 0,
+    "createdAt": "2024-06-18T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 28,
+        "billId": 24,
+        "description": "Monthly Phone & Internet",
+        "quantity": 1,
+        "unitPrice": 680,
+        "amount": 680,
+        "accountId": 13
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "billNumber": "BILL-2024-025",
+    "vendorName": "NetSafe VPN Services",
+    "vendorEmail": "billing@netsafevpn.com",
+    "vendorPhone": "+1-555-2525",
+    "description": "VPN & Remote Access Services - H1",
+    "billDate": "2024-07-01T00:00:00Z",
+    "dueDate": "2024-07-16T00:00:00Z",
+    "amount": 1800,
+    "paidAmount": 0,
+    "outstandingAmount": 1800,
+    "status": "Overdue",
+    "daysOverdue": 8,
+    "createdAt": "2024-07-01T00:00:00Z",
+    "lineItems": [
+      {
+        "id": 29,
+        "billId": 25,
+        "description": "VPN Licenses (6 months)",
+        "quantity": 6,
+        "unitPrice": 300,
+        "amount": 1800,
+        "accountId": 8
+      }
+    ]
+  }
+]

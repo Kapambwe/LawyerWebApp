@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        // Single Page Apps for GitHub Pages & Cloudflare Pages - Dynamic Environment Detection
+        // Automatically detects if running on GitHub Pages, Cloudflare Pages, or locally
+        // and redirects to the correct path
+        
+        (function() {
+            var l = window.location;
+            var hostname = l.hostname;
+            
+            // Detect environment
+            var isGitHubPages = hostname === 'kapambwe.github.io' || hostname.includes('github.io');
+            var isCloudflarePages = hostname.includes('pages.dev');
+            
+            if (isGitHubPages) {
+                // GitHub Pages: Use /LawyerWebApp/ base path
+                // Example: /LawyerWebApp/some-page -> redirect with path preserved
+                var pathSegmentsToKeep = 1; // For /LawyerWebApp/
+                
+                l.replace(
+                    l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+                    l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+                    l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+                    (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+                    l.hash
+                );
+            } else {
+                // Cloudflare Pages, local development, or custom domain: Use / base path
+                // Example: /some-page -> redirect to /?/some-page
+                var path = l.pathname.slice(1);
+                var searchQuery = l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '';
+                
+                l.replace(
+                    l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+                    '/?/' + path.replace(/&/g, '~and~') + searchQuery + l.hash
+                );
+            }
+        })();
+    </script>
+</head>
+<body>
+    <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+        <h2>Redirecting...</h2>
+        <p>If you are not redirected automatically, <a href="javascript:window.location.href='/'">click here</a>.</p>
+    </div>
+</body>
+</html>

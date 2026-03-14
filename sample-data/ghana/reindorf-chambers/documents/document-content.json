@@ -1,0 +1,102 @@
+[
+  {
+    "documentId": "1",
+    "content": "Mock document content for: Employment Agreement\nFile: Employment_Agreement_John_Doe.pdf\nType: Contract\nThis is a mock file for testing purposes."
+  },
+  {
+    "documentId": "2",
+    "content": "Mock document content for: Complaint\nFile: Complaint_Smith_v_Jones.pdf\nType: Pleading\nThis is a mock file for testing purposes."
+  },
+  {
+    "documentId": "3",
+    "content": "Mock document content for: Exhibit A\nFile: Exhibit_A_Acme_Corp.docx\nType: Evidence\nThis is a mock file for testing purposes."
+  },
+  {
+    "documentId": "4",
+    "content": "Mock document content for: Non-Disclosure Agreement\nFile: NDA_TechVentures_2024.pdf\nType: Contract\nParties: TechVentures Inc. and Alpha Solutions Ltd.\nDate: 15 March 2024\nThis agreement establishes confidentiality obligations between the parties relating to proprietary business information, trade secrets, and intellectual property disclosed during exploratory merger discussions. Term: 3 years."
+  },
+  {
+    "documentId": "5",
+    "content": "Mock document content for: Motion to Dismiss\nFile: Motion_to_Dismiss_Greenfield_v_CityCouncil.pdf\nType: Pleading\nCase: Greenfield v. City Council of Lusaka, Case No. 2024/HC/1182\nFiled: 22 April 2024\nDefendant moves this Honourable Court to dismiss the plaintiff's claim on the grounds that the pleadings disclose no cause of action and that the court lacks jurisdiction over the subject matter. Grounds are set out fully in the accompanying heads of argument."
+  },
+  {
+    "documentId": "6",
+    "content": "Mock document content for: Court Order — Interlocutory Injunction\nFile: Court_Order_Injunction_Mwamba_v_Mwamba.pdf\nType: Court Order\nCase: Mwamba v. Mwamba, Case No. 2023/HC/4471\nIssued: 10 January 2024\nIT IS HEREBY ORDERED that the respondent be and is hereby restrained from alienating, encumbering, or otherwise disposing of the matrimonial property situated at Stand 1045, Kabulonga, Lusaka, pending the final determination of this matter. Order returnable on 15 February 2024."
+  },
+  {
+    "documentId": "7",
+    "content": "Mock document content for: Affidavit of Service\nFile: Affidavit_Service_Banda_v_Zamtel.pdf\nType: Affidavit\nCase: Banda v. Zamtel Ltd., Case No. 2024/LC/0093\nDeponent: Mr. Joseph Phiri, Process Server\nDate: 5 May 2024\nI, Joseph Phiri, do hereby solemnly affirm that on the 3rd day of May 2024, I personally served the summons and particulars of claim upon Ms. Caroline Banda at her last known place of employment at Zamtel House, Cairo Road, Lusaka, between the hours of 09:00 and 17:00."
+  },
+  {
+    "documentId": "8",
+    "content": "Mock document content for: Lease Agreement\nFile: Lease_Agreement_Kafue_Road_Commercial.pdf\nType: Contract\nLandlord: Prestige Properties Ltd.\nTenant: Sunrise Retail (Z) Ltd.\nPremises: Unit 4, Kafue Road Business Park, Lusaka\nCommencement Date: 1 July 2024\nTerm: 5 years\nMonthly Rent: K 45,000\nThis commercial lease governs the occupation and use of the premises for retail purposes, including provisions for rent escalation, maintenance obligations, permitted use, and default remedies."
+  },
+  {
+    "documentId": "9",
+    "content": "Mock document content for: Heads of Argument — Respondent\nFile: Heads_of_Argument_Respondent_KCM_v_Mineworkers.pdf\nType: Brief\nCase: KCM Plc v. Mineworkers Union of Zambia, Case No. 2024/IRC/0017\nFiled: 30 May 2024\nThe respondent submits that the dismissal of the grievant was procedurally and substantively unfair. The employer failed to conduct a proper disciplinary inquiry, denied the grievant the right to representation, and the sanction imposed was grossly disproportionate to the alleged misconduct. Full argument is developed under five heads herein."
+  },
+  {
+    "documentId": "10",
+    "content": "Mock document content for: Share Purchase Agreement\nFile: SPA_Copperbelt_Mining_Holdings.pdf\nType: Contract\nSeller: Copperbelt Mining Holdings Ltd.\nBuyer: Meridian Resources Corporation\nShares: 10,000,000 ordinary shares representing 60% of issued share capital\nPurchase Price: USD 24,500,000\nDate: 20 February 2024\nThis agreement sets out the terms for the acquisition, conditions precedent, representations and warranties, indemnities, and post-completion obligations of the parties."
+  },
+  {
+    "documentId": "11",
+    "content": "Mock document content for: Witness Statement — Expert Witness\nFile: Expert_Witness_Statement_Dr_Tembo_Forensic.pdf\nType: Evidence\nCase: The People v. Chilufya, Case No. 2023/CRM/0554\nExpert: Dr. Grace Tembo, Forensic Accountant\nDate: 12 March 2024\nDr. Tembo sets out her expert opinion that the accused systematically diverted company funds through fictitious supplier invoices totalling K 3,800,000 over a period of 18 months. Her analysis is based on bank statements, accounting records, and comparison with industry benchmarks."
+  },
+  {
+    "documentId": "12",
+    "content": "Mock document content for: Answer to Complaint\nFile: Answer_Complaint_Chanda_v_InsuranceCo.pdf\nType: Pleading\nCase: Chanda v. National Insurance Corporation, Case No. 2024/HC/0731\nFiled: 18 April 2024\nThe defendant admits the existence of the insurance policy but denies liability for the claimed loss on the grounds that the plaintiff failed to disclose a material fact at inception, that the loss was caused by wilful neglect excluded under Clause 9(b) of the policy, and that the claim was submitted outside the prescribed notification period."
+  },
+  {
+    "documentId": "13",
+    "content": "Mock document content for: Settlement Agreement\nFile: Settlement_Agreement_Mutale_v_Stanbic.pdf\nType: Contract\nCase: Mutale v. Stanbic Bank Zambia Ltd., Case No. 2023/HC/2210\nDate: 8 June 2024\nThe parties have agreed to settle all claims and counterclaims arising from the above-captioned matter on the following terms: the bank shall pay to the plaintiff the sum of K 280,000 in full and final settlement; the plaintiff shall deliver a deed of release; each party shall bear its own costs. The terms are confidential."
+  },
+  {
+    "documentId": "14",
+    "content": "Mock document content for: Power of Attorney\nFile: Power_of_Attorney_Lungu_Estate.pdf\nType: Contract\nGrantor: Mrs. Florence Lungu\nAttorney: Mr. David Lungu\nDate: 2 January 2024\nMrs. Florence Lungu hereby appoints Mr. David Lungu as her lawful attorney with full power and authority to manage, administer, sell, or otherwise deal with all real and personal property belonging to the estate of the late Mr. Emmanuel Lungu, including the power to institute or defend legal proceedings on behalf of the estate."
+  },
+  {
+    "documentId": "15",
+    "content": "Mock document content for: Notice of Appeal\nFile: Notice_of_Appeal_Simwanza_v_AG.pdf\nType: Pleading\nCase: Simwanza v. Attorney General, Case No. 2024/CAZ/0042\nFiled: 1 July 2024\nThe appellant hereby gives notice that he appeals to the Court of Appeal against the whole of the judgment of the High Court delivered on 12 June 2024, which dismissed his constitutional petition with costs. Grounds of appeal: (1) The learned judge erred in law in holding that the petitioner lacked locus standi; (2) The judgment failed to consider binding precedent."
+  },
+  {
+    "documentId": "16",
+    "content": "Mock document content for: Founding Affidavit\nFile: Founding_Affidavit_Judicial_Review_Phiri.pdf\nType: Affidavit\nCase: Phiri v. Zambia Revenue Authority, Case No. 2024/HC/JR/0019\nDeponent: Mr. Stephen Phiri\nDate: 14 May 2024\nThe deponent sets out the grounds upon which he seeks judicial review of the ZRA's decision to reassess his tax liability for the years 2020–2023, including allegations of procedural unfairness, failure to give reasons, and bias on the part of the reviewing officer. Supporting documents are annexed as Annexures A through G."
+  },
+  {
+    "documentId": "17",
+    "content": "Mock document content for: Loan Agreement\nFile: Loan_Agreement_FNB_Zambia_Corporate.pdf\nType: Contract\nLender: First National Bank Zambia Ltd.\nBorrower: Horizon Construction Ltd.\nFacility Amount: K 12,000,000\nInterest Rate: Base rate + 4.5% per annum\nTerm: 48 months\nDate: 5 March 2024\nThis facility agreement covers disbursement conditions, repayment schedule, financial covenants, events of default, security arrangements (including a mortgage bond over Stand 2267, Lusaka), and enforcement rights of the lender."
+  },
+  {
+    "documentId": "18",
+    "content": "Mock document content for: Consent Order\nFile: Consent_Order_Divorce_Kapasa.pdf\nType: Court Order\nCase: Kapasa v. Kapasa, Case No. 2023/HC/FAM/0391\nIssued: 22 May 2024\nBy consent of both parties, it is ordered: (1) The marriage between the parties is dissolved; (2) Custody of the two minor children is awarded jointly, with primary residence to the mother; (3) The matrimonial home is to be sold and proceeds divided equally; (4) The respondent shall pay maintenance of K 5,000 per month per child until each child attains the age of 18 years or completes tertiary education, whichever is later."
+  },
+  {
+    "documentId": "19",
+    "content": "Mock document content for: Memorandum of Understanding\nFile: MOU_Ministry_of_Health_NGO_Partnership.pdf\nType: Contract\nParty A: Ministry of Health, Republic of Zambia\nParty B: HealthBridge International\nDate: 10 April 2024\nThis MOU sets out the framework for collaboration on the rural health clinic expansion programme in the Western Province. It covers roles and responsibilities, funding commitments, reporting obligations, intellectual property ownership of programme materials, and a dispute resolution mechanism. The MOU is not legally binding but reflects the good-faith intentions of the parties."
+  },
+  {
+    "documentId": "20",
+    "content": "Mock document content for: Particulars of Claim — Breach of Contract\nFile: Particulars_of_Claim_Nakachinda_v_BuildRight.pdf\nType: Pleading\nCase: Nakachinda v. BuildRight Construction Ltd., Case No. 2024/HC/1504\nFiled: 3 June 2024\nThe plaintiff claims damages for breach of a building contract dated 15 September 2023, in the sum of K 890,000, representing cost of rectification of defective workmanship, consequential loss due to delayed completion, and general damages for inconvenience. Interest at the prescribed rate is claimed from the date of breach to date of judgment."
+  },
+  {
+    "documentId": "21",
+    "content": "Mock document content for: Deed of Sale — Immovable Property\nFile: Deed_of_Sale_Stand_4412_Woodlands.pdf\nType: Contract\nSeller: Mr. Patrick Musonda\nBuyer: Ms. Natasha Zulu\nProperty: Stand No. 4412, Woodlands Extension, Lusaka\nPurchase Price: K 1,850,000\nDate: 28 February 2024\nThis deed records the sale and transfer of the above property, free from all liens and encumbrances except those noted in the title deed. Vacant possession is given on date of registration. The seller warrants good title and quiet enjoyment."
+  },
+  {
+    "documentId": "22",
+    "content": "Mock document content for: Skeleton Arguments — Applicant\nFile: Skeleton_Arguments_Applicant_Lusaka_City_v_Developer.pdf\nType: Brief\nCase: Lusaka City Council v. Premier Developments Ltd., Case No. 2024/HC/0866\nFiled: 17 June 2024\nThe applicant contends that the respondent's development constitutes an unauthorised change of land use contrary to s.31 of the Urban and Regional Planning Act, Cap 283. The applicant further argues that the Environmental Impact Assessment certificate was obtained by material misrepresentation and should be set aside. Authorities relied upon are cited at paragraphs 14–28."
+  },
+  {
+    "documentId": "23",
+    "content": "Mock document content for: Statutory Declaration — Loss of Title Deed\nFile: Statutory_Declaration_Lost_Title_Mbewe.pdf\nType: Affidavit\nDeponent: Mr. Charles Mbewe\nDate: 7 June 2024\nI, Charles Mbewe, do solemnly and sincerely declare that I am the registered owner of Stand No. 7803, Chelstone, Lusaka; that the original certificate of title was lost or mislaid on or about 20 May 2024 during relocation; that I have made diligent searches and have been unable to locate it; and that this declaration is made for the purpose of applying for a replacement title deed from the Lands and Deeds Registry."
+  },
+  {
+    "documentId": "24",
+    "content": "Mock document content for: Employment Termination Letter and Retrenchment Notice\nFile: Retrenchment_Notice_Copper_Queen_Mining.pdf\nType: Evidence\nIssuer: Copper Queen Mining Ltd., Human Resources Department\nRecipient: 47 affected employees\nDate: 1 May 2024\nThis notice informs employees of the company's decision to retrench due to adverse economic conditions and reduced ore grades at the Nchanga underground section. The company confirms that the retrenchment process has been carried out in accordance with s.26B of the Employment Code Act No. 3 of 2019, that the Joint Consultative Committee was duly consulted, and that all terminal benefits will be calculated and paid within 30 days."
+  },
+  {
+    "documentId": "25",
+    "content": "Mock document content for: Trust Deed — Charitable Foundation\nFile: Trust_Deed_Mwanawasa_Education_Foundation.pdf\nType: Contract\nFounder: The Mwanawasa Family\nTrustees: Rev. Jonathan Mwale, Dr. Esther Phiri, Mr. Rodger Sakala\nDate: 15 January 2024\nThis trust deed establishes the Mwanawasa Education Foundation as a charitable trust for the advancement of education among underprivileged youth in Zambia. It sets out the objects of the trust, powers of the trustees, investment policy, distribution policy, amendment procedure, and winding-up provisions. The trust is registered with the Patents and Companies Registration Agency (PACRA) under Trust No. T-2024/0037."
+  }
+]

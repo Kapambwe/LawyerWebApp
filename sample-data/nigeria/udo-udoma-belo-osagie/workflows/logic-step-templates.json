@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Condition",
+    "description": "Add conditional logic",
+    "stepType": "condition",
+    "icon": "call_split",
+    "color": "#f97316"
+  },
+  {
+    "name": "Delay",
+    "description": "Wait for a period",
+    "stepType": "delay",
+    "icon": "schedule",
+    "color": "#64748b"
+  },
+  {
+    "name": "Approval Required",
+    "description": "Require manual approval",
+    "stepType": "approvalRequired",
+    "icon": "check_circle",
+    "color": "#10b981"
+  },
+  {
+    "name": "Loop",
+    "description": "Repeat steps until a condition is met",
+    "stepType": "loop",
+    "icon": "loop",
+    "color": "#3b82f6"
+  },
+  {
+    "name": "Merge Branches",
+    "description": "Merge multiple parallel branches into one",
+    "stepType": "mergeBranches",
+    "icon": "merge",
+    "color": "#8b5cf6"
+  },
+  {
+    "name": "Fork",
+    "description": "Split flow into parallel branches",
+    "stepType": "fork",
+    "icon": "fork_right",
+    "color": "#ec4899"
+  },
+  {
+    "name": "Wait for Event",
+    "description": "Pause flow until a specific event occurs",
+    "stepType": "waitForEvent",
+    "icon": "hourglass_empty",
+    "color": "#0ea5e9"
+  },
+  {
+    "name": "Counter",
+    "description": "Increment a counter and check threshold",
+    "stepType": "counter",
+    "icon": "plus_one",
+    "color": "#f59e0b"
+  },
+  {
+    "name": "Error Handler",
+    "description": "Handle errors in the workflow gracefully",
+    "stepType": "errorHandler",
+    "icon": "error",
+    "color": "#ef4444"
+  },
+  {
+    "name": "Retry",
+    "description": "Retry a failed step automatically",
+    "stepType": "retry",
+    "icon": "refresh",
+    "color": "#06b6d4"
+  },
+  {
+    "name": "Timeout",
+    "description": "Fail step if not completed within time limit",
+    "stepType": "timeout",
+    "icon": "timer_off",
+    "color": "#dc2626"
+  },
+  {
+    "name": "Switch / Case",
+    "description": "Branch on multiple possible values",
+    "stepType": "switchCase",
+    "icon": "device_hub",
+    "color": "#a855f7"
+  },
+  {
+    "name": "All Must Complete",
+    "description": "Wait for all parallel branches to finish",
+    "stepType": "allComplete",
+    "icon": "done_all",
+    "color": "#16a34a"
+  },
+  {
+    "name": "Any Must Complete",
+    "description": "Continue when any one branch finishes",
+    "stepType": "anyComplete",
+    "icon": "done",
+    "color": "#65a30d"
+  },
+  {
+    "name": "Priority Check",
+    "description": "Branch based on case priority level",
+    "stepType": "priorityCheck",
+    "icon": "priority_high",
+    "color": "#f97316"
+  },
+  {
+    "name": "Date Check",
+    "description": "Branch based on date or time condition",
+    "stepType": "dateCheck",
+    "icon": "calendar_month",
+    "color": "#0891b2"
+  },
+  {
+    "name": "Role Check",
+    "description": "Branch based on the user's role",
+    "stepType": "roleCheck",
+    "icon": "badge",
+    "color": "#7c3aed"
+  },
+  {
+    "name": "Status Check",
+    "description": "Branch based on the current status value",
+    "stepType": "statusCheck",
+    "icon": "fact_check",
+    "color": "#2563eb"
+  },
+  {
+    "name": "Amount Threshold",
+    "description": "Branch if a monetary value exceeds a threshold",
+    "stepType": "amountThreshold",
+    "icon": "price_check",
+    "color": "#b45309"
+  },
+  {
+    "name": "Notification Gate",
+    "description": "Pause until notification is acknowledged",
+    "stepType": "notificationGate",
+    "icon": "notification_important",
+    "color": "#ca8a04"
+  },
+  {
+    "name": "Sub-workflow",
+    "description": "Invoke another workflow as a nested step",
+    "stepType": "subWorkflow",
+    "icon": "account_tree",
+    "color": "#9333ea"
+  },
+  {
+    "name": "Skip If",
+    "description": "Skip subsequent steps based on a condition",
+    "stepType": "skipIf",
+    "icon": "fast_forward",
+    "color": "#475569"
+  },
+  {
+    "name": "Parallel Execute",
+    "description": "Execute multiple steps simultaneously",
+    "stepType": "parallelExecute",
+    "icon": "view_column",
+    "color": "#0284c7"
+  },
+  {
+    "name": "Sequential Gate",
+    "description": "Ensure steps run strictly in order",
+    "stepType": "sequentialGate",
+    "icon": "linear_scale",
+    "color": "#64748b"
+  },
+  {
+    "name": "End Flow",
+    "description": "Terminate the workflow immediately",
+    "stepType": "endFlow",
+    "icon": "stop_circle",
+    "color": "#1e293b"
+  }
+]

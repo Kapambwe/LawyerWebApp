@@ -1,0 +1,882 @@
+[
+  {
+    "id": 1,
+    "entryNumber": "JE-2024-001",
+    "date": "2023-12-10T00:00:00Z",
+    "description": "Depreciation Expense - Equipment",
+    "debit": 2500,
+    "credit": 2500,
+    "status": "Posted",
+    "createdBy": "John Doe",
+    "createdAt": "2023-12-10T00:00:00Z",
+    "postedAt": "2023-12-10T00:00:00Z",
+    "lines": [
+      {
+        "id": 1,
+        "journalEntryId": 1,
+        "accountId": 19,
+        "accountNumber": "5700",
+        "accountName": "Depreciation Expense",
+        "description": "Monthly depreciation",
+        "debit": 2500,
+        "credit": 0
+      },
+      {
+        "id": 2,
+        "journalEntryId": 1,
+        "accountId": 5,
+        "accountNumber": "1600",
+        "accountName": "Accumulated Depreciation",
+        "description": "Monthly depreciation",
+        "debit": 0,
+        "credit": 2500
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "entryNumber": "JE-2024-002",
+    "date": "2023-12-11T00:00:00Z",
+    "description": "Client Invoice - Acme Corp Legal Services",
+    "debit": 15000,
+    "credit": 15000,
+    "status": "Posted",
+    "createdBy": "Jane Smith",
+    "createdAt": "2023-12-11T00:00:00Z",
+    "postedAt": "2023-12-11T00:00:00Z",
+    "lines": [
+      {
+        "id": 3,
+        "journalEntryId": 2,
+        "accountId": 2,
+        "accountNumber": "1100",
+        "accountName": "Accounts Receivable",
+        "description": "Invoice #INV-2024-001 - Acme Corp",
+        "debit": 15000,
+        "credit": 0
+      },
+      {
+        "id": 4,
+        "journalEntryId": 2,
+        "accountId": 10,
+        "accountNumber": "4000",
+        "accountName": "Legal Fees Revenue",
+        "description": "Invoice #INV-2024-001 - Acme Corp",
+        "debit": 0,
+        "credit": 15000
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "entryNumber": "JE-2024-003",
+    "date": "2023-12-12T00:00:00Z",
+    "description": "Salary Payment - December 2023",
+    "debit": 32000,
+    "credit": 32000,
+    "status": "Posted",
+    "createdBy": "John Doe",
+    "createdAt": "2023-12-12T00:00:00Z",
+    "postedAt": "2023-12-12T00:00:00Z",
+    "lines": [
+      {
+        "id": 5,
+        "journalEntryId": 3,
+        "accountId": 15,
+        "accountNumber": "5000",
+        "accountName": "Salaries Expense",
+        "description": "December 2023 staff salaries",
+        "debit": 32000,
+        "credit": 0
+      },
+      {
+        "id": 6,
+        "journalEntryId": 3,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "December 2023 staff salaries",
+        "debit": 0,
+        "credit": 32000
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "entryNumber": "JE-2024-004",
+    "date": "2023-12-13T00:00:00Z",
+    "description": "Office Rent - December 2023",
+    "debit": 5000,
+    "credit": 5000,
+    "status": "Posted",
+    "createdBy": "Jane Smith",
+    "createdAt": "2023-12-13T00:00:00Z",
+    "postedAt": "2023-12-13T00:00:00Z",
+    "lines": [
+      {
+        "id": 7,
+        "journalEntryId": 4,
+        "accountId": 20,
+        "accountNumber": "5400",
+        "accountName": "Rent Expense",
+        "description": "December 2023 office rent",
+        "debit": 5000,
+        "credit": 0
+      },
+      {
+        "id": 8,
+        "journalEntryId": 4,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "December 2023 office rent",
+        "debit": 0,
+        "credit": 5000
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "entryNumber": "JE-2024-005",
+    "date": "2023-12-14T00:00:00Z",
+    "description": "Payment Received - Beta Industries",
+    "debit": 8500,
+    "credit": 8500,
+    "status": "Posted",
+    "createdBy": "Bob Johnson",
+    "createdAt": "2023-12-14T00:00:00Z",
+    "postedAt": "2023-12-14T00:00:00Z",
+    "lines": [
+      {
+        "id": 9,
+        "journalEntryId": 5,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "Payment on INV-2023-045",
+        "debit": 8500,
+        "credit": 0
+      },
+      {
+        "id": 10,
+        "journalEntryId": 5,
+        "accountId": 2,
+        "accountNumber": "1100",
+        "accountName": "Accounts Receivable",
+        "description": "Payment on INV-2023-045",
+        "debit": 0,
+        "credit": 8500
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "entryNumber": "JE-2024-006",
+    "date": "2023-12-15T00:00:00Z",
+    "description": "Equipment Purchase - Legal Research Software",
+    "debit": 12000,
+    "credit": 12000,
+    "status": "Posted",
+    "createdBy": "John Doe",
+    "createdAt": "2023-12-15T00:00:00Z",
+    "postedAt": "2023-12-15T00:00:00Z",
+    "lines": [
+      {
+        "id": 11,
+        "journalEntryId": 6,
+        "accountId": 4,
+        "accountNumber": "1500",
+        "accountName": "Equipment",
+        "description": "Legal research software license",
+        "debit": 12000,
+        "credit": 0
+      },
+      {
+        "id": 12,
+        "journalEntryId": 6,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "Legal research software license",
+        "debit": 0,
+        "credit": 12000
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "entryNumber": "JE-2024-007",
+    "date": "2023-12-16T00:00:00Z",
+    "description": "Insurance Premium Payment - Q1 2024",
+    "debit": 3600,
+    "credit": 3600,
+    "status": "Posted",
+    "createdBy": "Jane Smith",
+    "createdAt": "2023-12-16T00:00:00Z",
+    "postedAt": "2023-12-16T00:00:00Z",
+    "lines": [
+      {
+        "id": 13,
+        "journalEntryId": 7,
+        "accountId": 17,
+        "accountNumber": "5200",
+        "accountName": "Insurance Expense",
+        "description": "Professional liability Q1 2024",
+        "debit": 3600,
+        "credit": 0
+      },
+      {
+        "id": 14,
+        "journalEntryId": 7,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "Professional liability Q1 2024",
+        "debit": 0,
+        "credit": 3600
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "entryNumber": "JE-2024-008",
+    "date": "2023-12-17T00:00:00Z",
+    "description": "Trust Account Transfer to Operating",
+    "debit": 10000,
+    "credit": 10000,
+    "status": "Posted",
+    "createdBy": "Bob Johnson",
+    "createdAt": "2023-12-17T00:00:00Z",
+    "postedAt": "2023-12-17T00:00:00Z",
+    "lines": [
+      {
+        "id": 15,
+        "journalEntryId": 8,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "Earned fees transferred from trust",
+        "debit": 10000,
+        "credit": 0
+      },
+      {
+        "id": 16,
+        "journalEntryId": 8,
+        "accountId": 7,
+        "accountNumber": "2100",
+        "accountName": "Client Trust Liability",
+        "description": "Earned fees transferred from trust",
+        "debit": 0,
+        "credit": 10000
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "entryNumber": "JE-2024-009",
+    "date": "2023-12-18T00:00:00Z",
+    "description": "Vendor Payment - Court Filing Fees",
+    "debit": 2800,
+    "credit": 2800,
+    "status": "Posted",
+    "createdBy": "John Doe",
+    "createdAt": "2023-12-18T00:00:00Z",
+    "postedAt": "2023-12-18T00:00:00Z",
+    "lines": [
+      {
+        "id": 17,
+        "journalEntryId": 9,
+        "accountId": 21,
+        "accountNumber": "5500",
+        "accountName": "Court Filing Fees",
+        "description": "Court fees - multiple matters December",
+        "debit": 2800,
+        "credit": 0
+      },
+      {
+        "id": 18,
+        "journalEntryId": 9,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "Court fees - multiple matters December",
+        "debit": 0,
+        "credit": 2800
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "entryNumber": "JE-2024-010",
+    "date": "2023-12-19T00:00:00Z",
+    "description": "Accrued Expenses - Year End",
+    "debit": 7500,
+    "credit": 7500,
+    "status": "Posted",
+    "createdBy": "Jane Smith",
+    "createdAt": "2023-12-19T00:00:00Z",
+    "postedAt": "2023-12-19T00:00:00Z",
+    "lines": [
+      {
+        "id": 19,
+        "journalEntryId": 10,
+        "accountId": 22,
+        "accountNumber": "5600",
+        "accountName": "Accrued Expenses",
+        "description": "Year-end accrued professional fees",
+        "debit": 7500,
+        "credit": 0
+      },
+      {
+        "id": 20,
+        "journalEntryId": 10,
+        "accountId": 8,
+        "accountNumber": "2200",
+        "accountName": "Accrued Liabilities",
+        "description": "Year-end accrued professional fees",
+        "debit": 0,
+        "credit": 7500
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "entryNumber": "JE-2024-011",
+    "date": "2023-12-20T00:00:00Z",
+    "description": "New Client Retainer - Gamma LLC",
+    "debit": 20000,
+    "credit": 20000,
+    "status": "Draft",
+    "createdBy": "Bob Johnson",
+    "createdAt": "2023-12-20T00:00:00Z",
+    "postedAt": null,
+    "lines": [
+      {
+        "id": 21,
+        "journalEntryId": 11,
+        "accountId": 7,
+        "accountNumber": "2100",
+        "accountName": "Client Trust Liability",
+        "description": "Retainer received from Gamma LLC",
+        "debit": 20000,
+        "credit": 0
+      },
+      {
+        "id": 22,
+        "journalEntryId": 11,
+        "accountId": 9,
+        "accountNumber": "1800",
+        "accountName": "Trust Cash",
+        "description": "Retainer received from Gamma LLC",
+        "debit": 0,
+        "credit": 20000
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "entryNumber": "JE-2024-012",
+    "date": "2023-12-21T00:00:00Z",
+    "description": "Office Supplies Purchase",
+    "debit": 950,
+    "credit": 950,
+    "status": "Posted",
+    "createdBy": "John Doe",
+    "createdAt": "2023-12-21T00:00:00Z",
+    "postedAt": "2023-12-21T00:00:00Z",
+    "lines": [
+      {
+        "id": 23,
+        "journalEntryId": 12,
+        "accountId": 16,
+        "accountNumber": "5100",
+        "accountName": "Office Supplies Expense",
+        "description": "Office supplies - printer cartridges, paper",
+        "debit": 950,
+        "credit": 0
+      },
+      {
+        "id": 24,
+        "journalEntryId": 12,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "Office supplies - printer cartridges, paper",
+        "debit": 0,
+        "credit": 950
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "entryNumber": "JE-2024-013",
+    "date": "2023-12-22T00:00:00Z",
+    "description": "Reversal - Duplicate Entry JE-2023-189",
+    "debit": 3000,
+    "credit": 3000,
+    "status": "Posted",
+    "createdBy": "Jane Smith",
+    "createdAt": "2023-12-22T00:00:00Z",
+    "postedAt": "2023-12-22T00:00:00Z",
+    "lines": [
+      {
+        "id": 25,
+        "journalEntryId": 13,
+        "accountId": 10,
+        "accountNumber": "4000",
+        "accountName": "Legal Fees Revenue",
+        "description": "Reversal of duplicate JE-2023-189",
+        "debit": 3000,
+        "credit": 0
+      },
+      {
+        "id": 26,
+        "journalEntryId": 13,
+        "accountId": 2,
+        "accountNumber": "1100",
+        "accountName": "Accounts Receivable",
+        "description": "Reversal of duplicate JE-2023-189",
+        "debit": 0,
+        "credit": 3000
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "entryNumber": "JE-2024-014",
+    "date": "2023-12-22T00:00:00Z",
+    "description": "Travel and Entertainment Expenses",
+    "debit": 2200,
+    "credit": 2200,
+    "status": "Posted",
+    "createdBy": "Bob Johnson",
+    "createdAt": "2023-12-22T00:00:00Z",
+    "postedAt": "2023-12-22T00:00:00Z",
+    "lines": [
+      {
+        "id": 27,
+        "journalEntryId": 14,
+        "accountId": 18,
+        "accountNumber": "5300",
+        "accountName": "Travel Expense",
+        "description": "Client meeting travel - December",
+        "debit": 2200,
+        "credit": 0
+      },
+      {
+        "id": 28,
+        "journalEntryId": 14,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "Client meeting travel - December",
+        "debit": 0,
+        "credit": 2200
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "entryNumber": "JE-2024-015",
+    "date": "2023-12-23T00:00:00Z",
+    "description": "Prepaid Expense Amortization - Bar Association Dues",
+    "debit": 500,
+    "credit": 500,
+    "status": "Posted",
+    "createdBy": "John Doe",
+    "createdAt": "2023-12-23T00:00:00Z",
+    "postedAt": "2023-12-23T00:00:00Z",
+    "lines": [
+      {
+        "id": 29,
+        "journalEntryId": 15,
+        "accountId": 23,
+        "accountNumber": "5800",
+        "accountName": "Professional Dues Expense",
+        "description": "Bar association annual dues amortization",
+        "debit": 500,
+        "credit": 0
+      },
+      {
+        "id": 30,
+        "journalEntryId": 15,
+        "accountId": 24,
+        "accountNumber": "1300",
+        "accountName": "Prepaid Expenses",
+        "description": "Bar association annual dues amortization",
+        "debit": 0,
+        "credit": 500
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "entryNumber": "JE-2024-016",
+    "date": "2023-12-26T00:00:00Z",
+    "description": "Write-off Uncollectible Receivable",
+    "debit": 4500,
+    "credit": 4500,
+    "status": "Posted",
+    "createdBy": "Jane Smith",
+    "createdAt": "2023-12-26T00:00:00Z",
+    "postedAt": "2023-12-26T00:00:00Z",
+    "lines": [
+      {
+        "id": 31,
+        "journalEntryId": 16,
+        "accountId": 25,
+        "accountNumber": "5900",
+        "accountName": "Bad Debt Expense",
+        "description": "Write-off client balance - closed case",
+        "debit": 4500,
+        "credit": 0
+      },
+      {
+        "id": 32,
+        "journalEntryId": 16,
+        "accountId": 2,
+        "accountNumber": "1100",
+        "accountName": "Accounts Receivable",
+        "description": "Write-off client balance - closed case",
+        "debit": 0,
+        "credit": 4500
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "entryNumber": "JE-2024-017",
+    "date": "2023-12-27T00:00:00Z",
+    "description": "Telephone & Internet Expenses",
+    "debit": 850,
+    "credit": 850,
+    "status": "Posted",
+    "createdBy": "Bob Johnson",
+    "createdAt": "2023-12-27T00:00:00Z",
+    "postedAt": "2023-12-27T00:00:00Z",
+    "lines": [
+      {
+        "id": 33,
+        "journalEntryId": 17,
+        "accountId": 26,
+        "accountNumber": "5150",
+        "accountName": "Telephone & Internet",
+        "description": "Monthly telecom bill December",
+        "debit": 850,
+        "credit": 0
+      },
+      {
+        "id": 34,
+        "journalEntryId": 17,
+        "accountId": 6,
+        "accountNumber": "2000",
+        "accountName": "Accounts Payable",
+        "description": "Monthly telecom bill December",
+        "debit": 0,
+        "credit": 850
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "entryNumber": "JE-2024-018",
+    "date": "2023-12-28T00:00:00Z",
+    "description": "Bank Loan Interest Payment",
+    "debit": 1750,
+    "credit": 1750,
+    "status": "Posted",
+    "createdBy": "John Doe",
+    "createdAt": "2023-12-28T00:00:00Z",
+    "postedAt": "2023-12-28T00:00:00Z",
+    "lines": [
+      {
+        "id": 35,
+        "journalEntryId": 18,
+        "accountId": 27,
+        "accountNumber": "6000",
+        "accountName": "Interest Expense",
+        "description": "December bank loan interest",
+        "debit": 1750,
+        "credit": 0
+      },
+      {
+        "id": 36,
+        "journalEntryId": 18,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "December bank loan interest",
+        "debit": 0,
+        "credit": 1750
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "entryNumber": "JE-2024-019",
+    "date": "2023-12-29T00:00:00Z",
+    "description": "Year-End Inventory Adjustment",
+    "debit": 1200,
+    "credit": 1200,
+    "status": "Draft",
+    "createdBy": "Jane Smith",
+    "createdAt": "2023-12-29T00:00:00Z",
+    "postedAt": null,
+    "lines": [
+      {
+        "id": 37,
+        "journalEntryId": 19,
+        "accountId": 28,
+        "accountNumber": "1400",
+        "accountName": "Supplies Inventory",
+        "description": "Year-end physical count adjustment",
+        "debit": 0,
+        "credit": 1200
+      },
+      {
+        "id": 38,
+        "journalEntryId": 19,
+        "accountId": 16,
+        "accountNumber": "5100",
+        "accountName": "Office Supplies Expense",
+        "description": "Year-end physical count adjustment",
+        "debit": 1200,
+        "credit": 0
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "entryNumber": "JE-2024-020",
+    "date": "2023-12-30T00:00:00Z",
+    "description": "Closing Entry - Revenue Accounts",
+    "debit": 318000,
+    "credit": 318000,
+    "status": "Draft",
+    "createdBy": "John Doe",
+    "createdAt": "2023-12-30T00:00:00Z",
+    "postedAt": null,
+    "lines": [
+      {
+        "id": 39,
+        "journalEntryId": 20,
+        "accountId": 10,
+        "accountNumber": "4000",
+        "accountName": "Legal Fees Revenue",
+        "description": "Year-end close to retained earnings",
+        "debit": 315000,
+        "credit": 0
+      },
+      {
+        "id": 40,
+        "journalEntryId": 20,
+        "accountId": 11,
+        "accountNumber": "4100",
+        "accountName": "Interest Income",
+        "description": "Year-end close to retained earnings",
+        "debit": 3000,
+        "credit": 0
+      },
+      {
+        "id": 41,
+        "journalEntryId": 20,
+        "accountId": 12,
+        "accountNumber": "3200",
+        "accountName": "Retained Earnings",
+        "description": "Year-end close to retained earnings",
+        "debit": 0,
+        "credit": 318000
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "entryNumber": "JE-2024-021",
+    "date": "2023-12-30T00:00:00Z",
+    "description": "Closing Entry - Expense Accounts",
+    "debit": 246000,
+    "credit": 246000,
+    "status": "Draft",
+    "createdBy": "John Doe",
+    "createdAt": "2023-12-30T00:00:00Z",
+    "postedAt": null,
+    "lines": [
+      {
+        "id": 42,
+        "journalEntryId": 21,
+        "accountId": 12,
+        "accountNumber": "3200",
+        "accountName": "Retained Earnings",
+        "description": "Year-end close expenses to retained earnings",
+        "debit": 246000,
+        "credit": 0
+      },
+      {
+        "id": 43,
+        "journalEntryId": 21,
+        "accountId": 15,
+        "accountNumber": "5000",
+        "accountName": "Salaries Expense",
+        "description": "Year-end close",
+        "debit": 0,
+        "credit": 192000
+      },
+      {
+        "id": 44,
+        "journalEntryId": 21,
+        "accountId": 20,
+        "accountNumber": "5400",
+        "accountName": "Rent Expense",
+        "description": "Year-end close",
+        "debit": 0,
+        "credit": 30000
+      },
+      {
+        "id": 45,
+        "journalEntryId": 21,
+        "accountId": 19,
+        "accountNumber": "5700",
+        "accountName": "Depreciation Expense",
+        "description": "Year-end close",
+        "debit": 0,
+        "credit": 24000
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "entryNumber": "JE-2024-022",
+    "date": "2024-01-02T00:00:00Z",
+    "description": "Opening Entry - New Fiscal Year",
+    "debit": 125000,
+    "credit": 125000,
+    "status": "Posted",
+    "createdBy": "Jane Smith",
+    "createdAt": "2024-01-02T00:00:00Z",
+    "postedAt": "2024-01-02T00:00:00Z",
+    "lines": [
+      {
+        "id": 46,
+        "journalEntryId": 22,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "FY2024 opening balance",
+        "debit": 125000,
+        "credit": 0
+      },
+      {
+        "id": 47,
+        "journalEntryId": 22,
+        "accountId": 12,
+        "accountNumber": "3200",
+        "accountName": "Retained Earnings",
+        "description": "FY2024 opening balance",
+        "debit": 0,
+        "credit": 125000
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "entryNumber": "JE-2024-023",
+    "date": "2024-01-05T00:00:00Z",
+    "description": "Client Retainer - Delta Partners",
+    "debit": 25000,
+    "credit": 25000,
+    "status": "Posted",
+    "createdBy": "Bob Johnson",
+    "createdAt": "2024-01-05T00:00:00Z",
+    "postedAt": "2024-01-05T00:00:00Z",
+    "lines": [
+      {
+        "id": 48,
+        "journalEntryId": 23,
+        "accountId": 9,
+        "accountNumber": "1800",
+        "accountName": "Trust Cash",
+        "description": "Retainer received - Delta Partners",
+        "debit": 25000,
+        "credit": 0
+      },
+      {
+        "id": 49,
+        "journalEntryId": 23,
+        "accountId": 7,
+        "accountNumber": "2100",
+        "accountName": "Client Trust Liability",
+        "description": "Retainer received - Delta Partners",
+        "debit": 0,
+        "credit": 25000
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "entryNumber": "JE-2024-024",
+    "date": "2024-01-08T00:00:00Z",
+    "description": "Subscription Renewals - Legal Databases",
+    "debit": 4800,
+    "credit": 4800,
+    "status": "Posted",
+    "createdBy": "John Doe",
+    "createdAt": "2024-01-08T00:00:00Z",
+    "postedAt": "2024-01-08T00:00:00Z",
+    "lines": [
+      {
+        "id": 50,
+        "journalEntryId": 24,
+        "accountId": 29,
+        "accountNumber": "5250",
+        "accountName": "Software & Subscriptions",
+        "description": "Westlaw annual renewal",
+        "debit": 4800,
+        "credit": 0
+      },
+      {
+        "id": 51,
+        "journalEntryId": 24,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "Westlaw annual renewal",
+        "debit": 0,
+        "credit": 4800
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "entryNumber": "JE-2024-025",
+    "date": "2024-01-10T00:00:00Z",
+    "description": "Bonus Payment - Senior Associates",
+    "debit": 15000,
+    "credit": 15000,
+    "status": "Posted",
+    "createdBy": "Jane Smith",
+    "createdAt": "2024-01-10T00:00:00Z",
+    "postedAt": "2024-01-10T00:00:00Z",
+    "lines": [
+      {
+        "id": 52,
+        "journalEntryId": 25,
+        "accountId": 30,
+        "accountNumber": "5050",
+        "accountName": "Bonus Expense",
+        "description": "Year-end bonus - senior associates",
+        "debit": 15000,
+        "credit": 0
+      },
+      {
+        "id": 53,
+        "journalEntryId": 25,
+        "accountId": 1,
+        "accountNumber": "1000",
+        "accountName": "Cash - Operating",
+        "description": "Year-end bonus - senior associates",
+        "debit": 0,
+        "credit": 15000
+      }
+    ]
+  }
+]

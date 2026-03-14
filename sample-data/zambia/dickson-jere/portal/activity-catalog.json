@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Message received",
+    "description": "New message from client",
+    "icon": "mail",
+    "iconStyle": "Info"
+  },
+  {
+    "title": "Document accessed",
+    "description": "Client viewed case document",
+    "icon": "visibility",
+    "iconStyle": "Success"
+  },
+  {
+    "title": "Login detected",
+    "description": "Client logged into portal",
+    "icon": "login",
+    "iconStyle": "Primary"
+  },
+  {
+    "title": "Invoice viewed",
+    "description": "Client checked invoice details",
+    "icon": "receipt",
+    "iconStyle": "Warning"
+  },
+  {
+    "title": "Case update requested",
+    "description": "Client requested case status update",
+    "icon": "update",
+    "iconStyle": "Info"
+  },
+  {
+    "title": "Document downloaded",
+    "description": "Client downloaded case file",
+    "icon": "download",
+    "iconStyle": "Success"
+  },
+  {
+    "title": "Payment made",
+    "description": "Client submitted online payment",
+    "icon": "payment",
+    "iconStyle": "Success"
+  },
+  {
+    "title": "Password changed",
+    "description": "Client updated security settings",
+    "icon": "lock",
+    "iconStyle": "Warning"
+  },
+  {
+    "title": "Profile updated",
+    "description": "Client modified profile information",
+    "icon": "person",
+    "iconStyle": "Info"
+  },
+  {
+    "title": "Support ticket created",
+    "description": "Client submitted help request",
+    "icon": "help",
+    "iconStyle": "Warning"
+  },
+  {
+    "title": "Document uploaded",
+    "description": "Client uploaded a new document",
+    "icon": "upload_file",
+    "iconStyle": "Primary"
+  },
+  {
+    "title": "Appointment scheduled",
+    "description": "Client booked a consultation",
+    "icon": "event",
+    "iconStyle": "Info"
+  },
+  {
+    "title": "Invoice paid",
+    "description": "Client completed invoice payment",
+    "icon": "check_circle",
+    "iconStyle": "Success"
+  },
+  {
+    "title": "Payment plan created",
+    "description": "Client set up installment plan",
+    "icon": "account_balance",
+    "iconStyle": "Primary"
+  },
+  {
+    "title": "Logout detected",
+    "description": "Client ended portal session",
+    "icon": "logout",
+    "iconStyle": "Secondary"
+  },
+  {
+    "title": "Message replied",
+    "description": "Client responded to attorney message",
+    "icon": "reply",
+    "iconStyle": "Info"
+  },
+  {
+    "title": "Case document signed",
+    "description": "Client signed document electronically",
+    "icon": "draw",
+    "iconStyle": "Success"
+  },
+  {
+    "title": "Notification dismissed",
+    "description": "Client cleared a dashboard notification",
+    "icon": "notifications_off",
+    "iconStyle": "Secondary"
+  },
+  {
+    "title": "Statement downloaded",
+    "description": "Client downloaded account statement",
+    "icon": "summarize",
+    "iconStyle": "Info"
+  },
+  {
+    "title": "Two-factor enabled",
+    "description": "Client activated 2FA security",
+    "icon": "security",
+    "iconStyle": "Success"
+  },
+  {
+    "title": "Payment method added",
+    "description": "Client saved new payment method",
+    "icon": "credit_card",
+    "iconStyle": "Primary"
+  },
+  {
+    "title": "Support ticket resolved",
+    "description": "Client marked ticket as resolved",
+    "icon": "task_alt",
+    "iconStyle": "Success"
+  },
+  {
+    "title": "Case note added",
+    "description": "Client added a note to their case",
+    "icon": "note_add",
+    "iconStyle": "Info"
+  },
+  {
+    "title": "Email preference updated",
+    "description": "Client changed notification settings",
+    "icon": "email",
+    "iconStyle": "Secondary"
+  },
+  {
+    "title": "Overdue invoice alert",
+    "description": "Client viewed overdue invoice warning",
+    "icon": "warning",
+    "iconStyle": "Warning"
+  }
+]

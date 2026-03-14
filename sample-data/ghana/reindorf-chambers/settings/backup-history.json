@@ -1,0 +1,177 @@
+[
+  {
+    "id": "backup-1",
+    "backupDate": "2024-01-15T03:00:00Z",
+    "sizeInBytes": 262144000,
+    "status": "Completed",
+    "fileName": "backup_2025_01_15_03_00.sql"
+  },
+  {
+    "id": "backup-2",
+    "backupDate": "2024-01-14T03:00:00Z",
+    "sizeInBytes": 260046848,
+    "status": "Completed",
+    "fileName": "backup_2025_01_14_03_00.sql"
+  },
+  {
+    "id": "backup-3",
+    "backupDate": "2024-01-13T03:00:00Z",
+    "sizeInBytes": 257949696,
+    "status": "Completed",
+    "fileName": "backup_2025_01_13_03_00.sql"
+  },
+  {
+    "id": "backup-4",
+    "backupDate": "2024-01-12T03:00:00Z",
+    "sizeInBytes": 255852544,
+    "status": "Completed",
+    "fileName": "backup_2025_01_12_03_00.sql"
+  },
+  {
+    "id": "backup-5",
+    "backupDate": "2024-01-11T03:00:00Z",
+    "sizeInBytes": 253755392,
+    "status": "Completed",
+    "fileName": "backup_2025_01_11_03_00.sql"
+  },
+  {
+    "id": "backup-6",
+    "backupDate": "2024-01-10T03:00:00Z",
+    "sizeInBytes": 251658240,
+    "status": "Failed",
+    "fileName": "backup_2025_01_10_03_00.sql"
+  },
+  {
+    "id": "backup-7",
+    "backupDate": "2024-01-09T03:00:00Z",
+    "sizeInBytes": 249561088,
+    "status": "Completed",
+    "fileName": "backup_2025_01_09_03_00.sql"
+  },
+  {
+    "id": "backup-8",
+    "backupDate": "2024-01-08T03:00:00Z",
+    "sizeInBytes": 247463936,
+    "status": "Completed",
+    "fileName": "backup_2025_01_08_03_00.sql"
+  },
+  {
+    "id": "backup-9",
+    "backupDate": "2024-01-07T03:00:00Z",
+    "sizeInBytes": 245366784,
+    "status": "Completed",
+    "fileName": "backup_2025_01_07_03_00.sql"
+  },
+  {
+    "id": "backup-10",
+    "backupDate": "2024-01-06T03:00:00Z",
+    "sizeInBytes": 243269632,
+    "status": "Completed",
+    "fileName": "backup_2025_01_06_03_00.sql"
+  },
+  {
+    "id": "backup-11",
+    "backupDate": "2024-01-05T03:00:00Z",
+    "sizeInBytes": 241172480,
+    "status": "Completed",
+    "fileName": "backup_2025_01_05_03_00.sql"
+  },
+  {
+    "id": "backup-12",
+    "backupDate": "2024-01-04T03:00:00Z",
+    "sizeInBytes": 239075328,
+    "status": "Completed",
+    "fileName": "backup_2025_01_04_03_00.sql"
+  },
+  {
+    "id": "backup-13",
+    "backupDate": "2024-01-03T03:00:00Z",
+    "sizeInBytes": 236978176,
+    "status": "Completed",
+    "fileName": "backup_2025_01_03_03_00.sql"
+  },
+  {
+    "id": "backup-14",
+    "backupDate": "2024-01-02T03:00:00Z",
+    "sizeInBytes": 234881024,
+    "status": "Completed",
+    "fileName": "backup_2025_01_02_03_00.sql"
+  },
+  {
+    "id": "backup-15",
+    "backupDate": "2024-01-01T03:00:00Z",
+    "sizeInBytes": 232783872,
+    "status": "Completed",
+    "fileName": "backup_2025_01_01_03_00.sql"
+  },
+  {
+    "id": "backup-16",
+    "backupDate": "2023-12-31T03:00:00Z",
+    "sizeInBytes": 230686720,
+    "status": "Completed",
+    "fileName": "backup_2024_12_31_03_00.sql"
+  },
+  {
+    "id": "backup-17",
+    "backupDate": "2023-12-30T03:00:00Z",
+    "sizeInBytes": 228589568,
+    "status": "Completed",
+    "fileName": "backup_2024_12_30_03_00.sql"
+  },
+  {
+    "id": "backup-18",
+    "backupDate": "2023-12-29T03:00:00Z",
+    "sizeInBytes": 226492416,
+    "status": "Failed",
+    "fileName": "backup_2024_12_29_03_00.sql"
+  },
+  {
+    "id": "backup-19",
+    "backupDate": "2023-12-28T03:00:00Z",
+    "sizeInBytes": 224395264,
+    "status": "Completed",
+    "fileName": "backup_2024_12_28_03_00.sql"
+  },
+  {
+    "id": "backup-20",
+    "backupDate": "2023-12-27T03:00:00Z",
+    "sizeInBytes": 222298112,
+    "status": "Completed",
+    "fileName": "backup_2024_12_27_03_00.sql"
+  },
+  {
+    "id": "backup-21",
+    "backupDate": "2023-12-26T03:00:00Z",
+    "sizeInBytes": 220200960,
+    "status": "Completed",
+    "fileName": "backup_2024_12_26_03_00.sql"
+  },
+  {
+    "id": "backup-22",
+    "backupDate": "2023-12-25T03:00:00Z",
+    "sizeInBytes": 218103808,
+    "status": "Completed",
+    "fileName": "backup_2024_12_25_03_00.sql"
+  },
+  {
+    "id": "backup-23",
+    "backupDate": "2023-12-24T03:00:00Z",
+    "sizeInBytes": 216006656,
+    "status": "Completed",
+    "fileName": "backup_2024_12_24_03_00.sql"
+  },
+  {
+    "id": "backup-24",
+    "backupDate": "2023-12-23T03:00:00Z",
+    "sizeInBytes": 213909504,
+    "status": "Completed",
+    "fileName": "backup_2024_12_23_03_00.sql"
+  },
+  {
+    "id": "backup-25",
+    "backupDate": "2023-12-22T03:00:00Z",
+    "sizeInBytes": 211812352,
+    "status": "Completed",
+    "fileName": "backup_2024_12_22_03_00.sql"
+  }
+]
