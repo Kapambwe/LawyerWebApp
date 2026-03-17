@@ -194,6 +194,19 @@
         })();
     </script>
     
+    <!-- Unregister any stale service workers from previous PWA builds -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                for (var reg of registrations) {
+                    reg.unregister().then(function(success) {
+                        if (success) console.log('🧹 Stale service worker unregistered.');
+                    });
+                }
+            });
+        }
+    </script>
+
     <!-- Suppress Mono debugger assertion errors -->
     <script>
         // Catch and suppress known Mono debugger assertion errors
