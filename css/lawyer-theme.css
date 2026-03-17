@@ -1,0 +1,696 @@
+/* ===================================
+   Lawyer WebApp Theme
+   Professional Legal Services Theme
+   Mobile & Desktop Responsive
+   =================================== */
+
+/* ===================================
+   Color Variables - Legal Theme
+   =================================== */
+:root {
+    /* Primary Colors - Professional Navy/Blue */
+    --lawyer-primary: #1e3a8a;
+    --lawyer-primary-light: #3b82f6;
+    --lawyer-primary-dark: #1e293b;
+    --lawyer-primary-gradient: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+
+    /* Secondary Colors - Gold/Amber for Accents */
+    --lawyer-secondary: #d97706;
+    --lawyer-secondary-light: #f59e0b;
+    --lawyer-secondary-dark: #92400e;
+    --lawyer-secondary-gradient: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+
+    /* Success - Green */
+    --lawyer-success: #059669;
+    --lawyer-success-light: #10b981;
+    --lawyer-success-gradient: linear-gradient(135deg, #10b981 0%, #059669 100%);
+
+    /* Info - Blue */
+    --lawyer-info: #0284c7;
+    --lawyer-info-light: #0ea5e9;
+    --lawyer-info-gradient: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+
+    /* Warning - Orange */
+    --lawyer-warning: #ea580c;
+    --lawyer-warning-light: #f97316;
+    --lawyer-warning-gradient: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+
+    /* Danger - Red */
+    --lawyer-danger: #dc2626;
+    --lawyer-danger-light: #ef4444;
+    --lawyer-danger-gradient: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+
+    /* Purple - for Analytics */
+    --lawyer-purple: #7c3aed;
+    --lawyer-purple-light: #8b5cf6;
+    --lawyer-purple-gradient: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+
+    /* Neutral Colors */
+    --lawyer-gray-50: #f8fafc;
+    --lawyer-gray-100: #f1f5f9;
+    --lawyer-gray-200: #e2e8f0;
+    --lawyer-gray-300: #cbd5e1;
+    --lawyer-gray-400: #94a3b8;
+    --lawyer-gray-500: #64748b;
+    --lawyer-gray-600: #475569;
+    --lawyer-gray-700: #334155;
+    --lawyer-gray-800: #1e293b;
+    --lawyer-gray-900: #0f172a;
+
+    /* Text Colors */
+    --lawyer-text-primary: #0f172a;
+    --lawyer-text-secondary: #64748b;
+    --lawyer-text-tertiary: #94a3b8;
+    --lawyer-text-light: #ffffff;
+
+    /* Background Colors */
+    --lawyer-bg-primary: #ffffff;
+    --lawyer-bg-secondary: #f8fafc;
+    --lawyer-bg-tertiary: #f1f5f9;
+    --lawyer-bg-dark: #0f172a;
+
+    /* Border Colors */
+    --lawyer-border-light: #e2e8f0;
+    --lawyer-border-medium: #cbd5e1;
+    --lawyer-border-dark: #94a3b8;
+
+    /* Shadow Styles */
+    --lawyer-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --lawyer-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+    --lawyer-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    --lawyer-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    --lawyer-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+
+    /* Spacing */
+    --lawyer-spacing-xs: 0.25rem;
+    --lawyer-spacing-sm: 0.5rem;
+    --lawyer-spacing-md: 1rem;
+    --lawyer-spacing-lg: 1.5rem;
+    --lawyer-spacing-xl: 2rem;
+    --lawyer-spacing-2xl: 3rem;
+
+    /* Border Radius */
+    --lawyer-radius-sm: 0.25rem;
+    --lawyer-radius-md: 0.5rem;
+    --lawyer-radius-lg: 0.75rem;
+    --lawyer-radius-xl: 1rem;
+    --lawyer-radius-2xl: 1.5rem;
+    --lawyer-radius-full: 9999px;
+
+    /* Transitions */
+    --lawyer-transition: all 0.3s ease-in-out;
+    --lawyer-transition-fast: all 0.15s ease-in-out;
+}
+
+/* ===================================
+   Typography
+   =================================== */
+body {
+    font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    color: var(--lawyer-text-primary);
+    background-color: var(--lawyer-bg-secondary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--lawyer-text-primary);
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.875rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.125rem; }
+h6 { font-size: 1rem; }
+
+/* ===================================
+   Card Styles
+   =================================== */
+.lawyer-card {
+    background: var(--lawyer-bg-primary);
+    border-radius: var(--lawyer-radius-lg);
+    box-shadow: var(--lawyer-shadow-md);
+    padding: var(--lawyer-spacing-lg);
+    transition: var(--lawyer-transition);
+    border: 1px solid var(--lawyer-border-light);
+}
+
+.lawyer-card:hover {
+    box-shadow: var(--lawyer-shadow-lg);
+    transform: translateY(-2px);
+}
+
+.lawyer-card-header {
+    border-bottom: 2px solid var(--lawyer-border-light);
+    padding-bottom: var(--lawyer-spacing-md);
+    margin-bottom: var(--lawyer-spacing-lg);
+}
+
+/* ===================================
+   Summary/Stats Cards
+   =================================== */
+.lawyer-stats-card {
+    border-radius: var(--lawyer-radius-lg);
+    padding: var(--lawyer-spacing-lg);
+    color: white;
+    box-shadow: var(--lawyer-shadow-lg);
+    transition: var(--lawyer-transition);
+    overflow: hidden;
+    position: relative;
+}
+
+.lawyer-stats-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    opacity: 0;
+    transition: var(--lawyer-transition);
+}
+
+.lawyer-stats-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--lawyer-shadow-xl);
+}
+
+.lawyer-stats-card:hover::before {
+    opacity: 1;
+}
+
+.lawyer-stats-card-primary {
+    background: var(--lawyer-primary-gradient);
+}
+
+.lawyer-stats-card-secondary {
+    background: var(--lawyer-secondary-gradient);
+}
+
+.lawyer-stats-card-success {
+    background: var(--lawyer-success-gradient);
+}
+
+.lawyer-stats-card-info {
+    background: var(--lawyer-info-gradient);
+}
+
+.lawyer-stats-card-warning {
+    background: var(--lawyer-warning-gradient);
+}
+
+.lawyer-stats-card-purple {
+    background: var(--lawyer-purple-gradient);
+}
+
+/* ===================================
+   Buttons
+   =================================== */
+.lawyer-btn {
+    padding: 0.625rem 1.25rem;
+    border-radius: var(--lawyer-radius-md);
+    font-weight: 600;
+    transition: var(--lawyer-transition-fast);
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.lawyer-btn-primary {
+    background: var(--lawyer-primary);
+    color: white;
+}
+
+.lawyer-btn-primary:hover {
+    background: var(--lawyer-primary-dark);
+    transform: translateY(-1px);
+    box-shadow: var(--lawyer-shadow-md);
+}
+
+.lawyer-btn-secondary {
+    background: var(--lawyer-secondary);
+    color: white;
+}
+
+.lawyer-btn-secondary:hover {
+    background: var(--lawyer-secondary-dark);
+    transform: translateY(-1px);
+    box-shadow: var(--lawyer-shadow-md);
+}
+
+.lawyer-btn-success {
+    background: var(--lawyer-success);
+    color: white;
+}
+
+.lawyer-btn-success:hover {
+    background: var(--lawyer-success-light);
+}
+
+.lawyer-btn-outline {
+    background: transparent;
+    border: 2px solid var(--lawyer-primary);
+    color: var(--lawyer-primary);
+}
+
+.lawyer-btn-outline:hover {
+    background: var(--lawyer-primary);
+    color: white;
+}
+
+/* ===================================
+   Badges
+   =================================== */
+.lawyer-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    border-radius: var(--lawyer-radius-full);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.lawyer-badge-success {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.lawyer-badge-warning {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.lawyer-badge-danger {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+.lawyer-badge-info {
+    background-color: #dbeafe;
+    color: #1e40af;
+}
+
+.lawyer-badge-primary {
+    background-color: #dbeafe;
+    color: #1e3a8a;
+}
+
+.lawyer-badge-secondary {
+    background-color: #e5e7eb;
+    color: #374151;
+}
+
+/* ===================================
+   Page Header
+   =================================== */
+.lawyer-page-header {
+    background: var(--lawyer-bg-primary);
+    border-radius: var(--lawyer-radius-lg);
+    box-shadow: var(--lawyer-shadow-md);
+    padding: var(--lawyer-spacing-lg);
+    margin-bottom: var(--lawyer-spacing-lg);
+}
+
+.lawyer-page-title {
+    display: flex;
+    align-items: center;
+    gap: var(--lawyer-spacing-md);
+    margin: 0;
+}
+
+.lawyer-page-icon {
+    font-size: 2.5rem;
+    color: var(--lawyer-secondary);
+}
+
+.lawyer-page-subtitle {
+    color: var(--lawyer-text-secondary);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+/* ===================================
+   Data Grid/Table Enhancements
+   =================================== */
+.lawyer-table-wrapper {
+    background: var(--lawyer-bg-primary);
+    border-radius: var(--lawyer-radius-lg);
+    box-shadow: var(--lawyer-shadow-md);
+    overflow: hidden;
+}
+
+.lawyer-table-header {
+    padding: var(--lawyer-spacing-lg);
+    border-bottom: 2px solid var(--lawyer-border-light);
+}
+
+/* ===================================
+   Progress Bar
+   =================================== */
+.lawyer-progress {
+    height: 0.5rem;
+    background-color: var(--lawyer-gray-200);
+    border-radius: var(--lawyer-radius-full);
+    overflow: hidden;
+}
+
+.lawyer-progress-bar {
+    height: 100%;
+    background: var(--lawyer-primary-gradient);
+    transition: width 0.6s ease;
+    border-radius: var(--lawyer-radius-full);
+}
+
+.lawyer-progress-bar-success {
+    background: var(--lawyer-success-gradient);
+}
+
+.lawyer-progress-bar-warning {
+    background: var(--lawyer-warning-gradient);
+}
+
+.lawyer-progress-bar-danger {
+    background: var(--lawyer-danger-gradient);
+}
+
+/* ===================================
+   Action Buttons Group
+   =================================== */
+.lawyer-actions {
+    display: flex;
+    gap: var(--lawyer-spacing-sm);
+    align-items: center;
+}
+
+.lawyer-action-btn {
+    padding: 0.5rem;
+    border-radius: var(--lawyer-radius-md);
+    border: none;
+    cursor: pointer;
+    transition: var(--lawyer-transition-fast);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
+    min-height: 2rem;
+}
+
+.lawyer-action-btn:hover {
+    transform: scale(1.1);
+}
+
+.lawyer-action-btn-view {
+    background-color: var(--lawyer-gray-200);
+    color: var(--lawyer-gray-700);
+}
+
+.lawyer-action-btn-view:hover {
+    background-color: var(--lawyer-gray-300);
+}
+
+.lawyer-action-btn-edit {
+    background-color: #dbeafe;
+    color: var(--lawyer-primary);
+}
+
+.lawyer-action-btn-edit:hover {
+    background-color: #bfdbfe;
+}
+
+.lawyer-action-btn-delete {
+    background-color: #fee2e2;
+    color: var(--lawyer-danger);
+}
+
+.lawyer-action-btn-delete:hover {
+    background-color: #fecaca;
+}
+
+/* ===================================
+   Responsive Grid Layout
+   =================================== */
+.lawyer-grid {
+    display: grid;
+    gap: var(--lawyer-spacing-lg);
+}
+
+.lawyer-grid-cols-1 { grid-template-columns: repeat(1, 1fr); }
+.lawyer-grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+.lawyer-grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+.lawyer-grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+
+/* ===================================
+   Status Indicators
+   =================================== */
+.lawyer-status-dot {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.lawyer-status-active {
+    background-color: var(--lawyer-success);
+}
+
+.lawyer-status-pending {
+    background-color: var(--lawyer-warning);
+}
+
+.lawyer-status-inactive {
+    background-color: var(--lawyer-gray-400);
+}
+
+.lawyer-status-closed {
+    background-color: var(--lawyer-danger);
+}
+
+/* ===================================
+   Form Styles
+   =================================== */
+.lawyer-form-group {
+    margin-bottom: var(--lawyer-spacing-lg);
+}
+
+.lawyer-form-label {
+    display: block;
+    font-weight: 600;
+    color: var(--lawyer-text-primary);
+    margin-bottom: var(--lawyer-spacing-sm);
+    font-size: 0.875rem;
+}
+
+.lawyer-form-control {
+    width: 100%;
+    padding: 0.625rem 0.875rem;
+    border: 2px solid var(--lawyer-border-light);
+    border-radius: var(--lawyer-radius-md);
+    font-size: 0.875rem;
+    transition: var(--lawyer-transition-fast);
+    background-color: var(--lawyer-bg-primary);
+}
+
+.lawyer-form-control:focus {
+    outline: none;
+    border-color: var(--lawyer-primary);
+    box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+}
+
+/* ===================================
+   Mobile Responsive Styles
+   =================================== */
+
+/* Tablet and below */
+@media (max-width: 768px) {
+    /* Typography scaling */
+    h1 { font-size: 1.75rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.25rem; }
+    h4 { font-size: 1.125rem; }
+    
+    /* Grid adjustments */
+    .lawyer-grid-cols-2,
+    .lawyer-grid-cols-3,
+    .lawyer-grid-cols-4 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    /* Card padding */
+    .lawyer-card {
+        padding: var(--lawyer-spacing-md);
+    }
+    
+    /* Stats card */
+    .lawyer-stats-card {
+        padding: var(--lawyer-spacing-md);
+    }
+    
+    /* Page header */
+    .lawyer-page-header {
+        padding: var(--lawyer-spacing-md);
+    }
+    
+    .lawyer-page-icon {
+        font-size: 2rem;
+    }
+    
+    /* Button sizes */
+    .lawyer-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.8125rem;
+    }
+    
+    /* Actions column */
+    .lawyer-actions {
+        flex-wrap: wrap;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+    /* Further reduce spacing */
+    :root {
+        --lawyer-spacing-lg: 1rem;
+        --lawyer-spacing-xl: 1.5rem;
+    }
+    
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.25rem; }
+    
+    /* Stack header elements */
+    .lawyer-page-header .rz-stack-horizontal {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    
+    /* Full width buttons on mobile */
+    .lawyer-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* ===================================
+   Touch-friendly enhancements
+   =================================== */
+@media (hover: none) and (pointer: coarse) {
+    /* Larger touch targets */
+    .lawyer-action-btn {
+        min-width: 2.75rem;
+        min-height: 2.75rem;
+    }
+    
+    .lawyer-btn {
+        padding: 0.75rem 1.5rem;
+    }
+    
+    /* Remove hover effects on touch devices */
+    .lawyer-card:hover {
+        transform: none;
+    }
+    
+    .lawyer-stats-card:hover {
+        transform: none;
+    }
+}
+
+/* ===================================
+   Radzen Component Overrides
+   =================================== */
+.rz-card {
+    border-radius: var(--lawyer-radius-lg) !important;
+    box-shadow: var(--lawyer-shadow-md) !important;
+}
+
+.rz-shadow-3 {
+    box-shadow: var(--lawyer-shadow-lg) !important;
+}
+
+.rz-datatable-scrollable {
+    border-radius: var(--lawyer-radius-lg);
+    overflow: hidden;
+}
+
+/* ===================================
+   Utility Classes
+   =================================== */
+.lawyer-text-primary { color: var(--lawyer-text-primary); }
+.lawyer-text-secondary { color: var(--lawyer-text-secondary); }
+.lawyer-text-white { color: var(--lawyer-text-light); }
+
+.lawyer-bg-primary { background-color: var(--lawyer-bg-primary); }
+.lawyer-bg-secondary { background-color: var(--lawyer-bg-secondary); }
+
+.lawyer-mb-sm { margin-bottom: var(--lawyer-spacing-sm); }
+.lawyer-mb-md { margin-bottom: var(--lawyer-spacing-md); }
+.lawyer-mb-lg { margin-bottom: var(--lawyer-spacing-lg); }
+.lawyer-mb-xl { margin-bottom: var(--lawyer-spacing-xl); }
+
+.lawyer-mt-sm { margin-top: var(--lawyer-spacing-sm); }
+.lawyer-mt-md { margin-top: var(--lawyer-spacing-md); }
+.lawyer-mt-lg { margin-top: var(--lawyer-spacing-lg); }
+.lawyer-mt-xl { margin-top: var(--lawyer-spacing-xl); }
+
+.lawyer-p-sm { padding: var(--lawyer-spacing-sm); }
+.lawyer-p-md { padding: var(--lawyer-spacing-md); }
+.lawyer-p-lg { padding: var(--lawyer-spacing-lg); }
+.lawyer-p-xl { padding: var(--lawyer-spacing-xl); }
+
+.lawyer-rounded { border-radius: var(--lawyer-radius-md); }
+.lawyer-rounded-lg { border-radius: var(--lawyer-radius-lg); }
+.lawyer-rounded-full { border-radius: var(--lawyer-radius-full); }
+
+.lawyer-shadow-sm { box-shadow: var(--lawyer-shadow-sm); }
+.lawyer-shadow { box-shadow: var(--lawyer-shadow); }
+.lawyer-shadow-md { box-shadow: var(--lawyer-shadow-md); }
+.lawyer-shadow-lg { box-shadow: var(--lawyer-shadow-lg); }
+.lawyer-shadow-xl { box-shadow: var(--lawyer-shadow-xl); }
+
+/* ===================================
+   Accessibility
+   =================================== */
+.lawyer-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Focus visible for keyboard navigation */
+*:focus-visible {
+    outline: 2px solid var(--lawyer-primary);
+    outline-offset: 2px;
+}
+
+/* ===================================
+   Print Styles
+   =================================== */
+@media print {
+    .lawyer-card,
+    .lawyer-stats-card {
+        box-shadow: none;
+        border: 1px solid var(--lawyer-border-light);
+    }
+    
+    .lawyer-action-btn,
+    .lawyer-btn {
+        display: none;
+    }
+}

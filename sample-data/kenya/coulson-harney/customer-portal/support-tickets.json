@@ -1,0 +1,636 @@
+[
+  {
+    "id": "ticket-1",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "subject": "Support Request #1",
+    "description": "I need assistance with Billing",
+    "status": "open",
+    "priority": "medium",
+    "category": "billing",
+    "createdDate": "2023-10-05T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Johnson 1",
+    "replies": [
+      {
+        "id": "reply-1",
+        "ticketId": "ticket-1",
+        "senderId": "client-1",
+        "senderName": "John Doe",
+        "senderType": "client",
+        "message": "Initial inquiry message",
+        "createdDate": "2023-10-05T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-2",
+    "clientId": "client-2",
+    "clientName": "Global Industries",
+    "subject": "Cannot access my case documents",
+    "description": "I am unable to view or download documents from my case portal page.",
+    "status": "inProgress",
+    "priority": "high",
+    "category": "technical",
+    "createdDate": "2023-11-10T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-2",
+    "assignedToName": "Attorney Smith",
+    "replies": [
+      {
+        "id": "reply-2-1",
+        "ticketId": "ticket-2",
+        "senderId": "client-2",
+        "senderName": "Maria Garcia",
+        "senderType": "client",
+        "message": "I keep getting an error when I try to open documents.",
+        "createdDate": "2023-11-10T00:00:00Z"
+      },
+      {
+        "id": "reply-2-2",
+        "ticketId": "ticket-2",
+        "senderId": "lawyer-2",
+        "senderName": "Attorney Smith",
+        "senderType": "lawyer",
+        "message": "We are investigating the issue. Please try clearing your browser cache.",
+        "createdDate": "2023-11-11T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-3",
+    "clientId": "client-3",
+    "clientName": "Summit Holdings",
+    "subject": "Question about invoice charges",
+    "description": "I have questions about the expert witness fees listed on my invoice.",
+    "status": "closed",
+    "priority": "low",
+    "category": "billing",
+    "createdDate": "2023-12-01T00:00:00Z",
+    "resolvedDate": "2023-12-05T00:00:00Z",
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Johnson",
+    "replies": [
+      {
+        "id": "reply-3-1",
+        "ticketId": "ticket-3",
+        "senderId": "client-3",
+        "senderName": "David Wilson",
+        "senderType": "client",
+        "message": "Can you explain the expert witness fee breakdown?",
+        "createdDate": "2023-12-01T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-4",
+    "clientId": "client-4",
+    "clientName": "Pacific Ventures",
+    "subject": "Request for case status update",
+    "description": "I need an update on where my immigration case stands.",
+    "status": "open",
+    "priority": "medium",
+    "category": "legal",
+    "createdDate": "2024-01-08T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-5",
+    "assignedToName": "Attorney Martinez",
+    "replies": [
+      {
+        "id": "reply-4-1",
+        "ticketId": "ticket-4",
+        "senderId": "client-4",
+        "senderName": "Jennifer Lee",
+        "senderType": "client",
+        "message": "It has been 3 weeks since I last heard about my visa application.",
+        "createdDate": "2024-01-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-5",
+    "clientId": "client-5",
+    "clientName": "Regional Bank",
+    "subject": "Payment plan modification request",
+    "description": "Due to financial changes, I would like to modify my payment plan installments.",
+    "status": "inProgress",
+    "priority": "high",
+    "category": "billing",
+    "createdDate": "2024-01-15T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Johnson",
+    "replies": [
+      {
+        "id": "reply-5-1",
+        "ticketId": "ticket-5",
+        "senderId": "client-5",
+        "senderName": "Thomas Anderson",
+        "senderType": "client",
+        "message": "I would like to reduce monthly installments from $1000 to $500.",
+        "createdDate": "2024-01-15T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-6",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "subject": "Missing document in portal",
+    "description": "A signed contract from December is not showing in my documents section.",
+    "status": "closed",
+    "priority": "medium",
+    "category": "technical",
+    "createdDate": "2024-01-20T00:00:00Z",
+    "resolvedDate": "2024-01-22T00:00:00Z",
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Smith",
+    "replies": [
+      {
+        "id": "reply-6-1",
+        "ticketId": "ticket-6",
+        "senderId": "client-1",
+        "senderName": "John Doe",
+        "senderType": "client",
+        "message": "The December merger contract is missing from my portal.",
+        "createdDate": "2024-01-20T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-7",
+    "clientId": "client-2",
+    "clientName": "Global Industries",
+    "subject": "Overdue invoice dispute",
+    "description": "I believe invoice INV-2024-007 contains an error in the hours billed.",
+    "status": "open",
+    "priority": "high",
+    "category": "billing",
+    "createdDate": "2024-02-10T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-2",
+    "assignedToName": "Attorney Johnson",
+    "replies": [
+      {
+        "id": "reply-7-1",
+        "ticketId": "ticket-7",
+        "senderId": "client-2",
+        "senderName": "Maria Garcia",
+        "senderType": "client",
+        "message": "The invoice shows 35 hours but I was told 25 hours was the estimate.",
+        "createdDate": "2024-02-10T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-8",
+    "clientId": "client-3",
+    "clientName": "Summit Holdings",
+    "subject": "Password reset not working",
+    "description": "I tried to reset my portal password but did not receive the email.",
+    "status": "closed",
+    "priority": "low",
+    "category": "technical",
+    "createdDate": "2024-02-15T00:00:00Z",
+    "resolvedDate": "2024-02-16T00:00:00Z",
+    "assignedTo": "lawyer-3",
+    "assignedToName": "Attorney Davis",
+    "replies": [
+      {
+        "id": "reply-8-1",
+        "ticketId": "ticket-8",
+        "senderId": "client-3",
+        "senderName": "David Wilson",
+        "senderType": "client",
+        "message": "I have tried three times and no reset email arrives.",
+        "createdDate": "2024-02-15T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-9",
+    "clientId": "client-4",
+    "clientName": "Pacific Ventures",
+    "subject": "Request for additional legal advice",
+    "description": "I need general advice about starting a new business entity.",
+    "status": "open",
+    "priority": "low",
+    "category": "general",
+    "createdDate": "2024-02-20T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Smith",
+    "replies": [
+      {
+        "id": "reply-9-1",
+        "ticketId": "ticket-9",
+        "senderId": "client-4",
+        "senderName": "Jennifer Lee",
+        "senderType": "client",
+        "message": "I want to discuss LLC vs S-Corp for a new venture.",
+        "createdDate": "2024-02-20T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-10",
+    "clientId": "client-5",
+    "clientName": "Regional Bank",
+    "subject": "Duplicate invoice received",
+    "description": "I received two copies of invoice INV-2024-010 for the same services.",
+    "status": "closed",
+    "priority": "medium",
+    "category": "billing",
+    "createdDate": "2024-03-05T00:00:00Z",
+    "resolvedDate": "2024-03-07T00:00:00Z",
+    "assignedTo": "lawyer-4",
+    "assignedToName": "Attorney Thompson",
+    "replies": [
+      {
+        "id": "reply-10-1",
+        "ticketId": "ticket-10",
+        "senderId": "client-5",
+        "senderName": "Thomas Anderson",
+        "senderType": "client",
+        "message": "Both invoices appear identical - please confirm which one to pay.",
+        "createdDate": "2024-03-05T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-11",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "subject": "Need explanation of legal fees",
+    "description": "Can someone walk me through the billing for the corporate merger services?",
+    "status": "inProgress",
+    "priority": "medium",
+    "category": "billing",
+    "createdDate": "2024-03-10T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Smith",
+    "replies": [
+      {
+        "id": "reply-11-1",
+        "ticketId": "ticket-11",
+        "senderId": "client-1",
+        "senderName": "John Doe",
+        "senderType": "client",
+        "message": "I want to understand how the hourly rates are applied.",
+        "createdDate": "2024-03-10T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-12",
+    "clientId": "client-2",
+    "clientName": "Global Industries",
+    "subject": "Portal login error on mobile",
+    "description": "I cannot log into the client portal on my mobile phone.",
+    "status": "open",
+    "priority": "low",
+    "category": "technical",
+    "createdDate": "2024-03-15T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-2",
+    "assignedToName": "Attorney Johnson",
+    "replies": [
+      {
+        "id": "reply-12-1",
+        "ticketId": "ticket-12",
+        "senderId": "client-2",
+        "senderName": "Maria Garcia",
+        "senderType": "client",
+        "message": "Works on desktop but mobile gives session expired error.",
+        "createdDate": "2024-03-15T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-13",
+    "clientId": "client-3",
+    "clientName": "Summit Holdings",
+    "subject": "Request for case closure documentation",
+    "description": "My DUI case was dismissed. I need the official closure documents.",
+    "status": "open",
+    "priority": "medium",
+    "category": "legal",
+    "createdDate": "2024-03-20T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-3",
+    "assignedToName": "Attorney Davis",
+    "replies": [
+      {
+        "id": "reply-13-1",
+        "ticketId": "ticket-13",
+        "senderId": "client-3",
+        "senderName": "David Wilson",
+        "senderType": "client",
+        "message": "Please provide the dismissal order and any related court paperwork.",
+        "createdDate": "2024-03-20T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-14",
+    "clientId": "client-4",
+    "clientName": "Pacific Ventures",
+    "subject": "Incorrect client name on statement",
+    "description": "My monthly statement shows the wrong company name.",
+    "status": "closed",
+    "priority": "low",
+    "category": "account",
+    "createdDate": "2024-03-25T00:00:00Z",
+    "resolvedDate": "2024-03-26T00:00:00Z",
+    "assignedTo": "lawyer-5",
+    "assignedToName": "Attorney Martinez",
+    "replies": [
+      {
+        "id": "reply-14-1",
+        "ticketId": "ticket-14",
+        "senderId": "client-4",
+        "senderName": "Jennifer Lee",
+        "senderType": "client",
+        "message": "Statement says Pacific Ventures Ltd but should be Pacific Ventures LLC.",
+        "createdDate": "2024-03-25T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-15",
+    "clientId": "client-5",
+    "clientName": "Regional Bank",
+    "subject": "Request for early case settlement",
+    "description": "I would like to explore options for settling the bankruptcy case early.",
+    "status": "inProgress",
+    "priority": "high",
+    "category": "legal",
+    "createdDate": "2024-04-01T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Smith",
+    "replies": [
+      {
+        "id": "reply-15-1",
+        "ticketId": "ticket-15",
+        "senderId": "client-5",
+        "senderName": "Thomas Anderson",
+        "senderType": "client",
+        "message": "We have secured additional funding and want to discuss restructuring.",
+        "createdDate": "2024-04-01T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-16",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "subject": "Two-factor authentication issue",
+    "description": "I cannot complete 2FA when logging into the portal.",
+    "status": "closed",
+    "priority": "medium",
+    "category": "technical",
+    "createdDate": "2024-04-05T00:00:00Z",
+    "resolvedDate": "2024-04-06T00:00:00Z",
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Johnson",
+    "replies": [
+      {
+        "id": "reply-16-1",
+        "ticketId": "ticket-16",
+        "senderId": "client-1",
+        "senderName": "John Doe",
+        "senderType": "client",
+        "message": "My authenticator app codes are not being accepted.",
+        "createdDate": "2024-04-05T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-17",
+    "clientId": "client-2",
+    "clientName": "Global Industries",
+    "subject": "Late fee dispute",
+    "description": "A late fee was applied but payment was submitted on time.",
+    "status": "open",
+    "priority": "high",
+    "category": "billing",
+    "createdDate": "2024-04-10T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-2",
+    "assignedToName": "Attorney Smith",
+    "replies": [
+      {
+        "id": "reply-17-1",
+        "ticketId": "ticket-17",
+        "senderId": "client-2",
+        "senderName": "Maria Garcia",
+        "senderType": "client",
+        "message": "I have payment confirmation dated before the due date. Please remove the fee.",
+        "createdDate": "2024-04-10T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-18",
+    "clientId": "client-3",
+    "clientName": "Summit Holdings",
+    "subject": "Request for transcript copies",
+    "description": "I need certified copies of my deposition transcripts.",
+    "status": "open",
+    "priority": "medium",
+    "category": "legal",
+    "createdDate": "2024-04-15T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-3",
+    "assignedToName": "Attorney Davis",
+    "replies": [
+      {
+        "id": "reply-18-1",
+        "ticketId": "ticket-18",
+        "senderId": "client-3",
+        "senderName": "David Wilson",
+        "senderType": "client",
+        "message": "I need these for insurance purposes. Two certified copies please.",
+        "createdDate": "2024-04-15T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-19",
+    "clientId": "client-4",
+    "clientName": "Pacific Ventures",
+    "subject": "Change of billing email",
+    "description": "I need to update the email address where invoices are sent.",
+    "status": "closed",
+    "priority": "low",
+    "category": "account",
+    "createdDate": "2024-04-20T00:00:00Z",
+    "resolvedDate": "2024-04-21T00:00:00Z",
+    "assignedTo": "lawyer-5",
+    "assignedToName": "Attorney Martinez",
+    "replies": [
+      {
+        "id": "reply-19-1",
+        "ticketId": "ticket-19",
+        "senderId": "client-4",
+        "senderName": "Jennifer Lee",
+        "senderType": "client",
+        "message": "New billing email: accounts@pacificventures.com",
+        "createdDate": "2024-04-20T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-20",
+    "clientId": "client-5",
+    "clientName": "Regional Bank",
+    "subject": "Complaint about service delay",
+    "description": "Response times have been very slow. Need management attention.",
+    "status": "inProgress",
+    "priority": "high",
+    "category": "general",
+    "createdDate": "2024-04-25T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Smith",
+    "replies": [
+      {
+        "id": "reply-20-1",
+        "ticketId": "ticket-20",
+        "senderId": "client-5",
+        "senderName": "Thomas Anderson",
+        "senderType": "client",
+        "message": "Waiting 2 weeks for responses is unacceptable given the urgency of my case.",
+        "createdDate": "2024-04-25T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-21",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "subject": "Need copy of retainer agreement",
+    "description": "I cannot find my retainer agreement in the portal documents.",
+    "status": "open",
+    "priority": "low",
+    "category": "legal",
+    "createdDate": "2024-05-01T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Smith",
+    "replies": [
+      {
+        "id": "reply-21-1",
+        "ticketId": "ticket-21",
+        "senderId": "client-1",
+        "senderName": "John Doe",
+        "senderType": "client",
+        "message": "Please upload a copy of our signed retainer agreement to my portal.",
+        "createdDate": "2024-05-01T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-22",
+    "clientId": "client-2",
+    "clientName": "Global Industries",
+    "subject": "Report generation not working",
+    "description": "When I try to export a billing summary, nothing happens.",
+    "status": "open",
+    "priority": "medium",
+    "category": "technical",
+    "createdDate": "2024-05-05T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-2",
+    "assignedToName": "Attorney Johnson",
+    "replies": [
+      {
+        "id": "reply-22-1",
+        "ticketId": "ticket-22",
+        "senderId": "client-2",
+        "senderName": "Maria Garcia",
+        "senderType": "client",
+        "message": "The export button does nothing when clicked.",
+        "createdDate": "2024-05-05T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-23",
+    "clientId": "client-3",
+    "clientName": "Summit Holdings",
+    "subject": "Incorrect balance on account",
+    "description": "My portal shows a balance that does not match my payment history.",
+    "status": "inProgress",
+    "priority": "high",
+    "category": "billing",
+    "createdDate": "2024-05-08T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-4",
+    "assignedToName": "Attorney Thompson",
+    "replies": [
+      {
+        "id": "reply-23-1",
+        "ticketId": "ticket-23",
+        "senderId": "client-3",
+        "senderName": "David Wilson",
+        "senderType": "client",
+        "message": "Portal shows $19,250 balance but my records show $7,500 after recent payments.",
+        "createdDate": "2024-05-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-24",
+    "clientId": "client-4",
+    "clientName": "Pacific Ventures",
+    "subject": "Request for payment receipt",
+    "description": "I need official receipts for all payments made in 2024 for tax purposes.",
+    "status": "open",
+    "priority": "low",
+    "category": "billing",
+    "createdDate": "2024-05-10T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-5",
+    "assignedToName": "Attorney Martinez",
+    "replies": [
+      {
+        "id": "reply-24-1",
+        "ticketId": "ticket-24",
+        "senderId": "client-4",
+        "senderName": "Jennifer Lee",
+        "senderType": "client",
+        "message": "Need receipts for payments made January through April 2024.",
+        "createdDate": "2024-05-10T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ticket-25",
+    "clientId": "client-5",
+    "clientName": "Regional Bank",
+    "subject": "Notification emails not being received",
+    "description": "I stopped receiving email notifications about my case and invoices.",
+    "status": "open",
+    "priority": "medium",
+    "category": "technical",
+    "createdDate": "2024-05-12T00:00:00Z",
+    "resolvedDate": null,
+    "assignedTo": "lawyer-1",
+    "assignedToName": "Attorney Johnson",
+    "replies": [
+      {
+        "id": "reply-25-1",
+        "ticketId": "ticket-25",
+        "senderId": "client-5",
+        "senderName": "Thomas Anderson",
+        "senderType": "client",
+        "message": "I have not received any emails from the portal in over a month.",
+        "createdDate": "2024-05-12T00:00:00Z"
+      }
+    ]
+  }
+]

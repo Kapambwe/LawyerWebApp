@@ -1,0 +1,102 @@
+[
+  {
+    "key": "generic",
+    "content": "Header1,Header2,Header3\nMock data row 1\nMock data row 2\n..."
+  },
+  {
+    "key": "cases",
+    "content": "CaseNumber,CaseName,Client,Status,OpenDate,AssignedLawyer\nCASE-001,Smith v Jones,John Smith,Active,2024-01-10,Jane Doe\nCASE-002,Brown Divorce,Mary Brown,Closed,2023-06-15,James Mwale\n..."
+  },
+  {
+    "key": "invoices",
+    "content": "InvoiceNumber,Client,Amount,Status,IssueDate,DueDate\nINV-001,John Smith,5000.00,Paid,2024-01-15,2024-02-15\nINV-002,Mary Brown,3200.00,Overdue,2024-02-01,2024-03-01\n..."
+  },
+  {
+    "key": "clients",
+    "content": "ClientId,FullName,Email,Phone,Type,RegisteredDate\nCL-001,John Smith,john@example.com,+260971234567,Individual,2023-05-01\nCL-002,ABC Corp,info@abccorp.com,+260977654321,Corporate,2022-11-15\n..."
+  },
+  {
+    "key": "time-entries",
+    "content": "EntryId,Lawyer,CaseNumber,Date,Hours,Description,BillableRate,Total\nTE-001,Jane Doe,CASE-001,2024-01-12,2.5,Legal research,350.00,875.00\nTE-002,James Mwale,CASE-002,2024-01-13,1.0,Client meeting,350.00,350.00\n..."
+  },
+  {
+    "key": "expenses",
+    "content": "ExpenseId,Category,Description,Amount,Date,CaseNumber,Reimbursable\nEXP-001,Travel,Court attendance Lusaka,250.00,2024-01-15,CASE-001,Yes\nEXP-002,Filing,Court filing fee,120.00,2024-01-16,CASE-002,Yes\n..."
+  },
+  {
+    "key": "payments",
+    "content": "PaymentId,Client,InvoiceNumber,Amount,Method,Date,Reference\nPAY-001,John Smith,INV-001,5000.00,BankTransfer,2024-02-10,REF12345\nPAY-002,Mary Brown,INV-003,1600.00,Cash,2024-02-15,\n..."
+  },
+  {
+    "key": "trust-transactions",
+    "content": "TransactionId,CaseNumber,Client,Type,Amount,Date,Balance,Reference\nTT-001,CASE-001,John Smith,Deposit,10000.00,2024-01-10,10000.00,RET001\nTT-002,CASE-001,John Smith,Withdrawal,2500.00,2024-01-20,7500.00,BILL001\n..."
+  },
+  {
+    "key": "tasks",
+    "content": "TaskId,Title,CaseNumber,AssignedTo,DueDate,Status,Priority\nTASK-001,File court documents,CASE-001,Jane Doe,2024-02-01,Pending,High\nTASK-002,Review contract,CASE-003,James Mwale,2024-02-05,In Progress,Medium\n..."
+  },
+  {
+    "key": "assets",
+    "content": "AssetId,Name,Type,Category,PurchaseDate,CostPrice,BookValue,DepreciationMethod\nAST-001,Dell Laptop,Computer & IT,Computers,2022-03-01,8500.00,5100.00,Straight-Line\nAST-002,Toyota Land Cruiser,Vehicles,Cars,2021-07-15,120000.00,72000.00,Declining Balance\n..."
+  },
+  {
+    "key": "accounts",
+    "content": "AccountCode,AccountName,Type,SubType,Balance,Currency\n1000,Cash at Bank,Assets,Bank & Cash,45230.00,ZMW\n1200,Accounts Receivable,Assets,Trade Receivables,123450.00,ZMW\n2000,Accounts Payable,Liabilities,Trade Payables,32100.00,ZMW\n..."
+  },
+  {
+    "key": "journals",
+    "content": "JournalId,Date,Reference,AccountCode,AccountName,Debit,Credit,Description\nJNL-001,2024-01-31,JAN-ADJ,6100,Salaries Expense,85000.00,,January salaries\nJNL-001,2024-01-31,JAN-ADJ,2100,Salaries Payable,,85000.00,January salaries\n..."
+  },
+  {
+    "key": "calendar-events",
+    "content": "EventId,Title,Date,Time,Location,CaseNumber,AttendeeCount,Type\nEVT-001,Court Hearing,2024-02-14,09:00,Lusaka High Court,CASE-001,3,Hearing\nEVT-002,Client Meeting,2024-02-15,14:00,Office,CASE-002,2,Meeting\n..."
+  },
+  {
+    "key": "documents",
+    "content": "DocumentId,Name,CaseNumber,Type,UploadDate,UploadedBy,SizeKB\nDOC-001,Contract_Draft_v1.docx,CASE-003,Contract,2024-01-05,Jane Doe,345\nDOC-002,Evidence_Photos.zip,CASE-001,Evidence,2024-01-10,James Mwale,2048\n..."
+  },
+  {
+    "key": "staff",
+    "content": "StaffId,FullName,Role,Email,Phone,DateJoined,Status\nSTF-001,Jane Doe,Senior Associate,jane.doe@firm.com,+260971000001,2020-03-01,Active\nSTF-002,James Mwale,Junior Associate,j.mwale@firm.com,+260971000002,2022-06-15,Active\n..."
+  },
+  {
+    "key": "overdue-invoices",
+    "content": "InvoiceNumber,Client,Amount,DueDate,DaysOverdue,LastReminder\nINV-002,Mary Brown,3200.00,2024-03-01,45,2024-03-20\nINV-005,XYZ Ltd,12500.00,2024-02-15,59,2024-03-10\n..."
+  },
+  {
+    "key": "case-outcomes",
+    "content": "CaseNumber,CaseName,Client,Outcome,CloseDate,TotalBilled,TotalCollected\nCASE-010,Breach of Contract,ABC Corp,Won,2024-01-30,28000.00,28000.00\nCASE-011,Employment Dispute,John Phiri,Settled,2024-02-10,15000.00,15000.00\n..."
+  },
+  {
+    "key": "referrals",
+    "content": "ReferralId,ReferredBy,NewClient,CaseType,ReferralDate,Status,FeeEarned\nREF-001,James Banda,Patricia Moyo,Family Law,2024-01-08,Active,2500.00\nREF-002,Lusaka Bar Assoc,TechCo Ltd,Corporate,2024-01-20,Active,0.00\n..."
+  },
+  {
+    "key": "budget-vs-actual",
+    "content": "Category,BudgetAmount,ActualAmount,Variance,VariancePct,Period\nSalaries,90000.00,87500.00,2500.00,2.78,2024-01\nRent,12000.00,12000.00,0.00,0.00,2024-01\nUtilities,3500.00,3820.00,-320.00,-9.14,2024-01\n..."
+  },
+  {
+    "key": "backup-log",
+    "content": "BackupId,FileName,BackupDate,SizeMB,Status,Duration\nBKP-001,backup_2024_01_15.sql,2024-01-15 03:00,250.00,Completed,00:04:32\nBKP-002,backup_2024_01_14.sql,2024-01-14 03:00,248.00,Completed,00:04:28\n..."
+  },
+  {
+    "key": "lawyer-performance",
+    "content": "LawyerId,LawyerName,TotalCases,ActiveCases,ClosedCases,BillableHours,TotalRevenue,Period\nSTF-001,Jane Doe,24,10,14,186.5,65275.00,2024-Q1\nSTF-002,James Mwale,18,8,10,142.0,49700.00,2024-Q1\n..."
+  },
+  {
+    "key": "aged-debtors",
+    "content": "Client,Current,30Days,60Days,90Days,Over90Days,TotalOutstanding\nJohn Smith,5000.00,0.00,0.00,0.00,0.00,5000.00\nMary Brown,0.00,3200.00,0.00,0.00,0.00,3200.00\nXYZ Ltd,0.00,0.00,0.00,12500.00,0.00,12500.00\n..."
+  },
+  {
+    "key": "compliance-checklist",
+    "content": "ItemId,RequirementName,DueDate,ResponsiblePerson,Status,CompletedDate\nCMP-001,Annual FATF Review,2024-03-31,Jane Doe,Pending,\nCMP-002,AML Training,2024-02-28,All Staff,Completed,2024-02-20\n..."
+  },
+  {
+    "key": "receivables-ledger",
+    "content": "EntryId,Client,InvoiceNumber,Date,Debit,Credit,Balance,Reference\nREC-001,John Smith,INV-001,2024-01-15,5000.00,0.00,5000.00,BILL\nREC-002,John Smith,INV-001,2024-02-10,0.00,5000.00,0.00,PAYMENT\n..."
+  },
+  {
+    "key": "payables-ledger",
+    "content": "EntryId,Supplier,Reference,Date,Debit,Credit,Balance,Description\nPAY-001,Office Supplies Co,PO-001,2024-01-10,0.00,4500.00,4500.00,Stationery purchase\nPAY-002,Office Supplies Co,PAY-001,2024-01-25,4500.00,0.00,0.00,Payment made\n..."
+  }
+]

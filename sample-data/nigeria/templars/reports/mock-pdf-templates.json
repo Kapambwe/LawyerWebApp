@@ -1,0 +1,102 @@
+[
+  {
+    "key": "case-analytics",
+    "content": "CASE ANALYTICS REPORT\nGenerated: {generatedAt}\n\nTotal Cases: {totalCases}\nActive Cases: {activeCases}\nClosed Cases: {closedCases}\n\nThis is a mock PDF export."
+  },
+  {
+    "key": "financial-report",
+    "content": "FINANCIAL REPORT\nGenerated: {generatedAt}\n\nTotal Revenue: {totalRevenue}\nOutstanding: {outstanding}\n\nThis is a mock PDF export."
+  },
+  {
+    "key": "invoice",
+    "content": "INVOICE #{invoiceId}\nDate: {date}\nDue Date: {dueDate}\n\nThis is a mock PDF invoice."
+  },
+  {
+    "key": "client-statement",
+    "content": "CLIENT STATEMENT\nClient: {clientName}\nPeriod: {periodStart} - {periodEnd}\n\nOpening Balance: {openingBalance}\nTotal Billed: {totalBilled}\nTotal Paid: {totalPaid}\nClosing Balance: {closingBalance}\n\nThis is a mock PDF statement."
+  },
+  {
+    "key": "retainer-agreement",
+    "content": "RETAINER AGREEMENT\nDate: {date}\nClient: {clientName}\nLaw Firm: {firmName}\n\nRetainer Amount: {retainerAmount}\nMonthly Fee: {monthlyFee}\n\nThis is a mock PDF retainer agreement."
+  },
+  {
+    "key": "court-filing",
+    "content": "COURT FILING DOCUMENT\nCase Number: {caseNumber}\nCourt: {courtName}\nDate Filed: {dateFiled}\n\nParties: {parties}\n\nThis is a mock PDF court filing."
+  },
+  {
+    "key": "trust-account-report",
+    "content": "TRUST ACCOUNT REPORT\nGenerated: {generatedAt}\nAccount: {accountNumber}\n\nOpening Balance: {openingBalance}\nDeposits: {deposits}\nWithdrawals: {withdrawals}\nClosing Balance: {closingBalance}\n\nThis is a mock PDF trust report."
+  },
+  {
+    "key": "time-billing-report",
+    "content": "TIME & BILLING REPORT\nLawyer: {lawyerName}\nPeriod: {periodStart} - {periodEnd}\n\nTotal Hours: {totalHours}\nBillable Hours: {billableHours}\nTotal Value: {totalValue}\n\nThis is a mock PDF billing report."
+  },
+  {
+    "key": "matter-summary",
+    "content": "MATTER SUMMARY\nMatter: {matterName}\nClient: {clientName}\nOpened: {openDate}\nStatus: {status}\n\nDescription: {description}\n\nThis is a mock PDF matter summary."
+  },
+  {
+    "key": "expense-report",
+    "content": "EXPENSE REPORT\nEmployee: {employeeName}\nPeriod: {periodStart} - {periodEnd}\n\nTotal Expenses: {totalExpenses}\nApproved: {approvedAmount}\nReimbursed: {reimbursedAmount}\n\nThis is a mock PDF expense report."
+  },
+  {
+    "key": "tax-summary",
+    "content": "TAX SUMMARY REPORT\nPeriod: {taxYear}\nEntity: {entityName}\n\nGross Income: {grossIncome}\nDeductions: {deductions}\nTaxable Income: {taxableIncome}\nTax Due: {taxDue}\n\nThis is a mock PDF tax summary."
+  },
+  {
+    "key": "settlement-agreement",
+    "content": "SETTLEMENT AGREEMENT\nDate: {date}\nCase Number: {caseNumber}\n\nPlaintiff: {plaintiff}\nDefendant: {defendant}\nSettlement Amount: {settlementAmount}\n\nThis is a mock PDF settlement agreement."
+  },
+  {
+    "key": "engagement-letter",
+    "content": "ENGAGEMENT LETTER\nDate: {date}\nClient: {clientName}\nMatter: {matterDescription}\n\nHourly Rate: {hourlyRate}\nEstimated Duration: {estimatedDuration}\n\nThis is a mock PDF engagement letter."
+  },
+  {
+    "key": "balance-sheet",
+    "content": "BALANCE SHEET\nAs at: {reportDate}\nEntity: {entityName}\n\nTotal Assets: {totalAssets}\nTotal Liabilities: {totalLiabilities}\nNet Equity: {netEquity}\n\nThis is a mock PDF balance sheet."
+  },
+  {
+    "key": "income-statement",
+    "content": "INCOME STATEMENT\nPeriod: {periodStart} - {periodEnd}\nEntity: {entityName}\n\nTotal Revenue: {totalRevenue}\nTotal Expenses: {totalExpenses}\nNet Profit: {netProfit}\n\nThis is a mock PDF income statement."
+  },
+  {
+    "key": "cash-flow-statement",
+    "content": "CASH FLOW STATEMENT\nPeriod: {periodStart} - {periodEnd}\nEntity: {entityName}\n\nOperating Activities: {operatingCashFlow}\nInvesting Activities: {investingCashFlow}\nFinancing Activities: {financingCashFlow}\nNet Change: {netChange}\n\nThis is a mock PDF cash flow statement."
+  },
+  {
+    "key": "audit-trail",
+    "content": "AUDIT TRAIL REPORT\nGenerated: {generatedAt}\nEntity: {entityName}\n\nTotal Transactions: {transactionCount}\nDate Range: {dateRange}\n\nThis is a mock PDF audit trail."
+  },
+  {
+    "key": "overdue-invoices",
+    "content": "OVERDUE INVOICES REPORT\nGenerated: {generatedAt}\n\nTotal Overdue: {totalOverdue}\nOldest Invoice: {oldestInvoiceDate}\n\nThis is a mock PDF overdue invoices report."
+  },
+  {
+    "key": "case-closure-report",
+    "content": "CASE CLOSURE REPORT\nCase Number: {caseNumber}\nClosed Date: {closedDate}\nClient: {clientName}\n\nTotal Billed: {totalBilled}\nTotal Collected: {totalCollected}\nOutcome: {outcome}\n\nThis is a mock PDF case closure report."
+  },
+  {
+    "key": "fee-agreement",
+    "content": "FEE AGREEMENT\nDate: {date}\nClient: {clientName}\nMatter: {matterName}\n\nAgreed Fee: {agreedFee}\nPayment Schedule: {paymentSchedule}\n\nThis is a mock PDF fee agreement."
+  },
+  {
+    "key": "power-of-attorney",
+    "content": "POWER OF ATTORNEY\nDate: {date}\nGrantor: {grantorName}\nGrantee: {granteeName}\n\nScope: {scope}\nExpiry: {expiryDate}\n\nThis is a mock PDF power of attorney."
+  },
+  {
+    "key": "compliance-certificate",
+    "content": "COMPLIANCE CERTIFICATE\nIssued: {issueDate}\nEntity: {entityName}\nCertificate Number: {certNumber}\n\nCompliance Status: {complianceStatus}\nValid Until: {validUntil}\n\nThis is a mock PDF compliance certificate."
+  },
+  {
+    "key": "asset-register",
+    "content": "ASSET REGISTER REPORT\nGenerated: {generatedAt}\nEntity: {entityName}\n\nTotal Assets: {totalAssets}\nTotal Book Value: {totalBookValue}\nTotal Depreciation: {totalDepreciation}\n\nThis is a mock PDF asset register."
+  },
+  {
+    "key": "payroll-summary",
+    "content": "PAYROLL SUMMARY\nPay Period: {payPeriod}\nEntity: {entityName}\n\nTotal Employees: {totalEmployees}\nGross Pay: {grossPay}\nDeductions: {deductions}\nNet Pay: {netPay}\n\nThis is a mock PDF payroll summary."
+  },
+  {
+    "key": "witness-statement",
+    "content": "WITNESS STATEMENT\nDate: {date}\nWitness: {witnessName}\nCase Number: {caseNumber}\n\nStatement: {statementText}\n\nThis is a mock PDF witness statement."
+  }
+]

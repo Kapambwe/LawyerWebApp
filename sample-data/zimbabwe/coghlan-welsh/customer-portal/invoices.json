@@ -1,0 +1,740 @@
+[
+  {
+    "id": "invoice-1",
+    "invoiceNumber": "INV-2024-001",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "caseId": "case-1",
+    "caseNumber": "CASE-2024-001",
+    "issueDate": "2023-10-01T00:00:00Z",
+    "dueDate": "2023-10-31T00:00:00Z",
+    "status": "sent",
+    "amountPaid": 0,
+    "total": 5000,
+    "balance": 5000,
+    "items": [
+      {
+        "description": "Legal Services",
+        "quantity": 10,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 2500
+      }
+    ],
+    "subtotal": 4600,
+    "tax": 400,
+    "taxRate": 8.0,
+    "createdAt": "2023-10-01T00:00:00Z"
+  },
+  {
+    "id": "invoice-2",
+    "invoiceNumber": "INV-2024-002",
+    "clientId": "client-2",
+    "clientName": "Global Industries",
+    "caseId": "case-2",
+    "caseNumber": "CASE-2024-002",
+    "issueDate": "2023-10-15T00:00:00Z",
+    "dueDate": "2023-11-14T00:00:00Z",
+    "status": "paid",
+    "amountPaid": 3750,
+    "total": 3750,
+    "balance": 0,
+    "items": [
+      {
+        "description": "Contract Review - 15 hours",
+        "quantity": 15,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 3750
+      }
+    ],
+    "subtotal": 3472,
+    "tax": 278,
+    "taxRate": 8.0,
+    "createdAt": "2023-10-15T00:00:00Z"
+  },
+  {
+    "id": "invoice-3",
+    "invoiceNumber": "INV-2024-003",
+    "clientId": "client-3",
+    "clientName": "Summit Holdings",
+    "caseId": "case-3",
+    "caseNumber": "CASE-2024-003",
+    "issueDate": "2023-11-01T00:00:00Z",
+    "dueDate": "2023-11-30T00:00:00Z",
+    "status": "overdue",
+    "amountPaid": 1000,
+    "total": 6500,
+    "balance": 5500,
+    "items": [
+      {
+        "description": "Litigation Services - 20 hours",
+        "quantity": 20,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 5000
+      },
+      {
+        "description": "Court Filing Fees",
+        "quantity": 1,
+        "rate": 500,
+        "unitPrice": 500,
+        "total": 500
+      }
+    ],
+    "subtotal": 6019,
+    "tax": 481,
+    "taxRate": 8.0,
+    "createdAt": "2023-11-01T00:00:00Z"
+  },
+  {
+    "id": "invoice-4",
+    "invoiceNumber": "INV-2024-004",
+    "clientId": "client-4",
+    "clientName": "Pacific Ventures",
+    "caseId": "case-4",
+    "caseNumber": "CASE-2024-004",
+    "issueDate": "2023-11-15T00:00:00Z",
+    "dueDate": "2023-12-15T00:00:00Z",
+    "status": "paid",
+    "amountPaid": 8000,
+    "total": 8000,
+    "balance": 0,
+    "items": [
+      {
+        "description": "Corporate Law Services - 32 hours",
+        "quantity": 32,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 8000
+      }
+    ],
+    "subtotal": 7407,
+    "tax": 593,
+    "taxRate": 8.0,
+    "createdAt": "2023-11-15T00:00:00Z"
+  },
+  {
+    "id": "invoice-5",
+    "invoiceNumber": "INV-2024-005",
+    "clientId": "client-5",
+    "clientName": "Regional Bank",
+    "caseId": "case-5",
+    "caseNumber": "CASE-2024-005",
+    "issueDate": "2023-12-01T00:00:00Z",
+    "dueDate": "2023-12-31T00:00:00Z",
+    "status": "sent",
+    "amountPaid": 2500,
+    "total": 12500,
+    "balance": 10000,
+    "items": [
+      {
+        "description": "Estate Planning Services - 40 hours",
+        "quantity": 40,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 10000
+      },
+      {
+        "description": "Document Preparation",
+        "quantity": 1,
+        "rate": 1000,
+        "unitPrice": 1000,
+        "total": 1000
+      }
+    ],
+    "subtotal": 11574,
+    "tax": 926,
+    "taxRate": 8.0,
+    "createdAt": "2023-12-01T00:00:00Z"
+  },
+  {
+    "id": "invoice-6",
+    "invoiceNumber": "INV-2024-006",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "caseId": "case-1",
+    "caseNumber": "CASE-2024-001",
+    "issueDate": "2023-11-01T00:00:00Z",
+    "dueDate": "2023-11-30T00:00:00Z",
+    "status": "paid",
+    "amountPaid": 4500,
+    "total": 4500,
+    "balance": 0,
+    "items": [
+      {
+        "description": "Legal Research - 18 hours",
+        "quantity": 18,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 4500
+      }
+    ],
+    "subtotal": 4167,
+    "tax": 333,
+    "taxRate": 8.0,
+    "createdAt": "2023-11-01T00:00:00Z"
+  },
+  {
+    "id": "invoice-7",
+    "invoiceNumber": "INV-2024-007",
+    "clientId": "client-2",
+    "clientName": "Global Industries",
+    "caseId": "case-7",
+    "caseNumber": "CASE-2024-007",
+    "issueDate": "2024-01-05T00:00:00Z",
+    "dueDate": "2024-02-04T00:00:00Z",
+    "status": "overdue",
+    "amountPaid": 0,
+    "total": 9250,
+    "balance": 9250,
+    "items": [
+      {
+        "description": "Employment Law Services - 35 hours",
+        "quantity": 35,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 8750
+      },
+      {
+        "description": "Expert Witness Fees",
+        "quantity": 1,
+        "rate": 500,
+        "unitPrice": 500,
+        "total": 500
+      }
+    ],
+    "subtotal": 8565,
+    "tax": 685,
+    "taxRate": 8.0,
+    "createdAt": "2024-01-05T00:00:00Z"
+  },
+  {
+    "id": "invoice-8",
+    "invoiceNumber": "INV-2024-008",
+    "clientId": "client-3",
+    "clientName": "Summit Holdings",
+    "caseId": "case-8",
+    "caseNumber": "CASE-2024-008",
+    "issueDate": "2024-01-15T00:00:00Z",
+    "dueDate": "2024-02-14T00:00:00Z",
+    "status": "paid",
+    "amountPaid": 6000,
+    "total": 6000,
+    "balance": 0,
+    "items": [
+      {
+        "description": "Mediation Services - 24 hours",
+        "quantity": 24,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 6000
+      }
+    ],
+    "subtotal": 5556,
+    "tax": 444,
+    "taxRate": 8.0,
+    "createdAt": "2024-01-15T00:00:00Z"
+  },
+  {
+    "id": "invoice-9",
+    "invoiceNumber": "INV-2024-009",
+    "clientId": "client-4",
+    "clientName": "Pacific Ventures",
+    "caseId": "case-9",
+    "caseNumber": "CASE-2024-009",
+    "issueDate": "2024-02-01T00:00:00Z",
+    "dueDate": "2024-03-02T00:00:00Z",
+    "status": "sent",
+    "amountPaid": 0,
+    "total": 2750,
+    "balance": 2750,
+    "items": [
+      {
+        "description": "Business Formation Services - 11 hours",
+        "quantity": 11,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 2750
+      }
+    ],
+    "subtotal": 2546,
+    "tax": 204,
+    "taxRate": 8.0,
+    "createdAt": "2024-02-01T00:00:00Z"
+  },
+  {
+    "id": "invoice-10",
+    "invoiceNumber": "INV-2024-010",
+    "clientId": "client-5",
+    "clientName": "Regional Bank",
+    "caseId": "case-10",
+    "caseNumber": "CASE-2024-010",
+    "issueDate": "2024-02-15T00:00:00Z",
+    "dueDate": "2024-03-16T00:00:00Z",
+    "status": "paid",
+    "amountPaid": 15000,
+    "total": 15000,
+    "balance": 0,
+    "items": [
+      {
+        "description": "Bankruptcy Services - 60 hours",
+        "quantity": 60,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 15000
+      }
+    ],
+    "subtotal": 13889,
+    "tax": 1111,
+    "taxRate": 8.0,
+    "createdAt": "2024-02-15T00:00:00Z"
+  },
+  {
+    "id": "invoice-11",
+    "invoiceNumber": "INV-2024-011",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "caseId": "case-11",
+    "caseNumber": "CASE-2024-011",
+    "issueDate": "2024-03-01T00:00:00Z",
+    "dueDate": "2024-03-31T00:00:00Z",
+    "status": "overdue",
+    "amountPaid": 3000,
+    "total": 7500,
+    "balance": 4500,
+    "items": [
+      {
+        "description": "IP Legal Services - 25 hours",
+        "quantity": 25,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 6250
+      },
+      {
+        "description": "USPTO Filing Fees",
+        "quantity": 1,
+        "rate": 1600,
+        "unitPrice": 1600,
+        "total": 1600
+      }
+    ],
+    "subtotal": 6944,
+    "tax": 556,
+    "taxRate": 8.0,
+    "createdAt": "2024-03-01T00:00:00Z"
+  },
+  {
+    "id": "invoice-12",
+    "invoiceNumber": "INV-2024-012",
+    "clientId": "client-2",
+    "clientName": "Global Industries",
+    "caseId": "case-12",
+    "caseNumber": "CASE-2024-012",
+    "issueDate": "2024-03-15T00:00:00Z",
+    "dueDate": "2024-04-14T00:00:00Z",
+    "status": "paid",
+    "amountPaid": 5500,
+    "total": 5500,
+    "balance": 0,
+    "items": [
+      {
+        "description": "Real Estate Closing - 22 hours",
+        "quantity": 22,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 5500
+      }
+    ],
+    "subtotal": 5093,
+    "tax": 407,
+    "taxRate": 8.0,
+    "createdAt": "2024-03-15T00:00:00Z"
+  },
+  {
+    "id": "invoice-13",
+    "invoiceNumber": "INV-2024-013",
+    "clientId": "client-3",
+    "clientName": "Summit Holdings",
+    "caseId": "case-13",
+    "caseNumber": "CASE-2024-013",
+    "issueDate": "2024-04-01T00:00:00Z",
+    "dueDate": "2024-05-01T00:00:00Z",
+    "status": "sent",
+    "amountPaid": 0,
+    "total": 4000,
+    "balance": 4000,
+    "items": [
+      {
+        "description": "Family Law Services - 16 hours",
+        "quantity": 16,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 4000
+      }
+    ],
+    "subtotal": 3704,
+    "tax": 296,
+    "taxRate": 8.0,
+    "createdAt": "2024-04-01T00:00:00Z"
+  },
+  {
+    "id": "invoice-14",
+    "invoiceNumber": "INV-2024-014",
+    "clientId": "client-4",
+    "clientName": "Pacific Ventures",
+    "caseId": "case-14",
+    "caseNumber": "CASE-2024-014",
+    "issueDate": "2024-04-15T00:00:00Z",
+    "dueDate": "2024-05-15T00:00:00Z",
+    "status": "draft",
+    "amountPaid": 0,
+    "total": 11000,
+    "balance": 11000,
+    "items": [
+      {
+        "description": "Securities Compliance - 40 hours",
+        "quantity": 40,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 10000
+      },
+      {
+        "description": "Research Database Access",
+        "quantity": 1,
+        "rate": 280,
+        "unitPrice": 280,
+        "total": 280
+      }
+    ],
+    "subtotal": 10185,
+    "tax": 815,
+    "taxRate": 8.0,
+    "createdAt": "2024-04-15T00:00:00Z"
+  },
+  {
+    "id": "invoice-15",
+    "invoiceNumber": "INV-2024-015",
+    "clientId": "client-5",
+    "clientName": "Regional Bank",
+    "caseId": "case-15",
+    "caseNumber": "CASE-2024-015",
+    "issueDate": "2024-05-01T00:00:00Z",
+    "dueDate": "2024-05-31T00:00:00Z",
+    "status": "sent",
+    "amountPaid": 5000,
+    "total": 17500,
+    "balance": 12500,
+    "items": [
+      {
+        "description": "Environmental Law Services - 50 hours",
+        "quantity": 50,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 12500
+      },
+      {
+        "description": "Expert Consultant Fee",
+        "quantity": 1,
+        "rate": 3500,
+        "unitPrice": 3500,
+        "total": 3500
+      }
+    ],
+    "subtotal": 16204,
+    "tax": 1296,
+    "taxRate": 8.0,
+    "createdAt": "2024-05-01T00:00:00Z"
+  },
+  {
+    "id": "invoice-16",
+    "invoiceNumber": "INV-2024-016",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "caseId": "case-16",
+    "caseNumber": "CASE-2024-016",
+    "issueDate": "2023-09-01T00:00:00Z",
+    "dueDate": "2023-10-01T00:00:00Z",
+    "status": "paid",
+    "amountPaid": 2000,
+    "total": 2000,
+    "balance": 0,
+    "items": [
+      {
+        "description": "Consultation Services - 8 hours",
+        "quantity": 8,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 2000
+      }
+    ],
+    "subtotal": 1852,
+    "tax": 148,
+    "taxRate": 8.0,
+    "createdAt": "2023-09-01T00:00:00Z"
+  },
+  {
+    "id": "invoice-17",
+    "invoiceNumber": "INV-2024-017",
+    "clientId": "client-2",
+    "clientName": "Global Industries",
+    "caseId": "case-17",
+    "caseNumber": "CASE-2024-017",
+    "issueDate": "2024-01-20T00:00:00Z",
+    "dueDate": "2024-02-19T00:00:00Z",
+    "status": "paid",
+    "amountPaid": 3250,
+    "total": 3250,
+    "balance": 0,
+    "items": [
+      {
+        "description": "Tax Law Services - 13 hours",
+        "quantity": 13,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 3250
+      }
+    ],
+    "subtotal": 3009,
+    "tax": 241,
+    "taxRate": 8.0,
+    "createdAt": "2024-01-20T00:00:00Z"
+  },
+  {
+    "id": "invoice-18",
+    "invoiceNumber": "INV-2024-018",
+    "clientId": "client-3",
+    "clientName": "Summit Holdings",
+    "caseId": "case-18",
+    "caseNumber": "CASE-2024-018",
+    "issueDate": "2024-02-10T00:00:00Z",
+    "dueDate": "2024-03-11T00:00:00Z",
+    "status": "overdue",
+    "amountPaid": 0,
+    "total": 18750,
+    "balance": 18750,
+    "items": [
+      {
+        "description": "Corporate Merger Services - 75 hours",
+        "quantity": 75,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 18750
+      }
+    ],
+    "subtotal": 17361,
+    "tax": 1389,
+    "taxRate": 8.0,
+    "createdAt": "2024-02-10T00:00:00Z"
+  },
+  {
+    "id": "invoice-19",
+    "invoiceNumber": "INV-2024-019",
+    "clientId": "client-4",
+    "clientName": "Pacific Ventures",
+    "caseId": "case-19",
+    "caseNumber": "CASE-2024-019",
+    "issueDate": "2024-03-05T00:00:00Z",
+    "dueDate": "2024-04-04T00:00:00Z",
+    "status": "paid",
+    "amountPaid": 7250,
+    "total": 7250,
+    "balance": 0,
+    "items": [
+      {
+        "description": "Probate Services - 29 hours",
+        "quantity": 29,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 7250
+      }
+    ],
+    "subtotal": 6713,
+    "tax": 537,
+    "taxRate": 8.0,
+    "createdAt": "2024-03-05T00:00:00Z"
+  },
+  {
+    "id": "invoice-20",
+    "invoiceNumber": "INV-2024-020",
+    "clientId": "client-5",
+    "clientName": "Regional Bank",
+    "caseId": "case-20",
+    "caseNumber": "CASE-2024-020",
+    "issueDate": "2024-03-20T00:00:00Z",
+    "dueDate": "2024-04-19T00:00:00Z",
+    "status": "sent",
+    "amountPaid": 4000,
+    "total": 10000,
+    "balance": 6000,
+    "items": [
+      {
+        "description": "Healthcare Regulatory Services - 40 hours",
+        "quantity": 40,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 10000
+      }
+    ],
+    "subtotal": 9259,
+    "tax": 741,
+    "taxRate": 8.0,
+    "createdAt": "2024-03-20T00:00:00Z"
+  },
+  {
+    "id": "invoice-21",
+    "invoiceNumber": "INV-2024-021",
+    "clientId": "client-1",
+    "clientName": "Acme Corporation",
+    "caseId": "case-21",
+    "caseNumber": "CASE-2024-021",
+    "issueDate": "2024-04-10T00:00:00Z",
+    "dueDate": "2024-05-10T00:00:00Z",
+    "status": "sent",
+    "amountPaid": 0,
+    "total": 3500,
+    "balance": 3500,
+    "items": [
+      {
+        "description": "Employment Law Consultation - 14 hours",
+        "quantity": 14,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 3500
+      }
+    ],
+    "subtotal": 3241,
+    "tax": 259,
+    "taxRate": 8.0,
+    "createdAt": "2024-04-10T00:00:00Z"
+  },
+  {
+    "id": "invoice-22",
+    "invoiceNumber": "INV-2024-022",
+    "clientId": "client-2",
+    "clientName": "Global Industries",
+    "caseId": "case-22",
+    "caseNumber": "CASE-2024-022",
+    "issueDate": "2024-04-20T00:00:00Z",
+    "dueDate": "2024-05-20T00:00:00Z",
+    "status": "draft",
+    "amountPaid": 0,
+    "total": 22000,
+    "balance": 22000,
+    "items": [
+      {
+        "description": "Medical Malpractice Defense - 80 hours",
+        "quantity": 80,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 20000
+      },
+      {
+        "description": "Medical Expert Fee",
+        "quantity": 1,
+        "rate": 4000,
+        "unitPrice": 4000,
+        "total": 4000
+      }
+    ],
+    "subtotal": 20370,
+    "tax": 1630,
+    "taxRate": 8.0,
+    "createdAt": "2024-04-20T00:00:00Z"
+  },
+  {
+    "id": "invoice-23",
+    "invoiceNumber": "INV-2024-023",
+    "clientId": "client-3",
+    "clientName": "Summit Holdings",
+    "caseId": "case-23",
+    "caseNumber": "CASE-2024-023",
+    "issueDate": "2024-02-28T00:00:00Z",
+    "dueDate": "2024-03-29T00:00:00Z",
+    "status": "paid",
+    "amountPaid": 12500,
+    "total": 12500,
+    "balance": 0,
+    "items": [
+      {
+        "description": "Construction Contract Services - 50 hours",
+        "quantity": 50,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 12500
+      }
+    ],
+    "subtotal": 11574,
+    "tax": 926,
+    "taxRate": 8.0,
+    "createdAt": "2024-02-28T00:00:00Z"
+  },
+  {
+    "id": "invoice-24",
+    "invoiceNumber": "INV-2024-024",
+    "clientId": "client-4",
+    "clientName": "Pacific Ventures",
+    "caseId": "case-24",
+    "caseNumber": "CASE-2024-024",
+    "issueDate": "2024-04-05T00:00:00Z",
+    "dueDate": "2024-05-05T00:00:00Z",
+    "status": "sent",
+    "amountPaid": 5000,
+    "total": 14000,
+    "balance": 9000,
+    "items": [
+      {
+        "description": "International Trade Services - 45 hours",
+        "quantity": 45,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 11250
+      },
+      {
+        "description": "International Travel Expense",
+        "quantity": 1,
+        "rate": 2800,
+        "unitPrice": 2800,
+        "total": 2800
+      }
+    ],
+    "subtotal": 12963,
+    "tax": 1037,
+    "taxRate": 8.0,
+    "createdAt": "2024-04-05T00:00:00Z"
+  },
+  {
+    "id": "invoice-25",
+    "invoiceNumber": "INV-2024-025",
+    "clientId": "client-5",
+    "clientName": "Regional Bank",
+    "caseId": "case-25",
+    "caseNumber": "CASE-2024-025",
+    "issueDate": "2024-05-10T00:00:00Z",
+    "dueDate": "2024-06-09T00:00:00Z",
+    "status": "draft",
+    "amountPaid": 0,
+    "total": 9700,
+    "balance": 9700,
+    "items": [
+      {
+        "description": "Wrongful Death Litigation - 30 hours",
+        "quantity": 30,
+        "rate": 250,
+        "unitPrice": 250,
+        "total": 7500
+      },
+      {
+        "description": "Forensic Expert Fee",
+        "quantity": 1,
+        "rate": 3200,
+        "unitPrice": 3200,
+        "total": 3200
+      }
+    ],
+    "subtotal": 8981,
+    "tax": 719,
+    "taxRate": 8.0,
+    "createdAt": "2024-05-10T00:00:00Z"
+  }
+]

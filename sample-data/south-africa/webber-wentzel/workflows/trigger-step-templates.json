@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Case Created",
+    "description": "When a new case is created",
+    "stepType": "trigger",
+    "icon": "add_box",
+    "color": "#10b981"
+  },
+  {
+    "name": "Status Changed",
+    "description": "When case status changes",
+    "stepType": "trigger",
+    "icon": "sync_alt",
+    "color": "#3b82f6"
+  },
+  {
+    "name": "Deadline Near",
+    "description": "When deadline is approaching",
+    "stepType": "trigger",
+    "icon": "schedule",
+    "color": "#f59e0b"
+  },
+  {
+    "name": "Payment Received",
+    "description": "When payment is received",
+    "stepType": "trigger",
+    "icon": "payments",
+    "color": "#8b5cf6"
+  },
+  {
+    "name": "Document Uploaded",
+    "description": "When a document is uploaded to a case",
+    "stepType": "trigger",
+    "icon": "upload_file",
+    "color": "#06b6d4"
+  },
+  {
+    "name": "Task Completed",
+    "description": "When a task is marked as complete",
+    "stepType": "trigger",
+    "icon": "task_alt",
+    "color": "#84cc16"
+  },
+  {
+    "name": "Client Message Received",
+    "description": "When a client sends a message",
+    "stepType": "trigger",
+    "icon": "message",
+    "color": "#ec4899"
+  },
+  {
+    "name": "Invoice Generated",
+    "description": "When an invoice is created",
+    "stepType": "trigger",
+    "icon": "receipt",
+    "color": "#f97316"
+  },
+  {
+    "name": "Court Date Set",
+    "description": "When a court hearing is scheduled",
+    "stepType": "trigger",
+    "icon": "gavel",
+    "color": "#6366f1"
+  },
+  {
+    "name": "Conflict Detected",
+    "description": "When a conflict of interest is found",
+    "stepType": "trigger",
+    "icon": "warning",
+    "color": "#ef4444"
+  },
+  {
+    "name": "Case Closed",
+    "description": "When a case is closed",
+    "stepType": "trigger",
+    "icon": "folder_off",
+    "color": "#64748b"
+  },
+  {
+    "name": "Retainer Signed",
+    "description": "When a retainer agreement is signed",
+    "stepType": "trigger",
+    "icon": "draw",
+    "color": "#14b8a6"
+  },
+  {
+    "name": "Hearing Scheduled",
+    "description": "When a hearing date is scheduled",
+    "stepType": "trigger",
+    "icon": "event",
+    "color": "#0ea5e9"
+  },
+  {
+    "name": "Settlement Proposed",
+    "description": "When a settlement offer is made",
+    "stepType": "trigger",
+    "icon": "handshake",
+    "color": "#a855f7"
+  },
+  {
+    "name": "Appeal Filed",
+    "description": "When an appeal is filed",
+    "stepType": "trigger",
+    "icon": "redo",
+    "color": "#d946ef"
+  },
+  {
+    "name": "New Client Registered",
+    "description": "When a new client registers",
+    "stepType": "trigger",
+    "icon": "person_add",
+    "color": "#22c55e"
+  },
+  {
+    "name": "Bill Overdue",
+    "description": "When an invoice becomes overdue",
+    "stepType": "trigger",
+    "icon": "money_off",
+    "color": "#dc2626"
+  },
+  {
+    "name": "Case Assigned",
+    "description": "When a case is assigned to a lawyer",
+    "stepType": "trigger",
+    "icon": "assignment_ind",
+    "color": "#2563eb"
+  },
+  {
+    "name": "Evidence Submitted",
+    "description": "When new evidence is submitted",
+    "stepType": "trigger",
+    "icon": "inventory_2",
+    "color": "#7c3aed"
+  },
+  {
+    "name": "Witness Added",
+    "description": "When a witness is added to a case",
+    "stepType": "trigger",
+    "icon": "record_voice_over",
+    "color": "#0891b2"
+  },
+  {
+    "name": "Expert Retained",
+    "description": "When an expert witness is engaged",
+    "stepType": "trigger",
+    "icon": "school",
+    "color": "#65a30d"
+  },
+  {
+    "name": "Mediation Scheduled",
+    "description": "When mediation is scheduled",
+    "stepType": "trigger",
+    "icon": "balance",
+    "color": "#ca8a04"
+  },
+  {
+    "name": "Compliance Check Due",
+    "description": "When a compliance review is due",
+    "stepType": "trigger",
+    "icon": "verified",
+    "color": "#16a34a"
+  },
+  {
+    "name": "Trust Account Adjusted",
+    "description": "When a trust account balance changes",
+    "stepType": "trigger",
+    "icon": "account_balance",
+    "color": "#b45309"
+  },
+  {
+    "name": "Approval Requested",
+    "description": "When an action requires manual approval",
+    "stepType": "trigger",
+    "icon": "approval",
+    "color": "#9333ea"
+  }
+]

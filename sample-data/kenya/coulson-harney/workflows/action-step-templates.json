@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Send Email",
+    "description": "Send an email notification",
+    "stepType": "sendEmail",
+    "icon": "email",
+    "color": "#0ea5e9"
+  },
+  {
+    "name": "Create Task",
+    "description": "Create a new task",
+    "stepType": "createTask",
+    "icon": "task",
+    "color": "#6366f1"
+  },
+  {
+    "name": "Update Status",
+    "description": "Update case status",
+    "stepType": "updateStatus",
+    "icon": "update",
+    "color": "#8b5cf6"
+  },
+  {
+    "name": "Send Notification",
+    "description": "Send a notification",
+    "stepType": "sendNotification",
+    "icon": "notifications",
+    "color": "#f59e0b"
+  },
+  {
+    "name": "Generate Document",
+    "description": "Generate a document",
+    "stepType": "generateDocument",
+    "icon": "description",
+    "color": "#14b8a6"
+  },
+  {
+    "name": "Create Invoice",
+    "description": "Generate an invoice",
+    "stepType": "createInvoice",
+    "icon": "receipt",
+    "color": "#ec4899"
+  },
+  {
+    "name": "Assign Lawyer",
+    "description": "Assign lawyer to case",
+    "stepType": "assignLawyer",
+    "icon": "person_add",
+    "color": "#06b6d4"
+  },
+  {
+    "name": "Schedule Hearing",
+    "description": "Schedule a court hearing",
+    "stepType": "scheduleHearing",
+    "icon": "event",
+    "color": "#84cc16"
+  },
+  {
+    "name": "Send SMS",
+    "description": "Send an SMS message to a contact",
+    "stepType": "sendSms",
+    "icon": "sms",
+    "color": "#22c55e"
+  },
+  {
+    "name": "Create Calendar Event",
+    "description": "Add an event to the calendar",
+    "stepType": "createCalendarEvent",
+    "icon": "calendar_today",
+    "color": "#3b82f6"
+  },
+  {
+    "name": "Update Case Notes",
+    "description": "Append notes to a case record",
+    "stepType": "updateCaseNotes",
+    "icon": "edit_note",
+    "color": "#a78bfa"
+  },
+  {
+    "name": "Archive Documents",
+    "description": "Archive documents to long-term storage",
+    "stepType": "archiveDocuments",
+    "icon": "archive",
+    "color": "#64748b"
+  },
+  {
+    "name": "Request Signature",
+    "description": "Request digital signature from a party",
+    "stepType": "requestSignature",
+    "icon": "draw",
+    "color": "#f43f5e"
+  },
+  {
+    "name": "Send Reminder",
+    "description": "Send a reminder to a specific person",
+    "stepType": "sendReminder",
+    "icon": "alarm",
+    "color": "#fb923c"
+  },
+  {
+    "name": "Create Sub-task",
+    "description": "Create a sub-task under an existing task",
+    "stepType": "createSubTask",
+    "icon": "playlist_add",
+    "color": "#7c3aed"
+  },
+  {
+    "name": "Log Time Entry",
+    "description": "Record billable time against a case",
+    "stepType": "logTimeEntry",
+    "icon": "timer",
+    "color": "#0891b2"
+  },
+  {
+    "name": "Generate Report",
+    "description": "Generate a case or financial report",
+    "stepType": "generateReport",
+    "icon": "bar_chart",
+    "color": "#16a34a"
+  },
+  {
+    "name": "Notify Team",
+    "description": "Send notification to the entire team",
+    "stepType": "notifyTeam",
+    "icon": "group",
+    "color": "#d97706"
+  },
+  {
+    "name": "Update Client Record",
+    "description": "Update client profile information",
+    "stepType": "updateClientRecord",
+    "icon": "manage_accounts",
+    "color": "#0284c7"
+  },
+  {
+    "name": "Process Payment",
+    "description": "Record or process a payment transaction",
+    "stepType": "processPayment",
+    "icon": "payments",
+    "color": "#15803d"
+  },
+  {
+    "name": "Create Ledger Entry",
+    "description": "Post a transaction to the accounting ledger",
+    "stepType": "createLedgerEntry",
+    "icon": "account_balance",
+    "color": "#b45309"
+  },
+  {
+    "name": "Send to Court Portal",
+    "description": "Submit documents to the court portal",
+    "stepType": "sendToCourtPortal",
+    "icon": "gavel",
+    "color": "#dc2626"
+  },
+  {
+    "name": "Upload to Cloud",
+    "description": "Upload files to cloud storage",
+    "stepType": "uploadToCloud",
+    "icon": "cloud_upload",
+    "color": "#0369a1"
+  },
+  {
+    "name": "Trigger External API",
+    "description": "Call an external integration or webhook",
+    "stepType": "triggerExternalApi",
+    "icon": "api",
+    "color": "#9333ea"
+  },
+  {
+    "name": "Close Case",
+    "description": "Formally close a case in the system",
+    "stepType": "closeCase",
+    "icon": "folder_off",
+    "color": "#475569"
+  }
+]

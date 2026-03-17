@@ -1,0 +1,134 @@
+{
+  "Assets": [
+    "Current Assets",
+    "Fixed Assets",
+    "Other Assets",
+    "Accounts Receivable",
+    "Cash & Bank",
+    "Inventory",
+    "Short-term Investments"
+  ],
+  "Liabilities": [
+    "Current Liabilities",
+    "Long-term Liabilities",
+    "Accounts Payable",
+    "Short-term Loans",
+    "Deferred Tax Liability"
+  ],
+  "Equity": [
+    "Owner's Equity",
+    "Retained Earnings",
+    "Capital",
+    "Share Capital",
+    "Share Premium"
+  ],
+  "Revenue": [
+    "Operating Revenue",
+    "Other Income",
+    "Sales",
+    "Service Revenue",
+    "Interest Income"
+  ],
+  "Expenses": [
+    "Operating Expenses",
+    "Cost of Goods Sold",
+    "Administrative",
+    "Marketing",
+    "Salaries & Wages"
+  ],
+  "Cost of Sales": [
+    "Direct Labour",
+    "Direct Materials",
+    "Manufacturing Overhead"
+  ],
+  "Other Income": [
+    "Dividend Income",
+    "Rental Income",
+    "Gain on Disposal"
+  ],
+  "Other Expenses": [
+    "Loss on Disposal",
+    "Impairment Losses",
+    "Penalties & Fines"
+  ],
+  "Capital": [
+    "Paid-up Capital",
+    "Authorized Capital"
+  ],
+  "Drawings": [
+    "Owner Drawings",
+    "Partner Withdrawals"
+  ],
+  "Provisions": [
+    "Provision for Bad Debts",
+    "Provision for Depreciation",
+    "Provision for Warranties"
+  ],
+  "Reserves": [
+    "General Reserve",
+    "Statutory Reserve",
+    "Capital Reserve"
+  ],
+  "Intangible Assets": [
+    "Goodwill",
+    "Patents",
+    "Trademarks",
+    "Licenses"
+  ],
+  "Investments": [
+    "Long-term Investments",
+    "Equity Investments",
+    "Bond Holdings"
+  ],
+  "Loans & Advances": [
+    "Staff Loans",
+    "Loans to Subsidiaries",
+    "Advance Payments"
+  ],
+  "Prepayments": [
+    "Prepaid Insurance",
+    "Prepaid Rent",
+    "Prepaid Subscriptions"
+  ],
+  "Accruals": [
+    "Accrued Salaries",
+    "Accrued Interest",
+    "Accrued Expenses"
+  ],
+  "Deferred Revenue": [
+    "Unearned Service Revenue",
+    "Advance Client Payments"
+  ],
+  "Taxes Payable": [
+    "Income Tax Payable",
+    "VAT Payable",
+    "Withholding Tax"
+  ],
+  "Payroll Liabilities": [
+    "PAYE Payable",
+    "Pension Contributions",
+    "Employee Benefits Payable"
+  ],
+  "Depreciation & Amortization": [
+    "Accumulated Depreciation",
+    "Amortization of Intangibles"
+  ],
+  "Bank & Cash": [
+    "Petty Cash",
+    "Current Account",
+    "Trust Account",
+    "Savings Account"
+  ],
+  "Trade Receivables": [
+    "Debtors Control",
+    "Allowance for Doubtful Debts"
+  ],
+  "Trade Payables": [
+    "Creditors Control",
+    "Supplier Advances"
+  ],
+  "Capital Work in Progress": [
+    "Construction in Progress",
+    "Equipment Under Installation"
+  ]
+}

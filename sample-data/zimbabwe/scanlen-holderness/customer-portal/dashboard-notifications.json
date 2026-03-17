@@ -1,0 +1,252 @@
+[
+  {
+    "id": "notif-1",
+    "clientId": "client-1",
+    "title": "New Invoice Available",
+    "message": "Invoice #INV-2024-001 has been generated",
+    "notificationType": "invoiceGenerated",
+    "priority": "normal",
+    "createdDate": "2023-10-02T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-2",
+    "clientId": "client-2",
+    "title": "Payment Received",
+    "message": "Your payment of $3,750 for INV-2024-002 has been received",
+    "notificationType": "paymentReceived",
+    "priority": "normal",
+    "createdDate": "2023-11-05T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-3",
+    "clientId": "client-3",
+    "title": "Invoice Overdue",
+    "message": "Invoice #INV-2024-003 is now past due. Please arrange payment.",
+    "notificationType": "invoiceGenerated",
+    "priority": "high",
+    "createdDate": "2023-12-01T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-4",
+    "clientId": "client-4",
+    "title": "Case Update",
+    "message": "Your immigration case has been updated. The H-1B petition has been submitted.",
+    "notificationType": "caseUpdate",
+    "priority": "normal",
+    "createdDate": "2024-01-10T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-5",
+    "clientId": "client-5",
+    "title": "New Document Uploaded",
+    "message": "A new document has been added to your estate planning case",
+    "notificationType": "documentUploaded",
+    "priority": "normal",
+    "createdDate": "2024-01-15T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-6",
+    "clientId": "client-1",
+    "title": "Appointment Reminder",
+    "message": "You have a consultation scheduled for tomorrow at 2:00 PM",
+    "notificationType": "appointmentReminder",
+    "priority": "high",
+    "createdDate": "2024-01-19T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-7",
+    "clientId": "client-2",
+    "title": "New Message",
+    "message": "You have received a message from Attorney Smith",
+    "notificationType": "messageReceived",
+    "priority": "normal",
+    "createdDate": "2024-01-20T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-8",
+    "clientId": "client-3",
+    "title": "Monthly Statement Available",
+    "message": "Your account statement for October 2023 is now available",
+    "notificationType": "statementAvailable",
+    "priority": "low",
+    "createdDate": "2023-11-01T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-9",
+    "clientId": "client-4",
+    "title": "Payment Plan Installment Due",
+    "message": "Your monthly installment of $1,100 is due in 3 days",
+    "notificationType": "invoiceGenerated",
+    "priority": "high",
+    "createdDate": "2024-01-29T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-10",
+    "clientId": "client-5",
+    "title": "Bankruptcy Hearing Scheduled",
+    "message": "Your Chapter 11 hearing is scheduled for April 15 at 10:00 AM",
+    "notificationType": "caseUpdate",
+    "priority": "high",
+    "createdDate": "2024-04-02T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-11",
+    "clientId": "client-1",
+    "title": "New Invoice Available",
+    "message": "Invoice #INV-2024-006 for $4,500 has been issued",
+    "notificationType": "invoiceGenerated",
+    "priority": "normal",
+    "createdDate": "2023-11-01T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-12",
+    "clientId": "client-2",
+    "title": "New Invoice Available",
+    "message": "Invoice #INV-2024-007 for $9,250 has been issued",
+    "notificationType": "invoiceGenerated",
+    "priority": "normal",
+    "createdDate": "2024-01-05T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-13",
+    "clientId": "client-3",
+    "title": "Case Update",
+    "message": "Your DUI case has been updated. A hearing date has been set.",
+    "notificationType": "caseUpdate",
+    "priority": "normal",
+    "createdDate": "2024-01-22T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-14",
+    "clientId": "client-1",
+    "title": "Document Ready for Signature",
+    "message": "A merger agreement document requires your electronic signature",
+    "notificationType": "documentUploaded",
+    "priority": "high",
+    "createdDate": "2024-02-05T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-15",
+    "clientId": "client-5",
+    "title": "Payment Received",
+    "message": "Your payment of $15,000 for INV-2024-010 has been received",
+    "notificationType": "paymentReceived",
+    "priority": "normal",
+    "createdDate": "2024-03-01T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-16",
+    "clientId": "client-2",
+    "title": "New Message",
+    "message": "Attorney Johnson has replied to your case inquiry",
+    "notificationType": "messageReceived",
+    "priority": "normal",
+    "createdDate": "2024-03-06T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-17",
+    "clientId": "client-3",
+    "title": "Monthly Statement Available",
+    "message": "Your account statement for February 2024 is now available",
+    "notificationType": "statementAvailable",
+    "priority": "low",
+    "createdDate": "2024-03-01T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-18",
+    "clientId": "client-4",
+    "title": "Visa Application Update",
+    "message": "USCIS has issued a Request for Evidence on your H-1B petition",
+    "notificationType": "caseUpdate",
+    "priority": "high",
+    "createdDate": "2024-03-15T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-19",
+    "clientId": "client-1",
+    "title": "Invoice Overdue Reminder",
+    "message": "Invoice #INV-2024-011 balance of $4,500 remains unpaid",
+    "notificationType": "invoiceGenerated",
+    "priority": "high",
+    "createdDate": "2024-04-01T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-20",
+    "clientId": "client-5",
+    "title": "New Document Uploaded",
+    "message": "The bankruptcy reorganization plan has been uploaded to your case",
+    "notificationType": "documentUploaded",
+    "priority": "normal",
+    "createdDate": "2024-04-10T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-21",
+    "clientId": "client-2",
+    "title": "Case Deposition Scheduled",
+    "message": "Your deposition is scheduled for April 20. Please review preparation materials.",
+    "notificationType": "appointmentReminder",
+    "priority": "high",
+    "createdDate": "2024-04-13T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-22",
+    "clientId": "client-3",
+    "title": "Payment Received",
+    "message": "Your payment of $12,500 for INV-2024-023 has been confirmed",
+    "notificationType": "paymentReceived",
+    "priority": "normal",
+    "createdDate": "2024-03-20T00:00:00Z",
+    "isRead": true
+  },
+  {
+    "id": "notif-23",
+    "clientId": "client-4",
+    "title": "Monthly Statement Available",
+    "message": "Your account statement for April 2024 is now available",
+    "notificationType": "statementAvailable",
+    "priority": "low",
+    "createdDate": "2024-05-01T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-24",
+    "clientId": "client-5",
+    "title": "New Invoice Available",
+    "message": "Invoice #INV-2024-015 for $17,500 has been issued",
+    "notificationType": "invoiceGenerated",
+    "priority": "normal",
+    "createdDate": "2024-05-01T00:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-25",
+    "clientId": "client-1",
+    "title": "New Message from Attorney",
+    "message": "Attorney Smith has sent you an update about the corporate merger case",
+    "notificationType": "messageReceived",
+    "priority": "normal",
+    "createdDate": "2024-05-10T00:00:00Z",
+    "isRead": false
+  }
+]

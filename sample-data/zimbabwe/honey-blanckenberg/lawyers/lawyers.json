@@ -1,0 +1,448 @@
+[
+  {
+    "id": "1",
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "fullName": "Alice Smith",
+    "email": "alice.smith@lawfirm.com",
+    "phone": "111-222-3333",
+    "specializations": [
+      "CorporateLaw",
+      "CivilLaw"
+    ],
+    "barNumber": "B12345",
+    "yearsOfExperience": 10,
+    "hourlyRate": 300,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2013-05-01T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "fullName": "Bob Johnson",
+    "email": "bob.johnson@lawfirm.com",
+    "phone": "444-555-6666",
+    "specializations": [
+      "CriminalLaw"
+    ],
+    "barNumber": "B67890",
+    "yearsOfExperience": 5,
+    "hourlyRate": 200,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2018-08-15T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "firstName": "Charlie",
+    "lastName": "Brown",
+    "fullName": "Charlie Brown",
+    "email": "charlie.brown@lawfirm.com",
+    "phone": "777-888-9999",
+    "specializations": [
+      "FamilyLaw",
+      "RealEstate"
+    ],
+    "barNumber": "B13579",
+    "yearsOfExperience": 15,
+    "hourlyRate": 400,
+    "isAvailable": false,
+    "status": "onLeave",
+    "joinedDate": "2008-02-20T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "firstName": "Ngozi",
+    "lastName": "Adeyemi",
+    "fullName": "Ngozi Adeyemi",
+    "email": "ngozi.adeyemi@lawfirm.com",
+    "phone": "+234-803-111-2222",
+    "specializations": [
+      "CorporateLaw",
+      "TaxLaw"
+    ],
+    "barNumber": "B24680",
+    "yearsOfExperience": 12,
+    "hourlyRate": 350,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2011-09-01T00:00:00Z"
+  },
+  {
+    "id": "5",
+    "firstName": "Kwabena",
+    "lastName": "Mensah",
+    "fullName": "Kwabena Mensah",
+    "email": "kwabena.mensah@lawfirm.com",
+    "phone": "+233-24-333-4444",
+    "specializations": [
+      "CriminalLaw",
+      "CivilLaw"
+    ],
+    "barNumber": "B11223",
+    "yearsOfExperience": 8,
+    "hourlyRate": 250,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2015-03-10T00:00:00Z"
+  },
+  {
+    "id": "6",
+    "firstName": "Amina",
+    "lastName": "Diallo",
+    "fullName": "Amina Diallo",
+    "email": "amina.diallo@lawfirm.com",
+    "phone": "+221-77-555-6666",
+    "specializations": [
+      "FamilyLaw"
+    ],
+    "barNumber": "B33445",
+    "yearsOfExperience": 6,
+    "hourlyRate": 220,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2017-06-20T00:00:00Z"
+  },
+  {
+    "id": "7",
+    "firstName": "Tendai",
+    "lastName": "Mutasa",
+    "fullName": "Tendai Mutasa",
+    "email": "tendai.mutasa@lawfirm.com",
+    "phone": "+263-77-777-8888",
+    "specializations": [
+      "RealEstate",
+      "EnvironmentalLaw"
+    ],
+    "barNumber": "B55667",
+    "yearsOfExperience": 18,
+    "hourlyRate": 450,
+    "isAvailable": false,
+    "status": "onLeave",
+    "joinedDate": "2005-11-15T00:00:00Z"
+  },
+  {
+    "id": "8",
+    "firstName": "Fatou",
+    "lastName": "Ndiaye",
+    "fullName": "Fatou Ndiaye",
+    "email": "fatou.ndiaye@lawfirm.com",
+    "phone": "+221-76-999-0000",
+    "specializations": [
+      "LaborLaw",
+      "CivilLaw"
+    ],
+    "barNumber": "B77889",
+    "yearsOfExperience": 9,
+    "hourlyRate": 275,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2014-04-05T00:00:00Z"
+  },
+  {
+    "id": "9",
+    "firstName": "Sipho",
+    "lastName": "Dube",
+    "fullName": "Sipho Dube",
+    "email": "sipho.dube@lawfirm.com",
+    "phone": "+27-82-111-2233",
+    "specializations": [
+      "TaxLaw",
+      "CorporateLaw"
+    ],
+    "barNumber": "B99001",
+    "yearsOfExperience": 14,
+    "hourlyRate": 420,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2009-07-22T00:00:00Z"
+  },
+  {
+    "id": "10",
+    "firstName": "Aisha",
+    "lastName": "Traore",
+    "fullName": "Aisha Traore",
+    "email": "aisha.traore@lawfirm.com",
+    "phone": "+223-65-234-5678",
+    "specializations": [
+      "IntellectualProperty"
+    ],
+    "barNumber": "B10112",
+    "yearsOfExperience": 7,
+    "hourlyRate": 260,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2016-01-18T00:00:00Z"
+  },
+  {
+    "id": "11",
+    "firstName": "Emeka",
+    "lastName": "Okonkwo",
+    "fullName": "Emeka Okonkwo",
+    "email": "emeka.okonkwo@lawfirm.com",
+    "phone": "+234-706-345-6789",
+    "specializations": [
+      "CriminalLaw",
+      "CivilLaw"
+    ],
+    "barNumber": "B13141",
+    "yearsOfExperience": 11,
+    "hourlyRate": 320,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2012-10-30T00:00:00Z"
+  },
+  {
+    "id": "12",
+    "firstName": "Zanele",
+    "lastName": "Zulu",
+    "fullName": "Zanele Zulu",
+    "email": "zanele.zulu@lawfirm.com",
+    "phone": "+27-73-456-7891",
+    "specializations": [
+      "FamilyLaw",
+      "LaborLaw"
+    ],
+    "barNumber": "B15161",
+    "yearsOfExperience": 4,
+    "hourlyRate": 180,
+    "isAvailable": false,
+    "status": "inactive",
+    "joinedDate": "2019-08-12T00:00:00Z"
+  },
+  {
+    "id": "13",
+    "firstName": "Kofi",
+    "lastName": "Asare",
+    "fullName": "Kofi Asare",
+    "email": "kofi.asare@lawfirm.com",
+    "phone": "+233-20-567-8901",
+    "specializations": [
+      "RealEstate",
+      "CorporateLaw"
+    ],
+    "barNumber": "B17181",
+    "yearsOfExperience": 20,
+    "hourlyRate": 500,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2003-03-03T00:00:00Z"
+  },
+  {
+    "id": "14",
+    "firstName": "Nkechi",
+    "lastName": "Eze",
+    "fullName": "Nkechi Eze",
+    "email": "nkechi.eze@lawfirm.com",
+    "phone": "+234-818-678-9012",
+    "specializations": [
+      "EnvironmentalLaw",
+      "CivilLaw"
+    ],
+    "barNumber": "B19202",
+    "yearsOfExperience": 13,
+    "hourlyRate": 380,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2010-05-25T00:00:00Z"
+  },
+  {
+    "id": "15",
+    "firstName": "Mussa",
+    "lastName": "Kamara",
+    "fullName": "Mussa Kamara",
+    "email": "mussa.kamara@lawfirm.com",
+    "phone": "+232-76-789-0123",
+    "specializations": [
+      "CriminalLaw"
+    ],
+    "barNumber": "B21222",
+    "yearsOfExperience": 3,
+    "hourlyRate": 160,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2020-11-01T00:00:00Z"
+  },
+  {
+    "id": "16",
+    "firstName": "Nneka",
+    "lastName": "Obiora",
+    "fullName": "Nneka Obiora",
+    "email": "nneka.obiora@lawfirm.com",
+    "phone": "+234-905-890-1234",
+    "specializations": [
+      "TaxLaw",
+      "IntellectualProperty"
+    ],
+    "barNumber": "B23242",
+    "yearsOfExperience": 16,
+    "hourlyRate": 460,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2007-09-14T00:00:00Z"
+  },
+  {
+    "id": "17",
+    "firstName": "Abioye",
+    "lastName": "Lawal",
+    "fullName": "Abioye Lawal",
+    "email": "abioye.lawal@lawfirm.com",
+    "phone": "+234-705-901-2345",
+    "specializations": [
+      "LaborLaw",
+      "CorporateLaw"
+    ],
+    "barNumber": "B25262",
+    "yearsOfExperience": 10,
+    "hourlyRate": 310,
+    "isAvailable": false,
+    "status": "onLeave",
+    "joinedDate": "2013-12-08T00:00:00Z"
+  },
+  {
+    "id": "18",
+    "firstName": "Miriam",
+    "lastName": "Waweru",
+    "fullName": "Miriam Waweru",
+    "email": "miriam.waweru@lawfirm.com",
+    "phone": "+254-720-012-3456",
+    "specializations": [
+      "FamilyLaw",
+      "CivilLaw"
+    ],
+    "barNumber": "B27282",
+    "yearsOfExperience": 7,
+    "hourlyRate": 240,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2016-07-19T00:00:00Z"
+  },
+  {
+    "id": "19",
+    "firstName": "Tunde",
+    "lastName": "Afolabi",
+    "fullName": "Tunde Afolabi",
+    "email": "tunde.afolabi@lawfirm.com",
+    "phone": "+234-812-123-4567",
+    "specializations": [
+      "RealEstate"
+    ],
+    "barNumber": "B29303",
+    "yearsOfExperience": 22,
+    "hourlyRate": 550,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2001-04-11T00:00:00Z"
+  },
+  {
+    "id": "20",
+    "firstName": "Sade",
+    "lastName": "Balogun",
+    "fullName": "Sade Balogun",
+    "email": "sade.balogun@lawfirm.com",
+    "phone": "+234-809-234-5678",
+    "specializations": [
+      "IntellectualProperty",
+      "CorporateLaw"
+    ],
+    "barNumber": "B31323",
+    "yearsOfExperience": 9,
+    "hourlyRate": 290,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2014-02-27T00:00:00Z"
+  },
+  {
+    "id": "21",
+    "firstName": "Chukwuemeka",
+    "lastName": "Nwosu",
+    "fullName": "Chukwuemeka Nwosu",
+    "email": "chukwuemeka.nwosu@lawfirm.com",
+    "phone": "+234-703-345-6789",
+    "specializations": [
+      "EnvironmentalLaw",
+      "LaborLaw"
+    ],
+    "barNumber": "B33343",
+    "yearsOfExperience": 17,
+    "hourlyRate": 430,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2006-06-06T00:00:00Z"
+  },
+  {
+    "id": "22",
+    "firstName": "Yetunde",
+    "lastName": "Ogundimu",
+    "fullName": "Yetunde Ogundimu",
+    "email": "yetunde.ogundimu@lawfirm.com",
+    "phone": "+234-802-456-7890",
+    "specializations": [
+      "CivilLaw",
+      "FamilyLaw"
+    ],
+    "barNumber": "B35363",
+    "yearsOfExperience": 6,
+    "hourlyRate": 210,
+    "isAvailable": false,
+    "status": "inactive",
+    "joinedDate": "2017-10-22T00:00:00Z"
+  },
+  {
+    "id": "23",
+    "firstName": "Olumide",
+    "lastName": "Adebayo",
+    "fullName": "Olumide Adebayo",
+    "email": "olumide.adebayo@lawfirm.com",
+    "phone": "+234-817-567-8901",
+    "specializations": [
+      "TaxLaw",
+      "CorporateLaw",
+      "RealEstate"
+    ],
+    "barNumber": "B37383",
+    "yearsOfExperience": 19,
+    "hourlyRate": 480,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2004-08-30T00:00:00Z"
+  },
+  {
+    "id": "24",
+    "firstName": "Chidinma",
+    "lastName": "Onuoha",
+    "fullName": "Chidinma Onuoha",
+    "email": "chidinma.onuoha@lawfirm.com",
+    "phone": "+234-908-678-9012",
+    "specializations": [
+      "CriminalLaw",
+      "LaborLaw"
+    ],
+    "barNumber": "B39404",
+    "yearsOfExperience": 8,
+    "hourlyRate": 265,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2015-01-15T00:00:00Z"
+  },
+  {
+    "id": "25",
+    "firstName": "Babatunde",
+    "lastName": "Falola",
+    "fullName": "Babatunde Falola",
+    "email": "babatunde.falola@lawfirm.com",
+    "phone": "+234-705-789-0123",
+    "specializations": [
+      "IntellectualProperty",
+      "CivilLaw"
+    ],
+    "barNumber": "B41424",
+    "yearsOfExperience": 11,
+    "hourlyRate": 330,
+    "isAvailable": true,
+    "status": "active",
+    "joinedDate": "2012-05-17T00:00:00Z"
+  }
+]
