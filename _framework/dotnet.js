@@ -537,8 +537,8 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "linkerEnabled": true,
   "appsettings": [
     "../appsettings.Development.json",
-    "../appsettings.Testing.json",
-    "../appsettings.json"
+    "../appsettings.json",
+    "../appsettings.Testing.json"
   ],
   "globalizationMode": "sharded",
   "extensions": {
