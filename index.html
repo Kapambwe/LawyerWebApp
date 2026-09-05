@@ -9,7 +9,8 @@
     
     <!-- Dynamic base path - works for local, GitHub Pages, and Cloudflare Pages -->
     <!-- For GitHub Pages deployment, this will be replaced by the build pipeline -->
-    <base href="/LawyerWebApp/" id="app-base" />
+    <base href="/" id="app-base" />
+    <link href="_framework/dotnet.3isdsit8ha.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-dTopifLumzCWuYHlcznZDWiOWs0ZLXkAcoZqh5SgMGc=" />
     <script>
         // Detect environment and set correct base path (for local development)
         // Note: For GitHub Pages, the base href is set statically during build
@@ -82,6 +83,25 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="CompanyApp.Clients.LawyerWebApp.styles.css" rel="stylesheet" />
     <link href="_content/Radzen.Blazor/css/material-base.css" rel="stylesheet">
+    <script type="importmap">{
+  "imports": {
+    "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.w3qd1tpl0e.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.3isdsit8ha.js",
+    "./_framework/dotnet.native.js": "./_framework/dotnet.native.vzj2a6aakt.js",
+    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.zbexyp8zrs.js"
+  },
+  "scopes": {},
+  "integrity": {
+    "./_framework/blazor.webassembly.js": "sha256-lDXsDYFgm62F+YUvxES7IOTCXYpiHpU3uR45YdC6mq4=",
+    "./_framework/blazor.webassembly.w3qd1tpl0e.js": "sha256-lDXsDYFgm62F+YUvxES7IOTCXYpiHpU3uR45YdC6mq4=",
+    "./_framework/dotnet.3isdsit8ha.js": "sha256-dTopifLumzCWuYHlcznZDWiOWs0ZLXkAcoZqh5SgMGc=",
+    "./_framework/dotnet.js": "sha256-dTopifLumzCWuYHlcznZDWiOWs0ZLXkAcoZqh5SgMGc=",
+    "./_framework/dotnet.native.js": "sha256-RezASHv+dbqV50cFnld76YiLhk4B+BjMAKs/euUdNyE=",
+    "./_framework/dotnet.native.vzj2a6aakt.js": "sha256-RezASHv+dbqV50cFnld76YiLhk4B+BjMAKs/euUdNyE=",
+    "./_framework/dotnet.runtime.js": "sha256-MZMguyke9CroSQl+L/SHIGFkPTD+LtYGXkXjAvwWx40=",
+    "./_framework/dotnet.runtime.zbexyp8zrs.js": "sha256-MZMguyke9CroSQl+L/SHIGFkPTD+LtYGXkXjAvwWx40="
+  }
+}</script>
 </head>
 
 <body>
@@ -231,7 +251,7 @@
         });
     </script>
     
-    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_framework/blazor.webassembly.w3qd1tpl0e.js"></script>
     <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="js/downloadHelper.js"></script>
