@@ -40,12 +40,19 @@
                 );
             }
         })();
+
+        function redirectToApp() {
+            var hostname = window.location.hostname;
+            var isGitHubPages = hostname === 'kapambwe.github.io' || hostname.includes('github.io');
+            var targetBase = isGitHubPages ? '/LawyerWebApp/' : '/';
+            window.location.href = targetBase;
+        }
     </script>
 </head>
 <body>
     <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
         <h2>Redirecting...</h2>
-        <p>If you are not redirected automatically, <a href="javascript:window.location.href='/'">click here</a>.</p>
+        <p>If you are not redirected automatically, <a href="#" onclick="redirectToApp(); return false;">click here</a>.</p>
     </div>
 </body>
 </html>

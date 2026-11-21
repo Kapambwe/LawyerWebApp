@@ -1,5 +1,14 @@
 // Download helper functions for file downloads
 window.downloadHelper = {
+    createObjectUrl: function (byteArray, contentType) {
+        const blob = new Blob([byteArray], { type: contentType || 'application/octet-stream' });
+        return URL.createObjectURL(blob);
+    },
+
+    revokeObjectUrl: function (url) {
+        if (url) URL.revokeObjectURL(url);
+    },
+
     /**
      * Download a file from a byte array
      * @param {string} fileName - The name of the file to download

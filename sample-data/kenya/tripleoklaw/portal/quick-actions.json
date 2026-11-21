@@ -4,7 +4,7 @@
     "title": "Log Time",
     "description": "Track billable hours",
     "icon": "schedule",
-    "navigationUrl": "/lawyer-portal/my-time",
+    "navigationUrl": "lawyer-portal/my-time",
     "color": "#10b981"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Add Task",
     "description": "Create new task",
     "icon": "task",
-    "navigationUrl": "/lawyer-portal/my-tasks",
+    "navigationUrl": "lawyer-portal/my-tasks",
     "color": "#3b82f6"
   },
   {
@@ -20,7 +20,7 @@
     "title": "View Cases",
     "description": "My active cases",
     "icon": "gavel",
-    "navigationUrl": "/lawyer-portal/my-cases",
+    "navigationUrl": "lawyer-portal/my-cases",
     "color": "#8b5cf6"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Check Calendar",
     "description": "Upcoming events",
     "icon": "calendar_today",
-    "navigationUrl": "/lawyer-portal/my-calendar",
+    "navigationUrl": "lawyer-portal/my-calendar",
     "color": "#f59e0b"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Create Invoice",
     "description": "Generate client invoice",
     "icon": "receipt_long",
-    "navigationUrl": "/billing/invoices/new",
+    "navigationUrl": "billing/invoices/new",
     "color": "#ef4444"
   },
   {
@@ -44,7 +44,7 @@
     "title": "Upload Document",
     "description": "Add case document",
     "icon": "upload_file",
-    "navigationUrl": "/documents/upload",
+    "navigationUrl": "documents/upload",
     "color": "#06b6d4"
   },
   {
@@ -52,7 +52,7 @@
     "title": "New Client",
     "description": "Add client record",
     "icon": "person_add",
-    "navigationUrl": "/clients/new",
+    "navigationUrl": "clients/new",
     "color": "#84cc16"
   },
   {
@@ -60,7 +60,7 @@
     "title": "View Reports",
     "description": "Financial summaries",
     "icon": "bar_chart",
-    "navigationUrl": "/reports",
+    "navigationUrl": "reports",
     "color": "#f97316"
   },
   {
@@ -68,7 +68,7 @@
     "title": "Trust Account",
     "description": "Manage trust funds",
     "icon": "account_balance",
-    "navigationUrl": "/trust-accounts",
+    "navigationUrl": "trust-accounts",
     "color": "#7c3aed"
   },
   {
@@ -76,7 +76,7 @@
     "title": "Send Message",
     "description": "Contact client",
     "icon": "send",
-    "navigationUrl": "/messages/compose",
+    "navigationUrl": "messages/compose",
     "color": "#0ea5e9"
   },
   {
@@ -84,7 +84,7 @@
     "title": "File Motion",
     "description": "Submit court motion",
     "icon": "description",
-    "navigationUrl": "/cases/motions/new",
+    "navigationUrl": "cases/motions/new",
     "color": "#dc2626"
   },
   {
@@ -92,7 +92,7 @@
     "title": "Schedule Hearing",
     "description": "Book court hearing",
     "icon": "event_note",
-    "navigationUrl": "/calendar/hearings/new",
+    "navigationUrl": "calendar/hearings/new",
     "color": "#2563eb"
   },
   {
@@ -100,7 +100,7 @@
     "title": "Add Expense",
     "description": "Record case expense",
     "icon": "attach_money",
-    "navigationUrl": "/projects/expenses/new",
+    "navigationUrl": "projects/expenses/new",
     "color": "#16a34a"
   },
   {
@@ -108,7 +108,7 @@
     "title": "View Billing",
     "description": "Billing overview",
     "icon": "payments",
-    "navigationUrl": "/billing",
+    "navigationUrl": "billing",
     "color": "#ca8a04"
   },
   {
@@ -116,7 +116,7 @@
     "title": "Court Deadlines",
     "description": "Upcoming due dates",
     "icon": "timer",
-    "navigationUrl": "/cases/deadlines",
+    "navigationUrl": "cases/deadlines",
     "color": "#be123c"
   },
   {
@@ -124,7 +124,7 @@
     "title": "Case Search",
     "description": "Find a case",
     "icon": "search",
-    "navigationUrl": "/cases/search",
+    "navigationUrl": "cases/search",
     "color": "#0891b2"
   },
   {
@@ -132,7 +132,7 @@
     "title": "Client Portal",
     "description": "Manage portal access",
     "icon": "manage_accounts",
-    "navigationUrl": "/portal/users",
+    "navigationUrl": "portal/users",
     "color": "#7e22ce"
   },
   {
@@ -140,7 +140,7 @@
     "title": "Staff Directory",
     "description": "Firm contact list",
     "icon": "people",
-    "navigationUrl": "/settings/users",
+    "navigationUrl": "settings/users",
     "color": "#0369a1"
   },
   {
@@ -148,7 +148,7 @@
     "title": "Legal Research",
     "description": "Search case law",
     "icon": "auto_stories",
-    "navigationUrl": "/research",
+    "navigationUrl": "research",
     "color": "#b45309"
   },
   {
@@ -156,7 +156,7 @@
     "title": "Case Notes",
     "description": "Add case annotations",
     "icon": "edit_note",
-    "navigationUrl": "/cases/notes/new",
+    "navigationUrl": "cases/notes/new",
     "color": "#6b7280"
   },
   {
@@ -164,7 +164,7 @@
     "title": "Record Payment",
     "description": "Post client payment",
     "icon": "price_check",
-    "navigationUrl": "/billing/payments/new",
+    "navigationUrl": "billing/payments/new",
     "color": "#15803d"
   },
   {
@@ -172,7 +172,7 @@
     "title": "Conflict Check",
     "description": "Run conflict search",
     "icon": "policy",
-    "navigationUrl": "/clients/conflict-check",
+    "navigationUrl": "clients/conflict-check",
     "color": "#9d174d"
   },
   {
@@ -180,7 +180,7 @@
     "title": "Time Report",
     "description": "Billable hours summary",
     "icon": "access_time",
-    "navigationUrl": "/reports/time",
+    "navigationUrl": "reports/time",
     "color": "#1d4ed8"
   },
   {
@@ -188,7 +188,7 @@
     "title": "Expense Report",
     "description": "Project cost summary",
     "icon": "receipt",
-    "navigationUrl": "/reports/expenses",
+    "navigationUrl": "reports/expenses",
     "color": "#d97706"
   },
   {
@@ -196,7 +196,8 @@
     "title": "Settings",
     "description": "Firm preferences",
     "icon": "settings",
-    "navigationUrl": "/settings",
+    "navigationUrl": "settings",
     "color": "#4b5563"
   }
 ]
+
